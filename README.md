@@ -8,3 +8,6 @@ I will finish all of the MIT Mathematics with Computer Science (Course 18-C) req
 
 - $15^{th}\ Jul\ 2024$: Start 6.006 Introduction to Algorithm.
 
+- $29^{th}\ Jul\ 2024$: Start 6.042J Mathematics for CS
+
+- $5^{th}\ Aug\ 2024$: Start 18.06 Linear Algebra
