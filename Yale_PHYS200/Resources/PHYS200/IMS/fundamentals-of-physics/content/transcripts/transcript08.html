@@ -1,0 +1,1086 @@
+
+<div id="fileContents">
+<h2><strong>Fundamentals of Physics:</strong> Lecture 8 Transcript</h2>
+
+<table cellspacing="0" cellpadding="0" id="transcriptHeader" summary="transcript header">
+<tbody>
+<tr>
+<td id="transcriptDate">October 2, 2006</td>
+<td id="transcriptNav"><span id="forwardNav"><a href="javascript:history.go(-1);">&lt;&lt; back</a></span></td>
+</tr>
+</tbody>
+</table>
+
+<p><b>Professor Ramamurti Shankar:</b> So, today we are going to do
+something different from what's happened so far, in that we are going
+to study the dynamics of more than one body. Well, you might say "Look,
+we already did this last week, when I studied the Solar System," where
+there are planets moving around the Sun so that makes at least two
+bodies, the Sun and the planet. But actually, the Sun was not doing
+anything interesting in our analysis. The Sun just stood there as a
+source of the gravitational force. It's the planet that did all the
+orbiting and that was the problem in two dimensions, but of only one
+body. So now, we are going to enlarge our domain to more than one body
+obeying Newton's laws.</p>
+
+<p>So, let me start with the simplest possible case: two bodies. And I
+will again start with the simplest case of their moving in one
+dimension; then, we'll put in more. So, here is the one-dimensional
+world in which these bodies are going to move, and this is my origin,
+<i>x</i> = 0, and I'm going to imagine one point mass
+<i>m<sub>1</sub></i>, located at <i>x<sub>1</sub></i>, another point
+mass <i>m<sub>2</sub></i>, located at <i>x<sub>2</sub></i>. Now, we
+know everything there is to know about these masses from the laws of
+Newton which I'm going to write down. The first mass obeys this
+equation, <i>m<sub>1</sub>d<sup>2</sup>x<sub>1</sub>/
+dt<sup>2</sup></i>. That's <i>ma</i>, right? But I'm going to write
+this in a notation that's more succinct. I'm tired of writing the
+second derivative in this fashion. I'm going to write it as follows,
+<i>m<sub>1</sub>x<sub>1</sub></i>, with two dots on it; the two dots
+telling you it's two derivatives, because one dot is one derivative,
+three dots is three derivatives. Of course, at some point this notation
+becomes unwieldy, but you never deal with more than two derivatives, so
+this works. This is <i>ma</i>, so don't forget the dots, okay? This is
+not some foreign alphabet. Every dot is a derivative. You should
+remember that when I do subsequent manipulation. That's <i>ma</i>, and
+that's equal to force on body 1, <i>F<sub>1</sub></i>.</p>
+
+<p>Now, look at the body one and ask, "What are the forces acting on
+it?" Well, it could be the whole universe. But we're going to divide
+that into two parts. The first part is going to be the force on body 1
+due to body 2, which I'm going to denote by <i>F<sub>12</sub></i>;
+that's our notation. You and I agree that it's the force on 1 due to 2.
+Then, there's the force on 1 due to the external world; <i>e</i> stands
+for external. That means everything outside these two. So, the universe
+has many bodies; I have just picked these two guys. They're 1 and 2,
+and the force on 1 is--some of it's due to 2, and some of it's due to
+everything else.</p>
+
+<p>Similarly, I have another equation,
+<i>m<sub>2</sub>x<sub>2</sub></i> double dot is the force on 2 due to 1
+plus the force on 2 due to the outside world. What do you mean by
+"outside world"? Maybe these two guys are next to some planet, and the
+planet's way over to the right, it's pulling all of them towards the
+planet with some gravitational force. So, everything else is called
+"external." And I have 1 and 2, for example, are connected by a spring.
+The spring is not that important. It's a way of transmitting force from
+one body to the other. If you compress the spring and let it go, these
+two masses will vibrate back and forth under the influence of the other
+person's force. That's an example of <i>F<sub>12</sub></i> and
+<i>F<sub>21</sub></i>. For example, if the spring is compressed at this
+instant, it's trying to push them out; that means, really, 1 is trying
+to push 2 out, whereas that way 2 is trying to push 1 to the left, this
+way. That's an example of <i>F<sub>12</sub></i> and
+<i>F<sub>21</sub></i>.</p>
+
+<p>The external force could be due to something extraneous to these two
+bodies. So, one example is at the surface of the Earth. I take these
+two masses connected by a spring. Here is mass 1 and here's mass 2. I
+squash the spring. If there is no gravity, they will just go vibrating
+up and down but let them fall into the field of gravity, so they're
+also experiencing the <i>mg</i> due to gravity. So, they will both fall
+down and also oscillate a little with each other. They're all described
+by this equation. This will be the spring force transmitted from 1 to
+2. This will be the force of gravity, or it could be an electric force
+or any other force due to anything else; we are not interested.</p>
+
+<p>Now, here is the interesting manipulation we're going to perform. We
+are going to add the two things on the left-hand side and equate them
+to whatever I get on the right-hand side. Then,
+<i>m<sub>1</sub>x<sub>1</sub></i> double dot plus
+<i>m<sub>2</sub>x<sub>2</sub></i> double dot, and that's going to
+be--I'm going to write it in a particular way, <i>F<sub>1e</sub> +
+F<sub>2e</sub> + F<sub>12</sub> + F<sub>21</sub></i>. I think you have
+some idea of where I'm headed now. So, what's the next thing we could
+say? Yes?</p>
+
+<p><b>Student:</b> <i>F<sub>12</sub> + F<sub>21</sub></i> = 0.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Yes, because that's the Third
+Law of Newton. Whatever the underlying force, gravity, spring,
+anything, force on 1 due to 2, and force on 2 due to 1 will cancel, and
+everything I get today, the whole lecture is mainly about this one
+simple result, this cancellation. Then, this whole thing, I'm going to
+write as <i>F<sub>e</sub></i>, meaning the total external force on this
+two-body system. So, I have this peculiar equation. I'm going to
+rewrite it in a way that brings it to the form in which it's most
+useful. I'm going to introduce a new guy, capital <i>X</i>. As you
+know, that's called a center of mass coordinate, and it's defined as
+<i>m<sub>1</sub>x<sub>1</sub> + m<sub>2</sub>x<sub>2</sub></i> divided
+by capital <i>M</i>. Capital <i>M</i> is just the total mass,
+<i>m<sub>1</sub> + m<sub>2</sub></i>. If I do that, this is a
+definition. Then, we can write this equation as follows. I will write
+it and then we can take our time seeing that it is correct. So, this is
+really the big equation. Why don't you guys try to fill in the blanks
+in your head? This is really correct. On the left-hand side, I have
+<i>M</i> times <i>X</i> double dot, so I have really <i>m<sub>1</sub> +
+m<sub>2</sub></i> times <i>X</i> double dot. If you take the double dot
+of this guy, it's <i>m<sub>1</sub>x<sub>1</sub></i> double dot plus
+<i>m<sub>2</sub>x<sub>2</sub></i> double dot, divided by
+<i>m<sub>1</sub> + m<sub>2</sub></i>. So, the left-hand side is indeed
+this; that's all I want you to check. So, take this expression, divide
+by the total mass and multiply by the total mass. Well, the multiplying
+by the total mass is here, and when you divide by the total mass you
+get the second derivative of the center of mass coordinate.</p>
+
+<p>So what have I done? I have introduced a fictitious entity, the
+center of mass. The center of mass is a location <i>X</i>, some kind of
+a weighted average of <i>x<sub>1</sub></i> and <i>x<sub>2</sub></i>. By
+weighted, I mean if <i>m<sub>1</sub></i> and <i>m<sub>2</sub></i> are
+equal, then capital <i>M</i> will be two times that mass and you'll
+just get <i>x<sub>1</sub> + x<sub>2</sub></i> over 2. The center of
+mass will sit right in between. But if <i>m<sub>1</sub></i> is heavier,
+it'll be tilted towards <i>m<sub>1</sub></i>; if <i>m<sub>2</sub></i>
+is heavier, it'll be tilted towards <i>m<sub>2</sub></i>. It's a
+weighted sum that gives a certain coordinate. There is nothing present
+at that location. There's nobody there. All the stuff is either here or
+there. The center of mass is the location of a mathematical entity.
+It's not a physical entity. If you go there and say, "What's at the
+center of mass?" you typically won't find anything. And it behaves like
+a body. After all, if you just said, "I've learned Newton's laws," and
+I walk into this room and I say this, you will say "Well, this guy's
+talking about a body of mass, capital <i>M</i>, undergoing some
+acceleration due to the force." So, the center of mass is the body
+whose mass seems to be the total mass of these two particles, whose
+acceleration is controlled by the same as Newton's law, but the
+right-hand side contains only the external forces; this is the key. All
+the internal forces have canceled out, and what remains is the external
+force.</p>
+
+<p>Now it turns, if you've got three bodies, you can do a similar
+manipulation. And again, you'll have <i>F<sub>12</sub></i> and
+<i>F<sub>23</sub></i> and <i>F<sub>32</sub></i> and so on. They will
+cancel and what will remain will be a similar thing, but this is the
+total external force. So, if I can say this in words, what we have
+learned is that the advantage of introducing a quantity called "center
+of mass" is that it responds only to the total force; it doesn't care
+about internal forces.</p>
+
+<p>So, I'll give an example. Here is some airplane, right? It's in
+flight, and a couple of guys are having a fight, punching each other
+and so on. The rest of the passengers say "enough is enough" and they
+throw them out. So, they're just floating around, affecting each
+other's dynamics, and of course this person will feel a force due to
+that person, that person will feel a force due to this person, but what
+I'm telling you is the center of mass is going to drop like a rock.
+It's going to accelerate with the force <i>mgh</i>; it's going to
+accelerate with <i>g</i>. So, at one point this person may be having
+the upper hand and may be here, and the other person may be down here,
+but follow the center of mass and you'll find it simply falls under
+gravity. So, the mutual forces do not affect the dynamics of the center
+of mass. Or, for example, suppose at some point, this person blows the
+other one up into, say, it's a samurai bat, make it simple, cuts him up
+in two pieces, so now we've got three bodies now: the first protagonist
+and the other two now, unfortunately somewhat decimated. Now, you can
+take these three bodies, find their center of mass; it'll be the same
+thing; it'll just keep falling down. So, even though the system is
+becoming more and more complicated, you cannot change the dynamics of
+the center of mass. It responds only to the external force. If this
+fight was taking place in outer space where there's no gravity, then as
+this fight continues and people are flying and parts are flying
+everywhere, the center of mass will just be in one location, not doing
+anything. Yes?</p>
+
+<p><b>Student:</b> Couldn't the internal forces change the center of
+mass's location?</p>
+
+<p><b>Professor Ramamurti Shankar:</b> No, that's what I'm saying. The
+center of mass, if it changes it can certainly-- No one says the center
+of mass cannot accelerate. It can accelerate due to external forces.
+But if there were no external forces, then the center of mass will
+behave like a particle with no force. If it's not moving to begin with,
+it won't move later. Or if it is moving to begin with, it'll maintain a
+constant velocity.</p>
+
+<p>So, here's another example. Now you can obviously generalize this to
+more than one dimension. If you're living in two dimensions, you will
+introduce an <i>x</i> coordinate and introduce a <i>y</i> coordinate
+and then you will have the center of mass as <i>MR</i> double dot
+equals <i>F</i>, and <i>R</i> would be <i>m<sub>1</sub>r<sub>1</sub> +
+m<sub>2</sub>r<sub>2</sub></i> divided by the total mass;
+<i>r<sub>1</sub></i> and <i>r<sub>2</sub></i> are just the location now
+in two dimensions of these two masses. So, here is <i>m<sub>1</sub></i>
+and here is <i>m<sub>2</sub></i> and the center of mass you can check
+will be somewhere in between the line joining the two points, but it'll
+now be a vector.</p>
+
+<p>So here's another example. You take a complicated object; it's got
+masses and it's got springs; it's connected with thread, and chains and
+everything. You throw the whole mess into the air. All the different
+parts of it are jiggling and doing complicated movements, but if you
+follow the center of mass, in other words at every instant you take the
+<i>m<sub>1</sub>r<sub>1</sub> + m<sub>2</sub>r<sub>2</sub> +
+m<sub>3</sub>r<sub>3</sub></i> and so on, divided by the total mass,
+that coordinate will simply be following the parabolic path of a body
+curving under gravity. If at some point this complicated object
+fragments into two chunks, one will land here and one will land there.
+But at every instant, if you follow the center of mass, it'll go as if
+nothing happened and it will land here. The center of mass does not
+care about internal forces, only about external forces. That's the main
+point. And it was designed in such a way that external [correction:
+should have said "internal"] forces canceled in these dynamics. So,
+everything I'm going to do today is to take that equation, <i>MX..=
+F</i> or <i>MR..= F</i>, in vector form, and deduce some of the
+consequences.</p>
+
+<p>Now, first of all, you should realize that if you've got several
+bodies, say three bodies, then I will define the center of mass to be
+<i>m<sub>i</sub>x<sub>i</sub></i> divided by the sum of
+<i>m<sub>i</sub></i>. This is a shorthand, I'm going to write it only
+once, but you should know what the notation means. If there is <i>i</i>
+from 1 to 3, it really means <i>m<sub>1</sub>x<sub>1</sub> +
+m<sub>2</sub>x<sub>2</sub> + m<sub>3</sub>x<sub>3</sub></i> divided by
+<i>m<sub>1</sub> + m<sub>2</sub> + m<sub>3</sub></i>. This summation is
+the notation mathematicians have introduced where the index <i>i</i>
+will go over a range from 1 to 3. Every term you let <i>i</i> take
+three different values and you do the sum. An exercise I've given to
+you guys to pursue at home is the following: if I got three bodies, 1,
+2 and 3, you've defined the center of mass, you can either go to this
+formula, do all the <i>m<sub>1</sub>x<sub>1</sub></i>'s and add them
+up, or you also have the following option. You can pick any two of
+them, say the first two -- forget the third one -- take these two, find
+their center of mass, let's call it <i>x<sub>1</sub></i> and
+<i>x<sub>2</sub></i> and with that total mass <i>M<sub>12</sub></i>,
+which is just <i>m<sub>1</sub> + m<sub>2</sub></i>, trade these two for
+a new fictitious object and put that here, and forget these two. But on
+that one point it deposits the mass of these two; now, you take the
+center of mass of this object with the third object, by the same
+weighting process, <i>m<sub>3</sub>x<sub>3</sub> +
+M<sub>12</sub>X<sub>12</sub></i> divided by the total mass; you'll get
+the same answer as here.</p>
+
+<p>What I'm telling you is, if you've got many bodies and you want the
+center of mass of all of them, you can take a subset of them, replace
+them by their center of mass, namely, all their mass sitting at their
+center of mass, replace the other half by their mass sitting at their
+center of mass, and finally find the center of mass of these two
+centers of mass, properly weighted, and that'll give you this
+result.</p>
+
+<p>Okay, so, before I exploit that equation and find all the
+consequences, we have to get used to finding center of mass for a
+variety of things, as long as they give you ten masses, or a countable
+number of masses, we've just got to plug it in here; it's a very
+trivial exercise. Things become more interesting if I give you not a
+set of discrete masses but discrete locations, namely, a countable set
+of masses, but I give you a rod like this. This is a rod of mass
+<i>M</i> and length <i>L</i>, and I say: "Where is the center of mass?"
+So, we have to adapt the definition that we have for this problem.</p>
+
+<p>So, what should I do? Well, this is my origin of coordinates. If I
+had a set of masses with definite locations I know how to do it, but
+this is a continuum. The trick then is to say, I take a distance
+<i>x</i> from the left hand, and I cut myself a very thin sliver of
+taking this <i>dx</i>. That sliver has got a certain mass, and I argue
+it's at a definite distance <i>x</i> from the coordinate's origin. And
+if you're nitpicking you will say, "What do you mean by definite
+distance?" It's got a width <i>dx</i>, so one part of it is at
+<i>x</i>, the other part is at <i>x + dx</i> so it doesn't have a
+definite coordinate. But if <i>dx</i> is going to 0, this argument will
+eventually be invalid. So <i>dx</i> goes to 0, sliver has a definite
+location, which is just the <i>x</i> coordinate of where I put it. So,
+to find the center of mass, which consists of multiplying every mass by
+its location and adding--Let me first find how much mass is sitting
+here. Let me call it <i>δm</i>. How much mass is sitting there? Well, I
+do the following. I take the total mass and divide it by <i>L</i>;
+that's the mass per unit length. And this fellow has a width <i>dx</i>,
+so the mass of this little sliver is <i>(M/L) dx</i>.</p>
+
+<p>Therefore, the center of mass that I want is found by taking this
+sliver of that mass, multiplying by its coordinate and summing over all
+the slivers, which is what we do by the integral from 0 to <i>L</i>.
+Then, I should divide by the total mass, which is just <i>M</i>. You
+can see now if you do this calculation. I get 1/<i>L</i>; then, I get
+integral <i>xdx</i> from 0 to <i>L</i>, and that's going to be
+<i>L<sup>2</sup></i> over 2. So, if you do that you'll get <i>L</i>/2.
+I'm not doing every step in the calculus because at this point we
+should be able to do this without every detail. So, the center of mass
+of this rod, to nobody's surprise, is right in the midpoint, but it
+assumes that the rod is uniform, whereas [if its] like a baseball bat,
+thicker at one end and thinner at the other end, of course no one is
+saying that, but we have assumed the mass per unit length, namely
+<i>M</i> or is this a fixed number, <i>M/L</i>, and then this is the
+answer.</p>
+
+<p>But there are other ways to get this result without doing all the
+work, okay? So, we would like to learn that other method because it'll
+save you a lot of time. It must be clear to most people that the center
+of mass of this rod is at the center. But how do we argue that? How do
+you make it official? If you do the integral you will get the answer,
+but I want to short circuit the integral. And here is a trick. It's not
+going to work for arbitrary bodies. If I give you some crazy object
+like this, you cannot do anything. But this is a very symmetric object;
+you can sort of tell if I take the midpoint. There is as much stuff to
+the right as to the left and somehow you want to make that argument
+formal, and you do the following.</p>
+
+<p>Suppose I have a bunch of masses, and the object's really not even
+regular, and this is my origin of coordinates. If I replace every
+<i>x</i> by <i>-x</i>, okay--sorry, I should change this object, so
+this really looks like this. Here's the object. Suppose I replace every
+<i>x</i> by <i>-x</i> that's reflecting the body around this axis, it
+will look like this; it'll be jutting to the right instead of the left.
+So, don't go by my diagrams. You know what I'm trying to do. I'm trying
+to draw the mirror image of this object the other way. Then, I think
+it's clear to everybody, if I do that, <i>X</i> will go to <i>-X</i>,
+because in this averaging <i>m<sub>i</sub>x<sub>i</sub></i>, sum of all
+the masses, if every <i>x</i> goes to <i>-x</i> the center of mass will
+go to <i>-X</i>. But now, take this rod and transport every particle to
+its negative coordinate. And you take that guy and put it here, the rod
+looks the same. If the rod looks the same, the center of mass must look
+the same. That means <i>-xX</i> has to be equal to <i>x</i> itself and
+the only answer is <i>X</i> = 0. So, without doing any detailed
+calculation, you argue that the answer is <i>X</i> = 0.</p>
+
+<p>To do this, of course, you must cleverly pick your coordinates so
+that the symmetry of the body is evident. If you took the body like
+this and you took a reflection around this point, it goes into body
+flipped over. There is not much you can say about it. So, what you
+really want to do is to pick a point of reflection so that upon
+reflection the body looks the same; the body looks the same, the answer
+must be the same. But if you argue the answer must be minus of itself,
+therefore the answer is 0. This is how the center of mass of symmetric
+bodies can be found. So, we know the answer for this rod.</p>
+
+<p>Suppose I give you not a thin rod, but a rod of non-0 width. We want
+to know its center of mass; we're not going to do any more work now. By
+symmetry, I can argue that this has to be the center of mass, because I
+can take every point here and turn it into the point there by changing
+<i>y</i> to <i>-y</i>; therefore, capital <i>Y</i> will become minus
+capital <i>Y</i>, but the body looks the same after this mapping. So,
+capital <i>Y</i> is 0, and similarly capital <i>X</i> is 0, and that's
+the center of mass.</p>
+
+<p>Okay, now, what if I give you this object, anybody want to try that?
+Would you guys like to try this? Yes, can you tell me where the center
+of mass should be, yeah? No, no, the guy in front of you, yes.</p>
+
+<p><b>Student:</b> The center of mass, you can't get the center of mass
+with two objects, and then this is where you said over in the curve,
+find the center between those two masses.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Okay, is that what your answer
+was? Okay, so the correct answer is, replace this mass by all of its
+mass, whatever it is, sitting here. Replace this one by all of its mass
+sitting here; then, forget the big bodies, replace them by points.
+Then, he's got two masses located here, and you can find the weighted
+average. It may be somewhere there.</p>
+
+<p>Okay, now let's take one more object. Then I'm pretty much done with
+finding these centers of mass. The object I'm going to pick is a
+triangle that looks like this; it's supposed to be symmetric, even
+though I've drawn it this way. That is <i>b</i> and that is <i>b</i>,
+and that distance is <i>h</i>; let the mass be <i>M</i>. Where is the
+center of mass of this object? Again, by symmetry, you can tell that
+the <i>y</i> coordinate of the center of mass must lie on this line,
+because if I take <i>y</i> to <i>-y</i>, it maps onto itself so it
+looks the same. But it's supposed to reverse capital <i>Y</i>;
+therefore, <i>Y</i> is <i>-Y</i> and therefore it's 0; so, it's
+evidently lying somewhere on this line. I cannot do further
+calculations of this type by saying where it is on the line, because it
+has no longer a symmetry in the <i>x</i> direction; it's symmetric on
+the <i>y</i> after flipping <i>y</i>, but I cannot take <i>x</i> to
+<i>-x</i>. In fact, if I take <i>x</i> to <i>-x</i> this one looks like
+this, it doesn't map into itself. But I can pick any point here; if I
+take <i>x</i> to <i>-x</i>, the object looks different. It looks like
+that object and relating one object to another object is what I'm
+trying to do. I want to relate it to the same object. That cannot be
+done for <i>x</i>. It can be done for <i>y</i>; for <i>x</i> you've got
+to do some honest work.</p>
+
+<p>The honest work we will do then is to take this thing, take a strip
+here, with location <i>x</i> and width <i>dx</i>, and the height of
+that strip here is <i>y</i>; <i>y</i> of course varies with <i>x</i>.
+So, I'm going to argue that to find the center of mass of this triangle
+I can divide it into vertical strips which are parallel to each other,
+and find the center of mass by adding the weighted average of all these
+things. For that, I need to know what's the mass of the shaded region.
+So, let's call it <i>δm</i>. The mass of the shaded region is the mass
+per unit area. I'll find the area later on in terms of <i>b</i> and
+<i>h</i>, but this is mass per unit area. Then, I need to know the area
+of the strip. I'm going to give the answer because I don't have time to
+probe it. But you should think about what the answer for the area of
+the shaded region is. It's got a height 2<i>y</i>, and it's got the
+width <i>dx</i>. It's not quite a rectangle because the edges are
+slightly tapered, but when <i>δx</i> goes to 0, it's going to look like
+a rectangle. So, the area is 2<i>yδx</i>. But I don't want to write
+everything in terms of <i>y</i>. I want to write it in terms of
+<i>x</i>; then, I do similar triangles. Similar triangles tell me that
+<i>y/b</i> is <i>x/h</i>, namely, that triangle compared to that
+triangle tells me <i>y/b</i> is <i>x/h</i>. Therefore, the <i>y</i>
+here can be replaced by <i>bx/h</i>. So, that is the mass of the sliver
+here, and its center is obviously here, so that is a mass there,
+there's a mass there; I've got to do the weighted average of all of
+them. So remember, I don't just integrate this over <i>x</i>; that
+would just give me the mass of the body. I should multiply it by a
+further <i>x</i> and then do the integral. So, what I really want to do
+to find the center of mass <i>x</i>, is to take that mass I got,
+<i>M/A</i>, there is a 2, there's an <i>h</i>, there is a <i>b</i>,
+there is an <i>x</i> from there, and another <i>x</i>, because you have
+to multiply this by the <i>x</i> coordinate of this thing, because
+that's the coordinate of the center of mass of this. There are two
+<i>x</i>s, that's what you've got to remember. So, that should be
+integrated from 0 to <i>h</i>, that'll give me <i>h<sup>3</sup></i>/3.
+So, I get <i>(2Mb/Ah)</i> times <i>h<sup>3</sup></i> over 3.</p>
+
+<p>Now, you know there is one more thing we have to do. We must replace
+the area of the triangle by ½ base times altitude, which is <i>bh</i>.
+I also forgot to divide everything by the mass, because the center of
+mass is this weighted average divided by the total mass, so I've got to
+divide by 1/<i>M</i>. Well, I claim, if you do this and cancel
+everything you will get the answer of 2/3<i>h</i>. Okay, so not
+surprisingly the center of mass of this is not halfway to the other
+end, but two-thirds of the way because it's top heavy; this side of it
+is heavier.</p>
+
+<p>This is the level of calculus you should be able to do in this
+course, be able to take some body, slice it up in some fashion, and
+find the location of the center of mass. You combine symmetry arguments
+with actual calculation. For this sliver, by symmetry, you know the
+center of mass is at the center, you don't waste your time, but then
+when you add these guys there is no further symmetry you can use; you
+have to do the actual work.</p>
+
+<p>So, what have I done so far? What I've done is point out to you that
+when you work with extended bodies, or more than one body, we can now
+treat the entire body, replace the body by a single point for certain
+purposes. The single point is called a center of mass, where it
+imagines all the mass concentrated at the center of mass. So, you have
+created a brand new entity which is fictitious. It has a mass equal to
+total mass. It has a location equal to the center of mass, and it moves
+in response to the total force. And it's not aware of internal forces,
+and that's what we want to exploit. I already gave you a clue as to
+what the implications are, but let me now take a thorough analysis of
+this basic equation <i>MR..= F</i>. We're just going to analyze the
+consequence. So there are several cases you can consider.</p>
+
+<p><u>Case one</u>: <i>F</i> external not equal to 0. So, these are two
+bodies subject to mutual force and to an outside force, but the
+simplest example I've already given to you -- but I'll repeat it --
+we're not going to do this in great detail. We all know, if I fire a
+point mass like this, it will do that. What I'm now telling you is, if
+I take a complex body made of 20,000 parts, all connected to each other
+pushing and pulling, if you fling that crazy thing in the air it'll do
+all kinds of gyrations and jiggling as it moves around. But if you
+found its center of mass, the center of mass will follow simply a
+parabola, because the external force on it is just <i>Mg</i>. So, it'll
+be <i>MR..= mg</i> and that's just motion with constant acceleration in
+the <i>y</i> direction, and it's just a projectile problem. And I
+repeat once more, for emphasis, that if this object broke into two
+objects, typically what'll happen is one will fly there and one will
+land here, but at every instant if you found their center of mass you
+will find it proceeds as if nothing happened. For example, if you have
+an explosive device that blows them apart, and the pieces are all
+flying, but that's just coming from one part of the piece pushing on
+another part of the piece, but those forces are of no interest to us.
+As far as the external force goes, it is still gravity so the center of
+mass will continue traveling. Beyond that, I'm not going to do too much
+with this thing. So let me now go to Case II.</p>
+
+<p>Case II. If you want, case 2a. <i>F</i> external is equal to 0. What
+does it mean if <i>F</i> external is 0? That means this is 0. That
+means <i>MR.. = 0</i>, that means <i>MR.</i> is a constant because it's
+not changing. Who is this <i>MR.</i>? What does it stand for? Well, it
+looks like the following. If you take a single particle of mass
+<i>m</i>, and velocity <i>x.</i>, we use the symbol <i>p</i>, maybe
+I've never used it before in the course, and that's called the
+momentum. The momentum of a body is this peculiar combination of mass
+and velocity. In fact, in terms of momentum we may write Newton's law.
+Instead of saying it's <i>mdv/dt</i>, which is <i>ma</i>, you can also
+write it as <i>d</i> by <i>dt</i> of <i>mv</i>, because <i>m</i> is a
+constant and you can take it inside the derivative, and that we can
+write as <i>dp/dt</i>. Sometimes, instead of saying force is mass times
+acceleration, people often say "force is the rate of change of
+momentum." The rate at which the momentum of a body is changing is the
+applied force. So, if I've not introduced to you the notion of
+momentum, well, here it is. So, if you think about it that way, this
+looks like the momentum of the center of mass, and we are told the
+momentum of the center of mass does not change if there are no external
+forces. But the momentum of the center of mass has a very simple
+interpretation in terms of the parts that make up the center of mass;
+let's see what it is.</p>
+
+<p>Let's go back here. Remember, let me just take two bodies and you
+will get the idea; it's <i>m<sub>1</sub> + m<sub>2</sub></i>, which is
+total <i>M</i>, and let's take just one dimension when it's
+<i>m<sub>1</sub>x<sub>1</sub>.+ m<sub>2</sub>x<sub>2</sub>.</i> over
+<i>m<sub>1</sub> + m<sub>2</sub></i>; that is what <i>Mx.</i> is. So,
+<i>m<sub>1</sub> + m<sub>2</sub></i> cancels here, and you find this is
+just <i>p<sub>1</sub> + p<sub>2</sub></i>. Let's use the symbol capital
+<i>P</i> for momentum of the center of mass. So, the momentum of the
+center of mass is the sum of the momentum of the two parts, but what
+you're learning is -- so let me write it one more time -- if <i>F</i>
+eternal is equal to 0, then <i>p<sub>1</sub> + p<sub>2</sub></i> does
+not change with time. This is a very, very basic and fundamental
+property, and it's in fact another result that survives all the
+revolutions of relativity and quantum mechanics, where what I've said
+for two bodies is true for ten bodies; you just do the summation over
+more terms.</p>
+
+<p>So, let me say in words what I'm saying. Take a collection of
+bodies. At a given instant everything is moving; it's got its own
+velocity and its momentum, add up all the momenta. If you had one
+dimension, just add the numbers. If in two dimensions, add the vectors;
+you get a total momentum. That total momentum does not change if there
+are no outside forces acting on it. So, a classic example is two people
+are standing on ice. Their total momentum is 0 to begin with, and the
+ice is incapable of any force along the plane. It's going to support
+you vertically against gravity, but if it's frictionless it cannot do
+anything in the plane. Then, the claim is that if you and I are
+standing and we push against each other and we fly apart, my momentum
+has to be exactly the opposite of your momentum, because initially
+yours plus mine was 0; that cannot change because there are no external
+forces. If two particles are pushing against each other, they can only
+do so without changing the total. Okay, so <i>p<sub>1</sub> +
+p<sub>2</sub></i> does not change, and here's another context in which
+it's important.</p>
+
+<p>Suppose there is a mass <i>m<sub>1</sub></i>, going with some
+velocity <i>v<sub>1</sub></i>, and here's the second mass
+<i>m<sub>2</sub></i>, going with some velocity <i>v<sub>2</sub></i>;
+they collide. When they collide, all kinds of things can happen. I
+mean, <i>m<sub>1</sub></i> may bump its head on that and come
+backwards, or it could be a heavy object that pushes everything in the
+forward direction, or at the end of the day you will have some
+<i>m<sub>1</sub></i> going with a new velocity <i>v<sub>1</sub>'</i>,
+and <i>m<sub>2</sub></i> going with a new velocity
+<i>v<sub>2</sub>'</i>. But what I'm telling you is that
+<i>m<sub>1</sub> v<sub>1</sub> + m<sub>2</sub> v<sub>2</sub></i> will
+be equal to <i>m<sub>1</sub> v<sub>1</sub>' + m<sub>2</sub>
+v<sub>2</sub>‘</i>. In a collision, of course, one block exerts a force
+on the other block, and the other block exerts an opposite force on
+this block, and that's the reason why even though individually the
+momenta could be very different, finally the momenta will add up to the
+same total. Here's a simple example; you can show that if this mass and
+that mass are equal, and say this one is at rest, that one comes and
+hits this. You can show under certain conditions this one will come to
+rest and this will start moving with the speed of the--the target will
+move at the speed of the projectile. So, momenta of individual objects
+have changed. One was moving before, it is not moving; one was at rest,
+it's moving, but when you add up the total, it doesn't change.</p>
+
+<p>This is called the Law of Conservation of Momentum. So, that's so
+important I'm just going to write it down here one more time. And the
+basic result is, if external forces are 0, then <i>p<sub>1</sub> +
+p<sub>2</sub> + p<sub>3</sub></i> and so on, "before" will be
+<i>p<sub>1</sub>' + p<sub>2</sub>' + p<sub>3</sub>'</i>, and so on,
+where this means "before" and that means "after," . When is "before"
+and when is "after." Pick any two times in the life of these particles,
+it's like Law of Conservation of Energy, where we said <i>E<sub>1</sub>
+= E<sub>2</sub></i>, there 1 and 2 stood for "before" and "after."
+Well, here we cannot use 1 and 2 for "before" and "after" because 1 and
+2 and 3 are labeling particles. So, the "before" quantities are written
+without a prime, and the "after" quantities are written with a
+prime.</p>
+
+<p>Everybody follow this? It's very important you follow this statement
+and follow the conditions under which it's valid. There cannot be
+external forces. For example, in the collision of these two masses, if
+there is friction between the blocks and the table, you can imagine
+they collide and they both come to rest after a while. Originally, they
+had momentum and finally they don't. What happened? Well, here you have
+an explanation, namely, the force of friction was an external force
+acting on them. What I'm saying is that if the only force on each block
+is the one due to each other, then the total momentum will not change.
+So, the case that I considered, 2a, was external force equal to 0, but
+center of mass was moving, because it had a momentum. Then, the claim
+is that momentum will not change.</p>
+
+<p>I'm coming to the last case, which is, if you want, case 2b. The
+external forces are 0, the center of mass was 0; in other words, center
+of mass was at rest. If you find these different cases complicated,
+then I don't mind telling you one more time. The center of mass behaves
+like a single object responding to the external force. It's clear that
+if the external force is non-zero, the center of mass will accelerate.
+If the external force is 0, the center of mass will not accelerate.
+There are cases 1 and 2. 2a and 2b are the following: if it does not
+accelerate, its velocity will not change. So then, you have the two
+cases, it had a velocity, which it maintained, or it had no velocity,
+in which case it does not even move. See, if you apply <i>F = ma</i> to
+a body and there are no forces, you cannot say the body will be at
+rest. You will say the body will maintain the velocity. So, if it had a
+velocity, it'll go at the velocity, if it was at rest it'll remain at
+rest; the same goes for the center of mass. If the center of mass was
+moving, it'll preserve its momentum. That really means the sum of the
+momenta of the individual pieces will be preserved. If it was at rest,
+since the external force is 0, it will remain at rest. So, I want to
+look at the consequence of this one. I could've done them in either
+order. I can take the case where there's no external force, there is no
+motion, or I chose to do with the opposite way, where I took the most
+complicated case, where external force is not 0. Then, I took the case
+where it is 0 but the center of mass was moving to begin with, and
+therefore it has to keep moving no matter what. And the simplest case
+is the center of mass was at rest; then, it's not moving now and it
+will never move.</p>
+
+<p>So, let me give an example of where the idea comes into play. We
+looked at the planetary motion of the Sun and the Earth, and I said the
+Earth goes around the Sun, so let's look at it a little later; there's
+the Earth and the only force between the Earth and the Sun is the
+mutual force of gravitation. Now, my question to you is, "Is this
+picture of the Sun sitting here and the Earth moving around acceptable
+or not in view of what I've said?" Yes?</p>
+
+<p><b>Student:</b> The Sun and Earth revolve around a mutual center of
+gravity.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Yes, that's the answer to the
+problem. But what is wrong if I just say the Sun remains here and the
+Earth goes in a circle, which is what we accepted last time?</p>
+
+<p><b>Student:</b> The momentum of the Sun doesn't change, but it
+changes in the momentum of the Earth.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> That's one way. Do you
+understand what he said? He said the momentum of the Sun is not
+changing. The momentum of the Earth is changing, so the total momentum
+is changing. The total momentum cannot change, so that's not
+acceptable. But in terms of center of mass, you can say something else,
+yes?</p>
+
+<p><b>Student:</b> The center of mass moves.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> It moves, maybe you can tell me,
+you cannot point out from there, but tell me which way you think it's
+moving.</p>
+
+<p><b>Student:</b> In a circle.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Right, in the beginning it's
+somewhere here. A little later it's there, a little later it's there,
+so the center of mass would do this, if the picture I gave you last
+time was actually correct. So, a Sun of finite mass staying at rest and
+a planet orbiting around it is simply not acceptable, because the
+center of mass is moving without external forces; that's not allowed.
+Or as he said, the momentum is constantly changing, this guy has no
+momentum, that guy has the momentum that points this way now and points
+that way later. But look what I've said here: take 1 and 2 to be the
+Earth and the Sun, it doesn't add up to the same number. So, we sort of
+know what the answer should be. We know that the thing that cannot move
+is not the Sun and it's not the Earth. It's the center of mass; that's
+what cannot move. If originally it was at rest, it'll remain at rest.
+So, the center of mass, if it cannot move, so let's start off the Sun
+here, start off the Earth here, join them, the center of mass is
+somewhere here. Actually, the Sun is so much more massive than the
+Earth, the center of mass lies inside the Sun. But I'm taking another
+Solar System where the Sun is a lot bigger than the Earth but not as
+big as in our world, so I can show the center of mass here. That cannot
+move. So, what that means is, a little later, if the planet is here and
+I want to keep the center there, the Sun has to be here, and somewhat
+later when the planet's there the Sun has to be here. So, what will
+happen is, the Sun will go around on a circle of smaller radius, the
+planet will go around on a circle of a bigger radius, always around the
+center of mass. So, you've got this picture now, it's like a dumbbell,
+asymmetric, big guy here, small guy here, fix that and turn it.</p>
+
+<p>You get a trajectory for the Sun, and you get a trajectory for the
+Earth on a bigger circle; the center remains fixed. So, if you apply
+loss of gravity, I've given you a homework problem, you've got to be
+careful about one thing. When you apply the Law of Gravity, you may
+apply it to the Earth for example. Then, you will say the centripetal
+acceleration <i>mv<sup>2</sup> /r</i> is the force of gravity. When you
+do that calculation be careful; <i>v</i> is the velocity of the planet,
+and when you do the <i>mv<sup>2</sup>/r</i>, the <i>r</i> you put will
+be the distance to the center of mass from where you are. That'll be
+the <i>mv<sup>2</sup>/r</i>. But when you equate that to the force of
+gravity, the <i>Gm<sub>1</sub>m<sub>2</sub></i> over
+<i>r<sup>2</sup></i>, for that <i>r</i> it is the actual distance from
+the Earth to the Sun that you should keep, because the force of gravity
+is a function of the distance between the planets, not between the
+planet and the center of mass. The actual force on the Earth is really
+coming not from here but on the other side of this where the Sun is.
+But luckily, at every instant, the Sun is constantly pulling it towards
+the center of the circle. It's a very clever solution. The planet moves
+around a circle. It has an acceleration towards the center, and
+somebody's providing that force. ut that somebody is not at the center
+but always on the other side of the line joining you to the center, so
+you still experience a force towards the center. Under the action of
+that force, you can show it'll have a circular orbit and you can take
+some time in calculating now the relation between time period and
+radius and whatnot. So, this is called a two-body problem. So, this is
+one example where you realize, "Hey, center of mass, if I follow it, it
+cannot be moving and therefore the actual motion of planets is more
+complicated than we thought."</p>
+
+<p>Okay, then, there is a whole slew of problems one can do, where the
+center of mass is not moving. So, I'll just give you a couple of
+examples; then, I will stop, but I won't do the numbers. Here is one
+example. That is a carriage that contains a horse, and the horse is on
+this far end. And as they tell us to do, we won't draw the horse, we'll
+just say it's a point mass <i>m</i>, and the railway carriage is a big
+mass, capital <i>M</i>, and let's say the left hand of the railway
+carriage is here. Now, you cannot see the horse, okay? The horse is
+inside; the horse decides to--;now, he said, "I'm tired of sitting on
+this side of this room, I'm going to the other side." The horse goes to
+the other side. First of all, you will know something's going on
+without looking in, because when the horse moves to the left the
+carriage has to move to the right. First, convince yourself the
+carriage has to move somewhere because originally the center of mass
+between these two objects -- that one and that one -- is something in
+between, somewhere here. If the horse came to that side, the center of
+mass is now the average of those two, which is somewhere over there;
+the center of mass has moved and that's not allowed, the center of mass
+cannot move. So, if the center of mass is originally on that line, it
+has to remain in that line. So, what will happen in the end is that the
+horse will come here, the center of the carriage will be there, but the
+center of mass will come out the same way.</p>
+
+<p>So, a typical problem, you guys will be expected to solve, will look
+like this. Given all these masses and given the length of the carriage,
+find out how much the carriage moves. Do you think you can do that?
+Give some numbers and plug in the things. For example, this guy is at a
+distance <i>L</i>/2 of this; the horse is at a distance <i>L</i>. Make
+this your origin of coordinates. Take the weighted average of those
+two, and get the <i>x</i> coordinate of the center of mass. You don't
+have to worry about the <i>y</i> because there's nothing happening in
+the <i>y</i>. So, the <i>x</i> coordinate of that and that'll be
+somewhere in here. At the end of the day, let us say it has moved an
+unknown distance <i>d</i>, which is what you're trying to calculate.
+Then, compute the center of mass. When you do that, remember that the
+center of the carriage is <i>L</i>/2 + <i>d</i> from this origin. The
+horse is at the distance <i>d</i> from the origin. Equate the center as
+a mass and you will get an equation that the only unknown will be
+<i>d</i>, and you solve for a <i>d</i> and it'll tell you how much it
+moves. Anybody have a question about how you attack this problem? Find
+the center of mass before, find the center of mass after, equate them
+and that linear equation will have one unknown, which is the <i>d</i>
+by which the carriage has moved and you can solve for it.</p>
+
+<p>Okay, here's another problem. Here is a shore, and here is a boat;
+maybe I'll show the boat like a boat, here it is, okay that's the boat.
+Now, you are here. So, the boat has a certain mass, which we can
+pretend is concentrated there. You have a little mass <i>m</i>, and the
+boat is at a distance, say, <i>d</i>, from the shore, and you are at a
+certain distance <i>x</i> from the edge of the boat, and you want to
+get out, okay. You want to go to shore, so what do you do? So, if
+you're Superman or Superwoman you just take off and you land where you
+want. But suppose you have limited jumping capabilities. It is very
+natural that you want to come as far to the left as possible and then
+jump. Suppose it is true that <i>d</i>, which is, say, three meters, is
+the maximum you can possibly jump, whereas you cannot jump <i>d +
+x</i>. So, you say, "Let me go to the end and I'm safe because I can
+jump the distance <i>d</i>." And again, we know that's not going to
+work because when you move--Look it's very simple. If you move and
+nobody else moves we've got a problem, because if you found the center
+of mass with one location for you, and you change your location and
+nothing else changes, center of mass will change and that's not
+allowed. Here, I'm assuming there are no horizontal forces. In real
+life, the water will exert a horizontal force, but that's ignored in
+this calculation. There are no horizontal forces. If you move,
+everything else has to move.</p>
+
+<p>So, what'll happen is that, when you move, the boat will have moved
+from there maybe somewhere over to the right like this. You are
+certainly at the edge of the boat, but the boat has moved a little
+extra distance <i>δ</i>, and you have to find that <i>δ</i>. You find
+it by the same trick. You find the center of mass of you and the boat,
+preferably with this as the origin. You can use any origin you want for
+center of mass, it's not going and it's not going according to anybody,
+but it's convenient to pick the shore as your origin, find the weighted
+sum of your location and your mass, the boat's location and boat's
+mass. At the end of the day, put yourself on the left hand of the boat,
+and let's say it has moved a distance <i>δ</i>, so the real distance
+now is <i>d + δ</i>. That's where you are. That plus <i>L</i>/2 is
+where the center of the boat is. Now, find the new center of mass and
+equate them and you will find how much the boat would have moved, and
+that means you have to jump a distance <i>d + δ</i>. Everybody follow
+that? That's another example where the center of mass doesn't move.
+Now, let's ask what happens next. So, you leap in the air, okay? Now
+you're airborne. What do you think is happening when you're airborne?
+Yes? Go ahead! What's happening?</p>
+
+<p><b>Student:</b> The boat will move the other way.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> It'll be moving, and why do you
+say it'll be moving?</p>
+
+<p><b>Student:</b> Why?</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Yeah.</p>
+
+<p><b>Student:</b> Because the center of mass still won't be the same
+thing.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Right, there's one way to say
+that. The center of mass cannot move, so if you move to the left, the
+boat will move to the right. What's the equivalent way to say that?
+Yes?</p>
+
+<p><b>Student:</b> The momentum can't change.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Right, the momentum cannot
+change. Originally, the momentum was 0, nobody was moving, but suddenly
+you're moving, the boat has to move the other way. Of course, it
+doesn't move with the same velocity, or the same speed; it moves with
+the same momentum. So, the big <i>M</i> of the boat times the small
+<i>v</i> of the boat, will equal your small <i>m</i> times your big
+<i>V</i>. In other words, you, unless you move with a big speed, the
+boat moves with a small speed; then, these two numbers in magnitude
+will be equal. So, if you're going on one of the big cruise ships, you
+jump on the shore, you're not going to notice the movement of the ship,
+but it technically speaking does move the other way. Okay, you're
+airborne, okay. Then, a few seconds later you collapse on the shore;
+you're right there. Now, what's happening to the boat? Is it going to
+stop now? Your momentum is 0, yes?</p>
+
+<p><b>Student:</b> But you've been stopped by the force of the
+ground.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Yes. Everybody agree? I will
+repeat that answer, but you should all have figured this out. The boat
+will not stop just because you hit the shore. The boat will keep moving
+because there's no force on the boat; it's going to keep moving. The
+question is, "How come I suddenly have momentum in my system when I had
+no momentum before?" It's because the <i>F</i> external has now come
+into play. Previously, it was just you and the boat and you couldn't
+change your total momentum. But the ground is now pushing you, and it's
+obviously pushing you to the right because you were flying to the left
+and you were stopped. So, your combined system, you and the boat, have
+a rightward force acting for the time it took to stop you; it's that
+momentum that's carried by the boat. A better way to say this is, you
+and the boat exchange momenta, you push the boat to the right, you move
+to the left, and your momentum is killed by the shore. The boat, no
+reason to change, and keeps going. So, can you calculate how fast the
+boat is moving? Can anybody tell me how to calculate how fast the boat
+is moving? Yes?</p>
+
+<p><b>Student:</b> [inaudible]</p>
+
+<p><b>Professor Ramamurti Shankar:</b> But I'm on the shore now. I've
+fallen on the shore. I'm asking how fast the boat is moving.</p>
+
+<p><b>Student:</b> The boat is moving as fast as [inaudible]</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Right, I think he's got the
+right answer. If I only told you that I jumped and landed on the shore,
+that's not enough to predict how fast the boat is moving. But if I told
+you my velocity when I was airborne, then of course I know my momentum
+and you can find the boat momentum and that's the velocity it will
+retain forever. So, you need more information than simply saying, "I
+jumped to the shore." It depends with what velocity I left the boat and
+landed on the ground. If I leap really hard, the boat will go really
+fast the opposite way. Okay, that's the end of this family of center of
+mass problems.</p>
+
+<p>So, I'm going to another class of problems. This involves a rocket,
+and it's going to derive the rocket equation. A rocket is something
+everybody understands but it's a little more complicated than you
+think. Everyone knows you blow up a balloon, you let it go, the balloon
+goes one way, the air goes the other way, action and reaction are
+equal, even lay people know that. Or, if you stand on a frozen lake and
+you take a gun and you fire something, but then the bullet goes one way
+and you go the opposite way, again, because of conservation of
+momentum. The rocket is a little more subtle and I just want to mention
+a few aspects of it. I don't want to go into the rocket problem in any
+detail. It's good for you to know how these things are done.</p>
+
+<p>Here's a rocket whose mass at this instant is <i>M</i>, whose
+velocity is <i>v</i> right now. What rockets do is they emit gasses,
+and the gasses have a certain exhaust velocity. That velocity is called
+<i>v<sub>0</sub></i>. In magnitude, it's pointing away from the rocket,
+and it has a fixed value relative to the rocket, not relative to the
+ground. If you are riding with the rocket and you look at the fumes
+coming out of the back, they will be leaving you at that speed
+<i>v<sub>0</sub></i>. A short time later--What happens a short time
+later, the rocket has a mass <i>M - δ</i> because it's lost some of its
+own body mass in the form of exhaust fumes. The exhaust fumes, I'm just
+showing them as a blob here, and the rocket's velocity now is not
+<i>v</i>, but <i>v + Δv</i>. And what's the velocity of the fumes?
+Here's where you've got to be careful. If your velocity was <i>v</i> at
+that instant, the velocity of the rocket fume, with respect to the
+ground is <i>v - v<sub>0</sub></i>; that's the part you've got to
+understand. The rocket has a smaller mass and bigger velocity; everyone
+understands that. But what's the momentum of the gas leaving the rocket
+if the mass is <i>δ</i>? But what is its velocity? Its velocity with
+respect to the rocket is pointing to the left of <i>v<sub>0</sub></i>,
+but the rocket itself is going to the right at speed <i>v</i>. So, the
+speed as seen from the ground will be <i>v - v<sub>0</sub></i>.</p>
+
+<p>So, the Law of Conservation of Momentum will say <i>Mv = (M - δ) (v
++ Δv) + δ(v - v<sub>0</sub>)</i>. This is, the momentum before and the
+momentum after are equal. So, you open out this bracket you get --
+sorry my letters better be uniform -- this is <i>Mv</i>, then
+<i>-vδ</i>. I don't want to call it <i>δv</i>, I want to call it vδ +
+MΔv - (δ) (Δv ) + δv - v<sub>0</sub>δ. I want to call it <i>vδ</i>. The
+reason I want to put the <i>δ</i> on the right is you may get confused.
+<i>δ</i> usually stands for the change of something, so that's not what
+I mean. So, you cancel this <i>Mv</i> and you cancel this <i>Mv</i>.
+You cancel this <i>vδ</i> and that <i>vδ</i>. This one you ignore
+because it's the product of two infinitesimals, one is the amount of
+gas in the small time <i>δt</i>, the other is infinitesimal change in
+velocity; we keep things which are linear in this. Then, you get the
+result <i>MΔv = v<sub>0</sub></i> times <i>δ</i>. So, I'm going to
+write it as <i>Δv/v<sub>0</sub> = δ</i> over <i>M</i>. This is the
+relation between the change in the velocity of the rocket; the velocity
+of the exhaust gases seen by the rocket, the amount emitted in the
+small time divided by the mass at that instant. But in the sense of
+calculus, what is the change [<i>dM</i>] in the mass of the rocket? If
+<i>M</i> is the mass of the rocket, what would you call this a change,
+the mass of the rocket, in this short time? Yep?</p>
+
+<p><b>Student:</b> [inaudible]</p>
+
+<p><b>Professor Ramamurti Shankar:</b> No, no, no, in terms of the
+symbols here what's the change in the mass of the rocket?</p>
+
+<p><b>Student:</b> <i>δ</i></p>
+
+<p><b>Professor Ramamurti Shankar:</b> It's <i>δ</i>, but it's really
+speaking <i>-δ.</i> You could keep track of the sign, the change in the
+variable is really negative, and delta here stands for a positive
+number. So, if you remember that, you'll write this <i>-dM/M</i>. Now,
+the rest is simple mathematics. I don't want to do this, but if you
+integrate this side and you integrate that side, and you know
+<i>dM/M</i> is a logarithm; you will find the result that the <i>v</i>
+at any time is <i>v</i> final = <i>v</i> initial plus--or maybe I might
+as well do this integral here. This integral will be <i>v</i> final -
+<i>v</i> initial over <i>v<sub>0</sub></i>, will be the log of <i>M</i>
+initial over <i>M</i> final. So, you will find final is <i>v</i>
+initial + <i>v<sub>0</sub></i> log <i>M</i> initial over <i>M</i>
+final. I'm doing it rather fast because I'm not that interested in
+following this equation any further. It's not a key equation like what
+I've been talking about now. So, this is just to show you how we can
+apply the Law of Conservation of Momentum. I'm not going to hold you
+responsible in any great detail for the derivation, but that is a
+formula that tells you the velocity of the rocket at any instant, if
+you knew the mass at that instant. The rocket will pick up speed and
+its mass will keep going down, and the log of the mass before to the
+mass after times <i>v<sub>0</sub></i> is the change in the velocity of
+the rocket. Okay, so I have to give you some more ammunition to do your
+homework problems; so, I'm going to discuss the last and final topic,
+which is the subject of collisions.</p>
+
+<p>So, we're going to take the collision of two bodies, one body,
+another body, <i>m<sub>1</sub>v<sub>1</sub></i>,
+<i>m<sub>2</sub>v<sub>2</sub></i>, they collide. At the end of the day,
+you can have the same two bodies moving at some velocities
+<i>v<sub>1</sub>'</i>, <i>v<sub>2</sub>'</i>. Our goal is to find the
+final velocities; that's a goal of physics. I tell you what's happening
+now. I'm asking you what's happening later. So here, there are two
+conditions you need because you're trying to find two unknowns, right?
+We want two unknowns, I need two equations.</p>
+
+<p>One equation always true, so let me write that down, always true.
+Always true is the condition that the momentum before is the momentum
+after, <i>m<sub>1</sub>v<sub>1</sub>' +
+m<sub>2</sub>v<sub>2</sub>'</i>. You need a second equation to solve
+for the two unknowns, and that's where there are two extreme cases for
+which I can give you the second equation, the one extreme case is
+called "Totally inelastic."</p>
+
+<p>In a totally inelastic collision, the two masses stick together.
+That means <i>v<sub>1</sub>'</i> and <i>v<sub>2</sub>'</i> are not two
+unknowns, but a single unknown <i>v'</i>. Then, it's very easy to solve
+for the momentum, because they stick together and move as a unit. So,
+you can write here that is equal to <i>(m<sub>1</sub> + m<sub>2</sub>)
+v'</i>, so you get <i>v ‘= (m<sub>1</sub>v<sub>1</sub> +
+m<sub>2</sub>v<sub>2</sub>)/(m<sub>1</sub> + m<sub>2</sub>)</i>. That's
+a simple case: two things hit, stick together, and move at a common
+speed. The common speed should be such that the total momentum agrees
+with what you had before. That's called "total Inelastic."</p>
+
+<p>The other category is called "totally elastic." In a totally elastic
+collision, the kinetic energy is conserved. That you can write as the
+following relation involving quadratic things, <i>½
+m<sub>1</sub>v<sub>1</sub><sup>2</sup> + ½
+m<sub>2</sub>v<sub>2</sub><sup>2</sup> = ½
+m<sub>1</sub>v<sub>1</sub><sup>'2</sup> + ½
+m<sub>2</sub>v<sub>2</sub><sup>'2</sup></i>. You can, it turns out,
+juggle this equation and that equation and solve for
+<i>v<sub>1</sub><sup>'</sup></i> and <i>v<sub>2</sub><sup>'</sup></i>.
+Well, I'll tell you what the answer is. I don't expect you to keep
+solving it. The answer is that <i>v<sub>1</sub><sup>'</sup> =
+(m<sub>1</sub> - m<sub>2</sub>)/(m<sub>1</sub> +
+m<sub>2</sub>)v<sub>1</sub> + (2 m<sub>2</sub>/m<sub>1</sub> +
+m<sub>2</sub>)v<sub>2</sub></i>. These are no great secrets; you'll
+find them in any textbook. If you cannot follow my handwriting or
+you're running out of time, just what you should be understanding now
+is that there are formulae for the final velocity when the collision is
+totally elastic, or totally inelastic. If they're totally inelastic,
+it's what I wrote there, <i>v<sup>'</sup></i> is something. The totally
+elastic you have a formula like this one. So, here you just replace
+everywhere; you saw an <i>m<sub>1</sub></i> you put an
+<i>m<sub>2</sub></i>, 2<i>m<sub>1</sub></i> over <i>m<sub>1</sub> +
+m<sub>2</sub>v<sub>1</sub></i>. Don't waste too much time writing this.
+I think you can go home and fill in the blanks; it's in all the books.
+What you carry in your head is there's enough data to solve this,
+because I will tell you the two bodies, I'll tell you their masses,
+I'll tell you the initial velocities; so plug in the numbers you get
+the final velocity. So, remember this, elastic, inelastic collision,
+this is in one dimension.</p>
+
+<p>Now, I'll give you a typical problem where you have to be very
+careful in using the Law of Conservation of Energy. You cannot use the
+Law of Conservation of Energy in an inelastic collision. In fact, I ask
+you to check if two bodies--Take two bodies identical with opposite
+velocities; the total momentum is 0. They slam, they sit together as a
+lump. They've got no kinetic energy in the end. In the beginning, they
+both had kinetic energy. So, kinetic energy is not conserved in a
+totally inelastic collision, in an elastic collision it is.</p>
+
+<p>So, here is an example that tells you how to do this carefully. So,
+this is called a Ballistic Pendulum. So, if you have a pistol -- you
+manufactured a pistol -- the bullet's coming out of the pistol at a
+certain speed, and you want to tell the customer what the speed is. How
+do you find it? Well, nowadays we can measure these things phenomenally
+well with all kinds of fancy techniques, down to 10<sup>-10</sup>
+seconds. In the old days, this is the trick people had. You go and hang
+a chunk of wood from the ceiling. Then, you fire the bullet with some
+speed <i>v<sub>0</sub></i> and you know its mass exactly. The bullet
+comes, rams into this chunk. I cannot draw one more picture, so you
+guys imagine now. The bullet is embedded in this, and I think you also
+know intuitively the minute it's embedded, the whole thing sets in
+motion. Now, you could put this on a table. Forget all the rope. If you
+can find the speed of the entire combination, then by using
+Conservation of Momentum, you can find out the speed of the bullet. But
+that's hard to measure; people have a much cleverer idea. You should
+ram into this thing. This is like a pendulum. So, the pendulum rises up
+now to a certain maximum height that you can easily measure. And from
+that maximum height you can calculate the speed of the bullet.</p>
+
+<p>So, I'm going to conclude by telling you what equations you're
+allowed to use in the two stages; so pay attention and then we're done.
+In the first collision, when the bullet rammed into this block, you
+cannot use Law of Conservation of Energy. In other words, you might be
+naïve and say, "Look, I don't care about what happened in between;
+finally, I've got a certain energy, <i>M + m</i> times <i>g</i> times
+<i>h</i>, that's my potential energy, not kinetic." Initially, I had ½
+<i>m<sub>0</sub><sup>2</sup></i>. I equate these two guys and I found
+v<sub>0</sub>; that would be wrong. That's wrong because you cannot use
+the Law of Conservation of Energy in this process when I tell you that
+it's a totally inelastic collision in the middle. Because, what'll
+happen is, some energy will go into heating up the block; it might even
+catch fire if the bullet's going too fast.</p>
+
+<p>But you can use the Law of Conservation of Momentum all the time in
+the first collision to deduce that <i>M + m</i> times some intermediate
+velocity is the incoming momentum. You understand that? From that, you
+can find the velocity <i>v</i> with which this composite thing, block
+and bullet, will start moving. Once they start moving, it's like a
+pendulum with the initial momentum, or energy. It can climb up to the
+top and convert the potential to kinetic, or kinetic to potential.
+There is no loss of energy in that process. Therefore, if you extract
+this velocity and took ½ <i>(M + m)</i> times this velocity squared,
+you may in fact equate that to <i>(M + m)gh</i>.</p>
+
+<p>So, let me summarize this last result. In every collision, no matter
+what, momentum is conserved; the energy may or may not be. And if I
+give you a problem like this where in between there's some funny
+business going on which is not energy conserving, don't use energy
+conservation from start to finish. Use momentum conservation, find the
+speed of the composite object. This is what you've got to understand in
+your head. It's not this equation. When can I use Conservation of
+Mechanical Energy? When can I not? A bullet driving into a chunk of
+wood, you better know you cannot use Conservation of Kinetic Energy.
+But once the combination is going up, trading kinetic for potential,
+you can. All right, so let me stop now and remind you guys, no meeting
+Wednesday; we meet three times next week and on Wednesday you come for
+your homework exchange.</p>
+
+<p>[end of transcript]</p>
+
+<br />
+<br />
+</div>
+
+<p><a id="backToTop" href="#top">back to top</a></p>

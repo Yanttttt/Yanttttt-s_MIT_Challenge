@@ -1,0 +1,865 @@
+<head>
+<title>Fundamentals of Physics, II</title>
+</head>
+<div id="fileContents">
+<h2><strong>Fundamentals of Physics:</strong> Lecture 23 Transcript</h2>
+
+<table id="transcriptHeader" summary="transcript header" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td id="transcriptDate">April 14, 2010</td>
+<td id="transcriptNav"><span id="forwardNav"><a href="javascript:history.go(-1);">&lt;&lt; back</a></span></td>
+</tr>
+</tbody>
+
+</table>
+<p><b>Professor Ramamurti
+Shankar:</b> Okay, so I'm going to begin with something I did last time, because it was not
+completed, then we'll take it from there. And we had a lot more questions last
+time, which is good, very helpful, so I know what may be bothering you. So
+don't hesitate to stop me. The new thing we did last time was, if I give you
+some wave function, &#968;<i>(x)</i>, and I ask you what happens if I measured
+energy, the recipe is the same as in momentum. You've got to find functions
+called &#968;<sub>E</sub><i>(x)</i>, which are supposed to be states in which, if
+the electron was there, it'll have a definite energy. Now, not worrying for a
+moment on how you get them, the recipe for what happens when you measure energy
+is that if you're given some arbitrary function &#968;, that's a state the particle
+is in. And you're asking, &quot;What happens if I measure energy? What will I
+get?&quot; The instruction is to write that function as a sum over these
+functions, each associated with a definite energy. And once you have done
+that, the probability that you will get a certain energy <i>E</i> = the
+absolute value squared of that particular coefficient. Not different from &#968;<sub>p</sub> , same rule. And the rule for <i>A<sub>E</sub></i> is also the same, or
+similar. <i>A<sub>E</sub></i> is the integral of complex conjugate of this
+function associated with definite energy, times the function you're thinking
+about, integrated over space. It's the same rule. So it can happen, the
+problem can take many forms. Sometimes one can give you a function &#968;<i>(x)</i>.
+Then you take all these functions, do all these integrals, find all the
+coefficients and you square them. Other times the coefficients may be given to
+you; you're just asked, &quot;What's the odd for this energy or that
+energy?&quot; </p>
+<p>But now the question
+is, what are these functions, &#968;<sub>E</sub><i>(x)</i>. Whereas functions of
+definite momentum are given once and for all by this formula, <i>e<sup>ipx/&#8463;</sup></i>,
+I wish I could give you a function of definite energy and say, &quot;These are
+functions of definite energy. Maybe instead of <i>p</i>, there'll be some <i>E</i>
+on the top.&quot; No, it's not like that. You've got to do a lot more work,
+because the reason is that the functions of definite energy depend on what the
+energy is in classical mechanics. And in classical mechanics, the energy
+depends on the momentum and on the potential energy. That means on the
+position. Every problem has a different formula for <i>E</i>. If it's a
+harmonic oscillator, this will be &frac12;<i>kx<sup>2</sup></i>. If it's a particle
+moving up and down in gravity, it could be <i>mgy</i>. If it's two particles
+connected by a spring, it will be something else. So in each problem, our
+electron in Hydrogen atom, is the coulomb force, coulomb potential, <i>e<sub>1</sub>e<sub>2</sub></i>/<i>r<sup>2</sup></i>
+times some 4&Pi;'s. So in each problem, there's a different <i>V</i> and for each
+<i>V</i>, you've got to find the <i>E</i>--I mean, you've got to find the
+functions. </p>
+<p>And what is the
+rule? The rule is the following. You have to solve the following equation,
+called the Schr&#246;dinger equation, <i>d<sup>2</sup>&#968;/dx<sup>2</sup> </i>+ <i>V(x)&#968;(x)
+</i>= <i>E</i> times--you just have to solve this equation. So let's not worry
+about how you solve it. That's a problem in mathematics, but the point is
+that, given a potential <i>V</i>, you come to this equation, and you go to the
+math department and say, &quot;Give me all the solutions of this
+equation.&quot; And they'll give you all the solutions of the equation. They
+will find, in fact, only for certain special values of <i>E</i> that the
+equation has acceptable solutions. And for each one, they'll give you the
+solution and you start with that solution and do all of this. You follow
+that? That's the program. </p>
+<p>So I did a very
+simple example last time, which was two examples. First I said, take the
+problem with no potential, no force, particle is free of all forces. Then the
+equation is very simple, -<i>&#8463;<sup>2</sup>/2m d<sup>2</sup>&#968;</i>--I'm sorry, <i>d<sup>2</sup>&#968;/dx<sup>2</sup></i>.
+There is no <i>V&#968;</i>. That is just <i>E&#968;</i>. So let's rearrange this to the
+following form: <i>d<sup>2</sup>&#968;/dx<sup>2</sup> </i>+<i> k<sup>2</sup>&#968;</i> =
+0, where <i>k<sup>2</sup></i> is just 2<i>mE/&#8463;<sup>2</sup></i>. </p>
+<p>You know if you
+multiply by 2<i>m/&#8463;<sup>2</sup></i>, you'll get this equation. Since this
+combination appears all the time, I want to give it a name, <i>k<sup>2</sup></i>.
+But you must understand, what's the relation of <i>k</i> to anything else you
+know will be clear in a minute. So what's the solution to this one? You can
+write them in terms of sines and cosines, but I want to write them in terms of
+exponentials and the solution was--there are two solutions. One is <i>e<sup>ikx</sup></i>,
+where <i>k </i>is defined that way. Other is <i>e<sup>-ikx</sup></i>. You can
+check. If you took this function and take two derivatives of either this term
+of that term, both will give you &#8722;<i>k<sup>2</sup></i> times the function
+itself. Every time you take a derivative, you bring down an <i>ik</i> or a -<i>ik</i>.
+If you do it twice, it's &#8722;<i>k<sup>2</sup></i>. And <i>A</i> and <i>B</i> are
+arbitrary right now. There is no restriction coming from that equation. And
+what is <i>k</i>? You know that functions of definite momentum look like <i>e<sup>ipx/&#8463;</sup></i>,
+and I have something that says <i>e<sup>ikx</sup></i>. It's very clear that <i>p</i>
+is just <i>&#8463;k</i>, or <i>k</i> is <i>p/&#8463;</i>. So if you like, this equation I
+got, we can write as <i>&#8463;<sup>2</sup>k<sup>2</sup></i> is 2<i>mE</i>. That
+means <i>p<sup>2</sup></i> is 2<i>mE</i>. That means <i>E</i> = <i>p<sup>2</sup>/2m</i>.
+So let's understand what that means. Yes.</p>
+<p><b>Student:</b> Just jumping back
+for a second. At the bottom of the top board, you wrote the <i>E</i> for
+classical mechanics. Did the equation to the right of that come from that?</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+In a way, it does. That's correct. I will tell you how it does. But right
+now, I'm just giving you a recipe. If in classical mechanics, you know what
+the kinetic and potential energy of the particle are. Kinetic is always <i>p<sup>2</sup>/</i>2<i>m</i>.
+Potential is <i>V(x) </i>where <i>V</i> depends on the context. Then in the
+quantum theory, the functions of definite energy obey an equation which looks a
+lot like that in many ways, right? So I've given you some clues or some more
+discretion in my notes on what is the universal recipe for guessing the
+equation in every context. I'll talk about it a little bit. But right now,
+you can take the view that this guy just tells me that if you want states of
+definite energy, solve that equation. Look, so what is this saying? Think
+about this. It's saying, if you want a state of definite energy, it is really
+made up of states of definite momentum, and the momenta that appear here are
+not arbitrary. They are simply the momenta that you will have, even in
+classical mechanics, for that definite energy, because if <i>E</i> is <i>p<sup>2</sup>/2m</i>,
+<i>p</i> would be ±&#8730;2<i>mE</i>. That's exactly what we have. If <i>k</i> =
+here,&#8230; this says <i>k</i> = &#8730;2<i>mE</i>/<i>&#8463;</i>, and <i>&#8463;k </i>is just &#8730;2<i>mE</i>.
+So that looks like classical mechanics, right? </p>
+<p>Even before you took
+the course, if I said there's a particle on a ring. Its energy is <i>E</i>,
+what is its momentum? You will say since energy is <i>p<sup>2</sup>/2m</i>, <i>p</i>
+must be ±&#8730;2<i>mE</i> and they mean going one way, and going the other way.
+These are the only two options. That part is very much like classical
+mechanics. The <i>k</i> is related to <i>E</i> exactly the way it would be.
+What is novel here is that this state, simultaneously can yield either the
+clockwise momentum or the counterclockwise momentum. That's the sense in which
+it's a different thing, you understand? A classical particle of energy <i>E</i>
+will have one of these two momenta, but on any given day, on any given trial,
+it will have only one of these two. It cannot have both the signs. Either
+it's going like this or going like that. In quantum theory, it's in the state
+of limbo. Not this alone, not that alone, both. </p>
+<p>The probability of
+going clockwise is proportional to <i>A<sup>2</sup></i>, and the probability of
+going counterclockwise is proportional to <i>B<sup>2</sup></i>. If you want,
+you can put the square root of <i>L</i>&#39;s and so on, but they're all common to
+everything, so the relative probability is just in the ratio of <i>A<sup>2</sup></i>
+is to <i>B<sup>2</sup></i>. It's an admixture. And there is no restriction on
+how much of <i>A</i> and how much of <i>B</i> you should put into your answer.
+You can pick the extreme case where only <i>A</i> is non-zero. That's fine.
+That's a particle who has a definite energy and a definite momentum. You can
+pick this one, a definite energy in the opposite momentum, but in general, both
+can be non-zero. It's a state of definite energy whose momentum is known in
+magnitude but not in sign, because both allowed signs appear here. </p>
+<p>The other result from
+quantum mechanics, which is surprising, is whereas a particle in a ring can
+have any momentum, in quantum theory, the demand that when you go around the
+ring, if you add an <i>L</i> to the <i>x</i>, you should come back to the same
+function, makes the requirement that <i>kL</i> is some multiple of 2&Pi;.That
+means <i>k</i> = 2&Pi;<i>n/L</i>, or <i>p</i> is 2&Pi;<i>&#8463;/L</i> times <i>n</i>. The
+allowed values of <i>k</i> or <i>p</i> are restricted in this way, and the
+allowed values of energy then, which is <i>p<sup>2</sup>/2m</i>, are restricted
+to be <i>4&Pi;<sup>2</sup>&#8463;<sup>2</sup></i> over 2<i>m</i> <i>L<sup>2</sup></i>
+times an integer <i>n<sup>2</sup></i>. And this is a problem where energy is
+quantized. It's really quantized because momentum is quantized and the energy
+in this simple example is simply <i>p<sup>2</sup>/2m</i>. That means if you
+shine light on the system, it will absorb light only at certain frequencies,
+and it will emit light only at certain frequencies. And what are those
+frequencies? Well, all of this there's a bunch of numbers. <i>&#8463;, m, L</i>
+they're not changing. <i>n</i> can be 0 + or - 1, + or - 2 etc. For every <i>n
+</i>you put in, you'll get this basic number times 0 squared or 1 squared or 2
+squared. So you will find that will be the state <i>E<sub>0</sub></i>, which
+is<i> n</i>=0. Then above that, the energy of that will be <i>2&Pi;<sup>2</sup>&#8463;<sup>2</sup></i>
+over <i>mL</i> squared. Then there'll be <i>n</i>=1, and there'll be <i>n</i>=-1.
+Both will have the same energy, because energy depends only on <i>n<sup>2</sup></i>.
+The energy of that will be--I'm sorry. I made a mistake. <i>E<sub>0</sub> </i>is
+simply 0, because that corresponds to <i>n</i>=0. <i>E<sub>1</sub> </i>will be
+what I wrote here, with <i>n</i>=1, which will be <i>2&Pi;<sup>2</sup>&#8463;<sup>2</sup></i>
+over <i>mL </i>squared. </p>
+<p>So what I'm saying
+is, at a given energy, you can have a state of right moving clockwise or
+anticlockwise momentum, or a crazy mixture of the two. But normally, if you
+wish, you may select from these mixtures, two special cases, one which is all <i>A</i>
+and one which is all <i>B</i>. We like those because now we can visualize them
+as states having a definite momentum clockwise, a definite momentum
+counterclockwise. That's what one really means by drawing two lines at that energy.
+So if you absorb a photon, you've got to give an energy equal to the difference
+of these two numbers, which is that. And that will be the <i>&#8463;&#969;</i> of your
+photon. And if you emit a photon and come from there down here, that photon
+frequency will be given by that. So this is how a quantum system is usually
+probed. We cannot actually look in and see anything. We deal with it by
+shining light and we see what light it absorbs, what light it emits. The
+frequency of light is a clue as to energy level differences, you understand?
+Not to the energy themselves, but to the energy level difference that turns
+into photon energy. But you can put together the levels by putting together
+all the differences, so you measure all the differences. </p>
+<p>So one famous line is
+the hydrogen 21 centimeter line. Hydrogen atom has two levels which are close,
+and the wavelength of that is 21 centimeters. There's a standard fingerprint
+of hydrogen anywhere in the universe. Sometimes, if the wavelength is not 21
+but 22, you can say, &quot;Why is it 22? The wavelength is longer. Maybe it's
+not hydrogen. Maybe it's somebody else.&quot; But the answer is that it is
+hydrogen, but that galaxy is moving away from you, so that its light is Doppler
+shifted into the red. If something was coming towards you, it would be blue
+shifted. So you can tell, if you believe that hydrogen atoms all over the
+universe are the same hydrogen atoms, and the frequency shift is only due to
+the motion of the galaxy, you find two things. First, what is it made of and
+secondly, what's the speed of the galaxy? So the red shift is what one uses to
+find the whole story about galaxies. Yes?</p>
+<p><b>Student:</b> In the context of
+a photon, or an atom being ___________ by a photon, what does the L correspond
+to?</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+What is <i>L</i> for an atom, right? That's your question. Now, this is a
+fake atom. This fake atom is an electron moving on a ring, correct? That <i>L</i>
+is actually the size of that ring. You can go to a lab and you can make a ring
+of certain micron, then the mass of the electron is known. That <i>L</i> would
+be the length of the ring. For an atom, what you have to do is that you must
+solve it, solve this equation, where <i>V(x)</i> = what? In three dimensions,
+it will be the charge of the nucleus, which is <i>Z</i> times e, charge of the
+electron, and it's attractive 4<i>&Pi;&#949;<sub>0</sub>r</i>, which is the separation
+between them. So you'll have to solve a similar equation, but that equation
+will have <i>d/dx </i>and <i>d/dy</i> and <i>d/dz </i>and so on, right? It's
+in three dimensions. But this <i>V(r) </i>will determine the allowed functions
+in that problem. That won't be an <i>L</i>, but a certain size will emerge
+even from that problem. That size will be the size of the orbit. For example,
+if you look at the function, the lowest energy state will look like <i>e</i> to
+the -<i>r/a<sub>0</sub> </i>times some number, where <i>a<sub>0</sub></i> is
+called the Bohr radius. That will be roughly 10<sup>-8</sup> centimeters.
+That <i>a<sub>0</sub></i> will be a length--you can say where is the length and
+the height of an atom, right? It's no box. The length is the length made out
+of <i>e&#8463;m</i>. You can make a length out of those things. That's what will
+come out. So if you want, you can take any textbook that gives you the formula
+for hydrogen's Bohr radius, that's supposedly the radius of the orbit, and you
+will find its length <i>a<sub>0</sub></i> made out of the parameters in the
+problem, which is the charge of the nucleus, the charge of the electron, the
+mass of the electron. Okay, so this is, if you want, a simple atom that we
+have manufactured, because we can see quantization of energy. Yes?</p>
+<p><b>Student:</b> When you go to the
+potential of 0, is it possible to measure both momentum and position, in that
+if you measure the energy and a position, don&#39;t you know something about the
+momentum?</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+But you cannot measure energy and position at the same time either, because
+energy--what you can really measure at the same time is energy and momentum.
+If you can measure <i>p</i>, you can measure <i>p<sup>2</sup></i>, or <i>p<sup>3</sup></i>
+or any function of <i>p</i>. Because knowing a state of well defined momentum,
+in this problem, doesn't do anything to the energy, because once you know that
+momentum is <i>p</i>, <i>p<sup>2</sup>/2m </i>is the energy. So it turns out,
+this is a fortunate case where the two variables, energy and momentum, are
+simply related to each other in the fact that one is essentially the square of
+the other. But if you have two variables, one involving <i>x</i> and <i>p</i>,
+at the same time, then you cannot measure them simultaneously with either <i>x</i>
+or with <i>p</i>. Yes?</p>
+<p><b>Student:</b> What is <i>a<sub>0</sub></i>
+again?</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+<i>a<sub>0</sub></i>. Gee, I don&#39;t know. The Bohr radius. I think it's <i>&#8463;</i>
+squared over me squared, but you have to check. I don&#39;t guarantee that answer,
+but I think it's something like that. You can see if it's got at least units
+of length. I'm too lazy to try that. I think it's something like this.
+Anyway, suppose it is something like this. My main point is, it is a length
+made out of Planck's constant, the mass of the electron and the electric
+charge. Together they make a length, and that's the length that controls the
+size of the orbit. </p>
+<p>All right, so this
+was the simpler problem. Now I want to take a more complicated problem of what
+I call a particle in a box. So that is a potential. See, normally, if you
+make a hole in the ground, it may take this shape, and this is the location and
+this is the height, but the height is just the potential energy directly,
+because it's mg times the height. So imagine a particle somewhere here. In
+classical mechanics--by the way, the rule for doing quantum mechanics is, in
+classical theory, what's the potential experienced by the particle? That's
+what you ask. And it is that potential that enters this crazy Schr&#246;dinger
+equation. </p>
+<p>So you need to know
+classical mechanics before you can do quantum mechanics. You should know what
+potential the particle experiences in classical theory, and stick that into
+this equation to find the allowed energies in quantum theory. So if it's a
+vibrating system, there is some omega for vibrations. That &#969; is &#8730;<i>k/m</i>,
+and you can get <i>k</i> from that one. Or if it's a system like an atom,
+where there's an electric charge between them, electric force between them, you
+should know the electric potential. So you should know the potential in
+classical mechanics, and then you do the quantum theory from there. So imagine
+a particle in this potential in classical theory, and you ask yourself, what
+does it do in quantum theory? Well, classical theory says, let's plot the
+energy of the particle, right? It's some number that's not supposed to change
+as the particle moves. That means here, if the energy is kinetic + potential,
+here the potential is 0, it's all kinetic. But as you start going near the
+edge, there are two parts here. That's the potential and that's the kinetic.
+And right here, all the energy is potential, and <i>E</i> = potential. There
+is no <i>K.</i> What does that mean? </p>
+<p>That means the
+particle comes here, slows down, comes to a rest, then goes back. It can never
+be found here if it had this energy, because it's got more--let's see. It's
+got more potential energy than total energy. That means it's got negative
+kinetic energy. That's not possible. So every classical particle will execute
+bounded oscillations at any energy, between what are called the turning
+points. The left turning point and the right turning point is as far as you
+can go at that energy. If you've got more energy, of course you can go further
+out, and if you've got even more energy, you can just roll up to the top of the
+hill and escape. That's classical mechanics. </p>
+<p>Now we want to ask
+ourselves, in quantum mechanics, what does the particle do? That's our goal.
+So I'm going to take a following simpler problem, because it's mathematically
+easier. I'm going to take a potential that looks like this. It is <i>V<sub>0</sub></i>
+to the right of<i> L</i>. It's <i>V<sub>0</sub></i> to the left of the origin,
+and it is 0 here. It's got very sharp walls, because that makes it easy to
+solve the equation. In real life, potentials are rounded off. My fake
+potential has got sharp corners. I want to take a particle of some energy and
+ask, what are the allowed energies in this problem? </p>
+<p>What do the
+corresponding functions look like? That's what we're asking. So the rule is
+to go back to that equation, which now takes the following form: <i>d<sup>2</sup>&#968;/dx<sup>2</sup></i>.
+I'm going to stop writing the subscript <i>e</i>. From now on, you should
+understand, I'm trying to find states of definite energy <i>E</i>. 2<i>m</i>
+times <i>E - V &#968; </i>= 0. I've just rearranged the Schr&#246;dinger equation, so
+that it looks like second derivative + all kinds of stuff. So how do we solve
+this problem? Well, <i>V</i> varies with position, so there are three regions
+in the problem. There's region I inside the well. Inside this well, V is 0.
+Outside this well in region II, it = <i>V<sub>0</sub></i>, some constant.
+Likewise in region III to the right of the well, it's also <i>V<sub>0</sub></i>.
+So we've got to solve this equation in 3 different regions, middle, left and
+right. First let's solve it in the middle because it's very easy. What is the
+middle defined as? Middle, region I, <i>V</i> = 0. So the equation is <i>d<sup>2</sup>&#968;/dx<sup>2</sup>
++ 2mE/&#8463;<sup>2</sup> </i>is 0. So let me write it as <i>d<sup>2</sup>&#968;/dx<sup>2</sup>
++ k<sup>2</sup>&#968; </i>= 0. Just like before. This <i>k</i> is the same as
+before, <i>k = &#8730;2mE/&#8463;</i>, in region I. So what's the answer to that one?
+Again, it's exponentials, but I'm purposely going to write it in region 1 as
+follows: as <i>A</i>cos<i>kx </i>+ <i>B</i>sin<i>kx</i>. I hope you all know
+that this has exponentials, our old friends the trigonometric functions, are
+also the solution to this equation, because the second derivative of cosine is
+roughly - the cosine. The second derivative of sine will also give you &#8722;<i>k<sup>2</sup></i>
+times the sine. </p>
+<p>So rather than using
+exponentials, I'm going to use sine and cosine, because I have an ultimate
+motive. You realize that exponentials and sines and cosines are all connected
+by Euler's great formula, so if I want, I can take <i>e<sup>ikx</sup> </i>and
+write it as cos + <i>i </i>sine. <i>e<sup>-ikx</sup></i>, write that as cos - <i>i</i>
+sine. Combine the cosines, and call the coefficient <i>A</i>. Combine the
+coefficients for sine and call it <i>B</i>, and get this form. There are two
+alternative ways. You just write this, you will see why I picked that. That's
+the answer in region I. We're all set. Right now, <i>A</i> is arbitrary, <i>B</i>
+is arbitrary and <i>k</i> is arbitrary. There is no restriction at all on any
+of them. Do you understand that? Because if you take this function, it satisfies
+that equation absolutely. So the free parameters are <i>A</i>, <i>B</i> and <i>k</i>,
+are all arbitrary. That means it can have any <i>k</i>. But the energy is <i>&#8463;<sup>2</sup>k<sup>2</sup>/2m</i>,
+so it can have any energy. But we're not done yet, because we only looked at
+region I. Have to look at region II and region III, and then you will find out
+what happens. So let's go to region II So in region II, the equation obeyed
+by the &#968;, is &#968; (let me call it region II) over <i>dx</i> squared = -<i>2m/&#8463;<sup>2</sup></i>
+times <i>V<sub>0</sub> - E</i> &#968;. I just put it on the other side now. Now
+this is all a constant. </p>
+<p>That's why we picked
+the potential, which is piecewise constant, so it's some constant. You're
+asking yourself, what &#968; has the property that when I take 2 derivatives, it
+looks like this number times &#968;? So let me call this whole combination kappa
+squared. Then the answer is &#968; of 2 = <i>C</i> times <i>e<sup>&#954;x</sup></i> + <i>D</i>
+times <i>e<sup>-&#954;x</sup></i>. Why? Because two derivatives of this guy will
+give me kappa squared times itself; likewise here. And kappa has been cooked
+up so that kappa squared is what I want. </p>
+<p>Yes, now so &#954; = <i>2m/&#8463;<sup>2</sup>
+</i>times <i>V<sub>0</sub> - E </i>under root. So these are now real
+exponentials and not imaginary exponentials. The reason that used to be sines
+and cosines, or imaginary exponentials, is that inside the well, <i>E - V </i>is
+a positive number. Outside the well, I'm assuming that <i>E - V </i>is a
+negative number. In other words, I'm going to consider the well to be, in the
+end, infinitely deep. And the energy of the particle, whatever it is, is some
+finite number. I want to send the walls to infinity. That's called particle
+in a box. So I'm taking <i>V<sub>0</sub></i> finite but very, very large.
+Then it's very clear that <i>V<sub>0</sub> - E </i>is a positive number. This
+kappa is what I have here. Now look at these two functions. This function
+grows exponentially as you go to the right, to + infinity. That means the wave
+function describes a particle that would rather be at infinity than anywhere
+near this well. So it's not the problem we're describing where the particle we
+expect is somewhere near the well. Furthermore, the square of &#968; can never be
+normalized to 1, because an exponentially growing function, the area under that
+is exponentially large. There's no way to fix that. So on physical grounds,
+we drop the solution, because we don't have to pick <i>C</i> to be non-zero.
+We have the freedom, and the physical condition tells you, no one wants a
+function growing at infinity. We want functions falling at infinity. This is
+the only function that falls at infinity. And how does it fall at infinity,
+how does it fall off? It looks like <i>e </i>to the -&#8730;<i>2m/&#8463;<sup>2</sup> </i>times
+<i>V<sub>0</sub>(x)</i>. I'm ignoring e compared to this very large <i>V<sub>0</sub></i>.
+I'm taking <i>V<sub>0</sub></i> much, much bigger than any energy I'm looking
+at. So it's falling exponentially, and the number on top is like square root
+of <i>V<sub>0</sub></i>. So what do you think happens if <i>V<sub>0</sub></i>
+becomes very, very large? Well, if you plot the function that's exponentially
+falling, it falls like that. But as you increase <i>V<sub>0</sub></i>, it
+falls more and more quickly. You follow that? </p>
+<p>And eventually, even <i>V<sub>0</sub></i>
+goes to infinity; it just doesn't have a life outside. It just vanishes
+immediately. Whatever you start with goes to 0 immediately. That basically
+means &#968;<sub>II</sub><i>(x) </i>is just 0 in region III, if <i>V<sub>0</sub> </i>goes
+to infinity. So let me emphasize what we are doing here. We have a particle
+in some kind of well, which is very, very tall, not yet infinite, and you give
+it some energy <i>E</i> that cannot change. In this region, in classical
+mechanics, that would be the entire kinetic energy, because potential energy is
+0. What about here? This is the total energy available to you. Potential
+energy is all of that, so kinetic energy has to be minus some number. That can
+never be. That means that particle will never be found in the region outside
+this well. Do you understand? As long as the energy is less than it takes to
+go to the top of the barrier and climb out, a classical particle--imagine
+rounding it off. You can come rolling with any energy. If you don't have
+enough energy to go over the top, you cannot be found in this region. </p>
+<p>But in quantum
+theory, as long as the well is not infinitely large, there's an exponentially
+small decaying wave function. So a classical particle will turn around at the
+classical turning points. A quantum particle will go slightly outside the
+forbidden region, into the forbidden region in both directions of the well.
+That is a purely quantum phenomenon. It is forbidden, meaning it's discouraged
+from going there, but it's not absolutely forbidden. That's called going over
+the--well, it's going into the classical forbidden region, but as the barrier
+gets higher and higher, the excursion into the forbidden region becomes less
+and less, because the function falls very rapidly. And I'm considering, for
+simplicity, a barrier which is infinitely tall, in which case it doesn't go
+there at all, even in quantum theory. Therefore, by a similar argument, &#968; is 0
+here and &#968; is 0 here, and in region I, I've shown you, &#968;
+= <i>A</i>cos<i>kx</i> + <i>B</i>sin<i>kx</i>, where the energy is related to <i>k</i>
+by <i>&#8463;<sup>2</sup>k<sup>2</sup>/2m</i>. </p>
+<p>So first when we did
+only region I, you get the impression that <i>A</i> and <i>B</i>
+and <i>k</i> can be whatever you like. But now we have an extra restriction.
+The restriction is that if you draw the function in this well, it can do
+whatever it wants, but it must vanish at the two ends, because it's 0 here and
+it's 0 here. Just by continuity of &#968;, every &#968; that's allowed must vanish at
+the two ends. That's a new restriction, because the function that I have here
+in general will not vanish at the two ends, but I'm going to demand that it
+vanish. That will tell me something about the allowed values of <i>A</i>, <i>B</i>
+and <i>k</i>. You will see what it is. First I demand that &#968; should vanish on
+the left end of the wall, which is the wall at <i>x</i> = 0. This is the wall
+at <i>x = L</i>. &#968; of 0 should be 0. I take the function I have. When this
+is 0, <i>x</i> is 0, that guy is gone. I get <i>A</i> times cosine 0 which is
+just <i>A</i>. But that has to vanish. That means the coefficient <i>A</i>
+has to vanish. It is not allowed. So even though it looked like, before we
+went to the other regions, you can have any <i>A</i> and any <i>B</i>. If
+you're only in the middle region, that's correct. But if you want to connect
+your answer in the middle region to a 0 on either side, then the coefficient
+has to be such that the &#968; you have in the middle vanishes at the left end. So <i>A</i>
+is gone. </p>
+<p>So I'm now left with
+only the following thing: &#968;<i>(x)</i> = <i>B</i>sin<i>kx</i>. We did not have
+to kill <i>B</i> because that <i>x</i> = 0 sine vanished, so it is allowed.
+But now I demand furthermore it should vanish at <i>x = L</i>. Well, at <i>x =
+L</i>, what do I find? I want 0 to = <i>B</i>sin<i>kL</i>. That should be 0.
+Now one simple way to get there is to kill <i>B,</i> say<i> B</i> = 0, but then
+you've got no solution. You killed <i>A</i> and you killed <i>B</i>. It's
+certainly true that &#968; = 0 is the solution to this equation, but it doesn't
+describe anything. So you don't want to kill <i>B</i>, so you want to blame
+the 0 on the sine, and the sine, as you know, vanishes for any multiple of &Pi;.
+You can have 0 times &Pi;, 2&Pi;, 3&Pi;, 4&Pi;, -6&Pi;. They all give you 0 for sine. Therefore
+k is quantized to be one of these numbers. Therefore k has got only values <i>n&Pi;/L</i>.
+I'm going to call it <i>k<sub>n</sub></i>. And the energy, which is really <i>&#8463;<sup>2</sup>k<sup>2</sup>/2m
+L</i> squared--sorry, <i>k<sup>2</sup>/2m,</i> becomes now <i>&#8463;<sup>2</sup>&Pi;<sup>2</sup>/2m
+L<sup>2</sup></i> times <i>n<sup>2</sup>.</i> And &#968; looks like <i>B</i>--&#968;'s
+of <i>n</i> looks like <i>B</i>sin<i>(n&Pi;x/L).</i> You guys see that? </p>
+<p>These are the allowed
+function. The sine function is very nice. It vanishes on the left end,
+because when <i>x</i> is 0, it's gone. When <i>x=L</i>, the argument of the
+sine is a multiple of &Pi;, it vanishes. So it looks like this when<i> n</i> = 1.
+It looks like that when <i>n</i>=2, and so on. So it's got more and more
+wiggles in the region in between, but they are designed so that they vanish
+precisely at the edges. So it's like it's exactly the case of a violin string
+that's clamped to two ends, which has to vanish at the two ends, because you
+don't let it move there. In between, it can do this and it can do that. It
+can have more and more wiggles. So what you find is, of the three things that
+we thought were arbitrary, <i>A</i> is gone, and <i>k</i> is not arbitrary. <i>k
+</i>is again quantized to be <i>n&Pi;/L</i>, so that the function does <i>n</i>
+half oscillations between one end and the other end. And therefore there's a
+corresponding quantization of energy. Yes? </p>
+<p><b>Student:</b> What does that
+tell you? If you square &#968;<sub>n</sub>, does that give the probability of
+finding it in each one, the energy levels?</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+No. Let's talk about that now. So let's write down the function. The &#968; sub energy
+that we were looking for, we have finally found out, so let's have a picture in
+our mind. Here is the well. It's going all the way to infinity. There is the
+state <i>n</i>=1, and the function looks like this. Then there is the
+state--let me draw it right there, it looks like that, <i>n</i>=2 and so on.
+In the &#968;<sub>n</sub> (let me label the energy by <i>n</i>) equals some constant
+<i>B</i> times sin<i>(n&Pi;x/L)</i>. That means if you want a particle in the
+well to have a definite energy, the wave function must look like one of these
+sine functions. It must look like this or it must look like that, or the
+higher harmonics. They are the only allowed functions for states of definite
+energy. Now before I answer any further questions, the allowed values of <i>n</i>
+here you might think are 0, + or - 1, + or - 2 etc., but I claim they're just
+1, 2, 3 and so on. You should think about why. What's wrong with <i>n</i>=0?
+Is that a possible value? Can anybody tells me what happens to this function
+if--yes?</p>
+<p><b>Student:</b> It identically
+vanishes</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+If <i>n</i>=0, the function identically vanishes, right? Because sine of 0
+times <i>&Pi;x/L </i>is identical. That's not what you want. You want a
+nontrivial solution. So we drop this guy. But how about <i>n</i>=-1? Why
+don't I keep that? Yes? Oh, I thought I imagined a hand going up. Yes?</p>
+<p><b>Student:</b> It's the same
+thing as -<i>B</i> sine of the positive value.</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+That's correct. If you put <i>n</i>=-1, the function &#968; of -1 is <i>B</i> sin<i>(-&Pi;x/L)</i>,
+but that = -1 times <i>B</i> sin<i>(&Pi;x/L)</i>. This guy is just &#968;<sub>1</sub>.
+So it's just a multiple of the &#968;<sub>1</sub> function, because -1 times the
+state is the same state. You don&#39;t get a new function; you just get a multiple
+of the old function, and in quantum mechanics, they're all the same. But be
+very careful. When I did a particle on a ring, I did <i>e<sup>ipx/&#8463;</sup></i>,
+where I said <i>p</i> = 2&Pi;<i>&#8463;/L</i> times any integer <i>n</i>. There I let n
+= 0, + - 1, + - 2 etc. Why did I allow that? First of all, in that case, e to
+the i times 0 is not 0. It's in fact constant. So for a particle going in a
+ring, the 0 momentum state is actually allowed. And +1 and -1 are not the
+same, because <i>e<sup>ipx</sup></i> and <i>e<sup>-ipx</sup></i>, forget the &#8463;,
+they are not proportional to each other. You understand that? You can never
+write <i>e<sup>ipx</sup></i> as a multiple of <i>e<sup>-ipx</sup></i>. You see
+that? If there were such a multiple, let me call the multiple as <i>N</i>,
+then <i>N</i> is really <i>e<sup>2ipx</sup></i> by bringing it the other side.
+That's certainly not a constant. So <i>e<sup>ipx</sup></i> can never be
+converted to <i>e<sup>-ipx</sup> </i>by multiplying by any number, so it's an
+independent solution. On the other hand, sin<i>x</i> and sin<i>(-x)</i> are
+related to each other by a single factor of -1. </p>
+<p>So that's the reason
+why in that case of a particle going in a ring, the solutions are labeled by
+all integers, positive, negative and 0, but a particle in a box, we label only
+by positive integers. Negative integers give you the same function and 0 kills
+the function, so that's not allowed. Okay, so what about <i>B</i>? What shall
+I do with <i>B</i>? What equation's going to determine <i>B</i>? Yes, any
+idea? Yes?</p>
+<p><b>Student:</b> Normalize right?</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+Right. So first of all, the equation will never tell you what <i>B</i> is.
+That's what I want you to understand. The equation that I've written here for
+the energy functions on the top, if size of <i>B</i> is a solution, you can
+multiply both sides by any number, like 15. Then 15 times &#968; will also be a
+solution. That's a property of a linear equation that the answer is not given
+in overall scale. Give me one answer; I rescale it, it's still an answer. So
+linear equation will never tell me the overall size of the function. That is
+picked by the extra convenient restriction that &#968;<sup>2</sup><i>dx</i> = 1.
+That will determine <i>B</i> and I'm claiming the answer is the &#8730;(2/<i>L</i>)
+is what you want <i>B</i> to be. The answer is again simple. The average
+value of sine squared over 1 half period is 1 half. If you square or integrate
+or whatever, you'll get <i>L</i>/2, so <i>B<sup>2</sup> </i>times <i>L</i>/2
+should be 1, and <i>B</i> should therefore be the &#8730;(2/<i>L</i>). So let me
+write down now the final result of this problem, which I think is very, very
+instructive. If you can follow this much, you've really got 80 percent of the
+quantum mechanics I want to teach you. If you're comfortable with this
+example, because we're trying to find out, in quantum theory, you've got a
+particle in a box, which is like a hole in the floor, which is so deep that
+it's infinitely deep. But even if it's not infinite but very deep, the
+answer's good enough. You want to know what it will do. In classical
+mechanics, what will it do? If you&#39;re a particle in a box, what's your lowest
+energy state? Yes?</p>
+<p><b>Student:</b> Floor of the box.</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+If you're in prison with infinitely tall walls, you just sit on the floor and
+mope, right? That's the lowest energy state. But that's not allowed in
+quantum mechanics, because you have a definite<i> x</i>, which is wherever
+you're sitting, a definite <i>p</i>, you're not moving. Such a state is not
+allowed. So in quantum mechanics, a particle cannot simply sit still.
+Therefore, it will necessarily have an uncertainty in position, and it will try
+to spread itself over the box. And the typical uncertainty is of order. If I
+say, &quot;Where is this particle?&quot; I don't know anything. It's got to be
+somewhere in the box. That's the estimate for <i>&#916;x</i>. So <i>&#916;p</i> has got
+to be bigger than <i>&#8463;/L</i>. Forget all the 2&Pi;'s. So it cannot have 0
+momentum. It's momentum has to be fluctuating with that range. And the
+kinetic energy, which is in fact the total energy inside the box, which is <i>p<sup>2</sup>/2m</i>,
+the size of that is <i>&#8463;<sup>2</sup>/2m L<sup>2</sup></i>. So that is your
+estimate for what should be the energy of a particle in a box of size <i>L.</i>
+So what happens is, the box of size <i>L</i> forces it to have a spread in
+momentum, because you've squeezed it to a position known to within <i>L</i>.
+The spread in momentum translates into spread in kinetic energy, and if I take
+the spread in kinetic energy to be a rough estimate of the lowest kinetic
+energy I could have, you get a number which except for factors of &Pi; is in fact
+the right answer. </p>
+<p>So people always
+estimate energies of particles by doing this calculation. For example, take a
+nucleus, which is 10<sup>-13</sup> centimeters across. I put a proton there.
+What's the minimum kinetic energy of that proton? You find by the following
+method: <i>&#916;x </i>is 10<sup>-13</sup>, because it's somewhere in the nucleus. <i>&#916;p
+</i>is that, and you do that, you will get some energy. That will be the
+typical energy of a particle inside the nucleus. So particles inside the
+nucleus cannot sit still. More you cram them, it's like children. You put them
+in a tighter room, they're jiggling more and more. That's called zero point
+motion. You cannot just nail them in <i>x</i> without letting them spread in <i>p</i>.
+That means you cannot get the lowest energy So lowest energy is some
+number you can estimate by the uncertainty principle. </p>
+<p>So the next question
+was, let's take one of these functions, say &#968;'s of 3, the square root of (2/<i>L</i>)sin(3&Pi;<i>x/L</i>).
+If you plot that guy, that function will look like this. Now what was your
+question? If I measure a particle's position, what's the probability? You've
+just got to square this function. It will look like this. That's the
+probability. If you measure the energy, what will you get? You will get
+exactly one energy corresponding to <i>n</i>=3. It's in a state of definite
+energy, but not definite position. Position has got some ups and downs. The
+probability for x looks like that. So everyone with me? This is like knowing
+the spectrum of this artificial atom. In a real atom, the electron is forced
+to stay near the nucleus, because the 1 over <i>r</i> potential, if you plot it
+as a function of <i>r</i>, looks like a well. And the particle is somewhere
+here. In this problem, the particle is confined by the box. Whenever you have
+a confining thing that keeps the particle in a certain region, the energy gets
+quantized. And we found out in our first example the quantized energy levels
+of a particle in a box. And you can probe the particle by shining light and
+the energy levels are plotted like this. This is <i>n</i>=1, this is <i>n</i>=2,
+which is <i>n</i>=3. Zero is here. The zero state is not allowed. You've got
+to have <i>n</i>=1 and 4 times that will be <i>n</i>=2, and 9 times that will
+be <i>n</i>=3. Energy grows like <i>n<sup>2</sup></i>. And then you can come
+from there to there emitting a photon, or you can go from there to there
+emitting a photon, or you can go from here to here absorbing a photon. You can
+do all kinds of things. That's how if you want you can test quantum
+mechanics. Put a known particle inside the well and shine light and see what
+light it absorbs. Yes.</p>
+<p><b>Student:</b> So the &#968; of 3, is
+that the &#968; of the energy function _________?</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+Yes. Exactly right. So what I should really write, he's absolutely right, I
+should write <i>E</i> = <i>&#8463;<sup>2</sup>&Pi;<sup>2</sup>/2m L </i>squared 3
+squared, right? The third energy level. So I'm short circuiting all of that
+and just calling it &#968;<sub>3</sub>. Normally, if you put a label 3, it's not
+clear what we're talking about. Maybe it's the position <i>x</i>=3. Maybe it's
+the momentum <i>p</i>=3. But in this lecture, since we're talking only about
+energy, I thought I will just call it &#968;<sub>3</sub>, but at least I should call
+it &#968;<sub>E3</sub>.</p>
+<p><b>Student:</b>
+[inaudible]</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+Yeah, I just did that.</p>
+<p><b>Student:</b>
+[inaudible]</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+You can take the complex conjugate, but for a real function, you can just
+square it, right? You understand? If &#968; is real, &#968;&#42;is the same as &#968;. So &#968;&#42;is
+also (2/<i>L</i>)sin(3<i>&Pi;x/L</i>). So &#968;&#42;&#968; is just a square.</p>
+<p><b>Student:</b> On the first
+board, you have <i>A<sub>E</sub></i> = _________ &#968;&#42;<i>E</i> &#968; _______. I'm
+wondering why there's no _______________.</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+No. I think I know what the problem is you're having now. That formula is not
+relevant now. I'll tell you when that formula will come into play. It will
+come into play in the following situation. I have a particle in a box whose
+wave function looks like this. Somebody put it in that state, okay? It's an
+allowed wave function because it vanishes at the ends like it should. Beyond
+that, it does anything it wants. That is my <i>&#968;(x)</i>, okay? If I measure
+the energy of that guy, now you tell me, if I measure the energy in that state,
+what answer will I get?</p>
+<p><b>Student:</b>
+[inaudible]</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+Pardon me? Yes. I'll get one of those quantized values, do you understand? A
+particle in a box under energy measurement can give only one of those numbers.
+Now this guy is not one of those functions, you understand. This is a randomly
+chosen function. But when I measure energy, so what will I do? Maybe you can
+guess now.</p>
+<p><b>Student:</b> Write it as a sum
+of energy functions</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+That's correct. You will have to write this guy as a sum of A--let me call it n
+for energy now. A &#8730;(2/<i>L</i>) sin<i>(n&Pi;x/L)</i>. I mean, this is just <i>A<sub>E</sub></i>
+&#968;'s of <i>E</i> of <i>x</i>. Except E is labeled by an integer, so I'm
+writing it this way. Then I have to find A<sub>n</sub>. And if I want to find
+<i>A<sub>n</sub></i>, that = integral of (2/<i>L</i>)sin<i>(n&Pi;x/L)</i>. If
+you want, you can put a conjugate, but it doesn't matter, because sine is
+real. Multiply it by Mr. Crazy here, whatever it is, and do their integral.
+It will give you some number for every<i> n</i>. <i>A<sub>1</sub>, A<sub>2</sub>,
+A<sub>3</sub>, A<sub>4</sub></i>, and the square of every one of them will give
+you the odds that you will find this energy or that energy or some other
+energy. So what quantum mechanics tells you is, an energy measurement of a
+particle in a box cannot give a random answer. It can only give one of these
+answers. That's the quantization of energy. It does not mean every particle
+in a box is in a state of definite energy. A particle in a box can be any wave
+function, provided it vanishes at the ends and doesn't spill out of the
+infinitely tall wall. </p>
+<p>So for every one of
+them, you can ask the usual questions: what happens when I measure position?
+Square the function. What happens when I measure momentum? Write it in terms
+of <i>e</i> to the <i>ipx</i> functions. What happens when I measure energy?
+Write it in terms of these functions. </p>
+<p>Okay? All right, so
+I want to do one last topic here, which is called scattering, but I don't want
+to proceed till you guys have understood this part. This is covered in all the
+books and maybe you can read the books or you can read my notes. You can talk
+to everybody. But we have solved--from this, all quantum problems that we all
+do are exactly isomorphic to this problem. It's the same thing we do over and
+over again, except the equations you solve are more difficult. They can be in
+higher dimensions. They can involve more than one particle. The potential
+could be complicated, but the philosophy is always the same. There'll be some
+Schr&#246;dinger equation, and you want to find all the functions that satisfy it,
+find the allowed energies and the allowed functions. We will see that states
+of definite energy have a very privileged role in quantum mechanics. That will
+be clear in the next two lectures. </p>
+<p>But right now, here's
+what I want to do. This is a very small variation of what we have done, so
+most of the hard work has been done. I'm just going to cash in on that. Take
+the following problem in classical mechanics: here is the level ground. Then I
+make a little change in the landscape so that this has got certain height and
+therefore certain potential, <i>V<sub>0</sub>.</i> And from this end, I roll a
+marble and see what happens. The marble is given some energy <i>E</i>, which
+because there is no potential here, it's just <i>p<sup>2</sup>/2m</i>.
+Question is, what will happen? Can you tell me what will happen in this
+problem, to this marble?</p>
+<p><b>Student:</b> Don't we have to
+use the Schr&#246;dinger equations?</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+No. Classical mechanics.</p>
+<p><b>Student:</b> Oh, the marble
+will only go up as far as it has the amount of energy that that would equal the
+potential energy at that point.</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+That's correct. So he said it will go as far as energy equals potential, so
+let <i>p<sup>2</sup>/2m </i>have this value. That's my energy. And it does
+not change. That's the law of conservation of energy. So here, since energy
+is kinetic + potential, it's all kinetic. Somewhere here, that part of it is
+potential; the rest of it is kinetic. Here kinetic vanishes. Here you're not
+allowed. So you will go, you will climb that far and you'll come back. But if
+your initial energy was that, then you will come here, going very fast. You
+will slow down, but you still make it on the other side, but with lower
+velocity. That's very simple. There's only one answer you can get. You throw
+something. If it comes back, it means the barrier is taller than what you
+have. Suppose you cannot see this barrier. All you have is a marble, and you
+want to know how tall the barrier is. Very easy. Throw the marble at a known
+speed. If it comes back, then you haven't reached the top of the barrier.
+Keep on increasing the kinetic energy till one day it doesn't come back.
+That's when you're sitting right here. That's one way to tell how tall this
+hill is without actually going there. But now what I want to do is do a
+quantum mechanical experiment in exactly the same situation. </p>
+<p>I want to send a particle
+from the left and I want to see what happens. So now, to simplify the problem,
+I'm going to take the potential to again have only 2 values. At <i>x</i> = 0,
+it jumps to a value <i>V<sub>0</sub></i>. So this problem is just the
+Schr&#246;dinger equation in the left region, Schr&#246;dinger equation in the right
+region. So I'm going to spare you some of the calculations, because it's so
+familiar. One will look like <i>Ae<sup>ikx</sup> + Be<sup>-ikx</sup></i>,
+where <i>k<sup>2</sup> </i>is just 2<i>mE/&#8463;<sup>2</sup></i>, here. First,
+let's take a case where <i>E</i> is bigger than <i>V<sub>0</sub></i>, okay?
+Then I go to region II. Region II I've got to solve the Schr&#246;dinger equation
+with a <i>V<sub>0</sub></i> in it. Then you will find in region II, &#968; II looks
+like <i>Ce<sup>ik&#39;x</sup></i> + <i>De<sup>&#8722;ik&#39;x</sup></i>, where <i>k&#39;<sup>2</sup></i>
+will be <i>2m</i> times <i>E - V<sub>0</sub> </i>over <i>&#8463;<sup>2</sup></i>.
+Because when you have a potential, you must always have--look at the
+Schr&#246;dinger equation here--<i>2m/&#8463;<sup>2</sup> </i>at <i>E - V</i>. So <i>E</i>
+is not 0. The <i>k&#39;</i> now, so what does this mean? You can see very simply,
+it's got some momentum here. It's got a smaller momentum here, because <i>k&#39;<sup>2</sup></i>
+is going to be smaller than <i>k<sup>2</sup>,</i> because <i>V<sub>0</sub></i>
+is non-zero here. That is just the statement that when the particle's moving
+here, it's slower than when it's here, because it has to climb up the hill. </p>
+<p>So the wave functions
+in this region has got an incoming, right moving wave of momentum, <i>&#8463;k</i>.
+It's got to reflect that wave of momentum -<i>&#8463;k</i>. And in this region
+again, it's got a right moving and a left moving, because this <i>k</i> can be
+of either sign. So you can pick the coefficients, <i>A, B, C, D </i>arbitrarily,
+but I'm going to choose <i>D</i> = 0, because what I have in mind is a problem
+where the particle actually came in from the left. If it came in from the
+left, I'm prepared for some of it coming back reflected, and some of it getting
+transmitted. There's nobody coming in from the right at + infinity, because
+I'm not sending anything from there. I'm sending my particle from the left.
+So I pick a solution in which <i>D</i>, which is anything, I pick that to be
+0. So here are my two solutions. I hope you understand that <i>k</i> and <i>k&#39;</i>
+are not the same number. <i>k'</i> is smaller because the momentum on the
+right hand side is going to be less, because some of it's eaten up by potential
+energy. So what people do is they draw a picture like this. They draw a wave
+that's going at some speed, and it comes in this region and it slows down.
+That's what the function will look like. </p>
+<p>The real function's
+made of exponentials, but the real and imaginary parts will have rapid
+oscillations on the left and slow oscillations on the right, because <i>k</i>
+is bigger than <i>k&#39;</i>. Very good. So now I have the following condition:
+at the interface where the two regions meet, the &#968; must match from the left and
+from the right. So <i>x</i> = 0, coming from the left, I want &#968;<sub>1</sub> at
+0 should be the same at &#968;<sub>2</sub> at 0. That will tell me that <i>A + B = C</i>.
+Because if you put <i>x</i> = 0, all the exponentials become one, and <i>A + B </i>must
+= <i>C</i>. There's the condition that if you come from the two sides, the
+wave function has to match. But in the Schr&#246;dinger theory, you make a second
+requirement that the derivatives also match. The two functions coming from the
+left and right cannot join like this. They must join with the same slope. The
+reason the slope must be the same is that if the slope changed abruptly at one
+point, the rate of change of slope will be infinite there, because <i>d<sup>2</sup>&#968;/dx<sup>2</sup>
+</i>is the rate of change of the slope. </p>
+<p>But in the
+Schr&#246;dinger equation, the second derivative &#968;, if it's infinite, there is no
+compensating terms in the equation, because <i>E</i> and <i>V</i> are all
+finite. So that infinity will not be balanced, so you can never have that. So
+second derivative must be finite; first derivative must be continuous. So I
+make the requirement that <i>d&#968;/dx</i> in region I at <i>x </i>= 0 must match <i>d&#968;</i>
+II <i>dx</i> at <i>x</i> = 0. What does that give me? Well, take the
+derivative and equate them at <i>x</i> = 0, you'll find ik times <i>A - B </i>=
+<i>ik&#39;</i> times <i>C</i>. Take the derivative and then equate the derivatives
+at <i>x</i> = 0. Derivatives brings down <i>ik</i> for this, -<i>ik </i>for
+that. Blah, blah, you put them together. </p>
+<p>So these are the two
+conditions. Now what causes mild panic is that I have three unknowns and two
+equations. I've got <i>A, B </i>and <i>C</i>, and I've got only two
+equations. So what do you think is going on? Anybody have an idea? It's that
+even in the particle in a box, you'll remember the overall height of the wave
+function is never determined by the Schr&#246;dinger equation. It's whatever you
+like. So what people do is they say, &quot;Let's pick <i>A</i> = 1.&quot; </p>
+<p>That sets the overall
+height arbitrarily. Then I get 1 + <i>B = C </i>and <i>ik</i> times 1 - <i>B</i>
+= <i>ik&#39; [C}. </i>Now of course you can solve for <i>B</i> and you can solve
+for <i>C</i>. I'm not going to do that here; it's very easy. You're going to
+find <i>B = k &#8722; k&#39; </i>over <i>k + k&#39;</i>. You're going to find <i>C</i> = 2<i>k</i>
+over <i>k + k</i>&#39;. That's simple algebra of simultaneous equations. I want
+you to look at the answer. You remember now what <i>A, B</i> and <i>C</i>
+are. <i>A</i> comes in, <i>B</i> goes back and <i>C</i> goes to the right.
+What do you find strange about the answer? It's that if you came in from the
+left with an energy bigger than the barrier, there's a certain probability that
+you will go backwards. In classical mechanics, if your energy is more than the
+barrier, you will never come back. The probability is 0. In quantum theory,
+even though your energy is more than the barrier, there's a certain probability
+you'll get reflected and certain probability to get transmitted. The square of
+this is like the odds of going to the right. The square of this is like the
+odds of getting reflected. </p>
+<p>The point is the
+reflection probability does not vanish even if the energy is bigger than the
+barrier height. That's because this is quantum mechanics and you're really
+dealing with waves and not particles. And waves have the property that when
+the medium changes, there is some reflection. And to the quantum mechanical
+wave &#968;, a barrier looks like a change in refractive index, so it will get
+reflected and some will get transmitted. But the interesting thing is, in the
+quantum problem, you can send your billiard ball to find how tall the mountain
+is. And even if the energy was more than the mountain, sometimes it'll come
+back. So that's not a reliable way to measure that. </p>
+<p>The last example is,
+what if your energy is less than this? What if your energy is like here, lower
+than the barrier? If you're lower than the barrier, you will find that <i>k&#39;</i>
+will equal <i>i </i>times some &#954;, because it will become imaginary, and you
+will have then a function that looks like this. The function will oscillate,
+then it will die exponentially in this region. It's exactly what I did
+earlier, like particle in a box. </p>
+<p>In the classically
+forbidden region, it goes a little distance but not very far. So it does get
+reflected if the energy is less, but you can actually find it in a region where
+it's not supposed to be. And you can say that's going to be very embarrassing
+for the particle to be found here, because its kinetic energy should be
+negative here. So what's the particle say to you when you catch it there? It
+will say, &quot;In order to locate me here, you shine some light on me, and the
+energy I got from the photon made me legitimate in that region.&quot; It will
+come back to positive energy. So the act of measurement will prevent it from
+ever being caught in that region, but it's got an amplitude, a probability to
+be caught there. </p>
+<p>Final thing I want
+to mention is, if this barrier, instead of going on forever, terminated there
+and became 0 again, this will leak out here and start going out with the same
+wavelength as that one. That's called barrier penetration. That means if you
+send a particle here with an energy not enough to overcome the barrier in
+classical mechanics, in quantum mechanics, it's got a small chance of being
+found on the other side. On the other side, it can go scot free. It's not
+allowed in this region, because there the kinetic energy is negative. Here
+kinetic energy is the same as before, except the height may be very small. So
+this means no barrier is completely safe in quantum theory. </p>
+<p>So I'm going to give
+you my final survival tip. I've told you so many situations you can be in
+where this course will help you. So here's another one. You are in a prison
+and it doesn&#39;t have infinite walls, but it's got some walls. What's your
+strategy? I say go ram yourself into that wall as often as you can, because
+there's a small probability that you can suddenly find yourself on the other
+side. This is what happens in alpha decay. In alpha decay, there's helium
+nuclei sitting inside a nucleus. There's a barrier that keeps it from coming
+out of the nucleus, but the barrier goes up and comes down. So if you go a
+certain distance from the nucleus, you're again free. So the alpha particle
+does exactly what I told you. It goes rattling back and forth inside the
+nucleus and once in a while, it penetrates and comes to the other side, and
+that's the alpha decay of the nucleus. So this really happens. It may not
+happen to you in the situation I described, but the probability is not zero.</p>
+<p>[end of transcript]</p>
+
+</div>

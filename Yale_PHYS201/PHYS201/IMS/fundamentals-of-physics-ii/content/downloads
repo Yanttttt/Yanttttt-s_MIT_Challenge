@@ -1,0 +1,585 @@
+
+
+
+
+
+<div id="fileContents">
+<h2>PHYS 201: <strong>Fundamentals of Physics,  II</strong> (Spring, 2010)</h2>
+
+<h3>Downloads</h3>
+
+<h4 class="subHeader">Course Pages:</h4>
+
+<p>The file below contains all of the course pages from this course and
+may be downloaded for offline use. The file is offered in .zip format;
+you must have access to a suitable decompression application to unzip
+the contents before use. After decompressing the file, please click
+"start.html" to launch.</p>
+
+<p><a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/download/phys201.zip" onclick="trackIt('/downloads/courses/spring10/phys201/download/phys201.zip');">
+<strong>[ download all course pages ]</strong> - size XX MB - file
+type application/zip</a></p>
+
+<h4 class="subSubHeader">Course Media:</h4>
+
+<p>Audio and video files for this course may be downloaded in two ways: iTunes U or the links below for individual files. <br /><br />
+ 
+To download all tracks from iTunes U, click the "Get Tracks" button on any course page in the iTunes U interface. If the download is interrupted, click "Resume" to continue the download process. You must have Apple's iTunes software installed on your computer to download from iTunes U. </p>
+
+<table id="rssTable" cellpadding="0" cellspacing="0" border="0" summary="rss table">
+<tbody>
+<tr>
+<th style="padding: 0px 0px 0px 0px; background-color: #d4e7f7; text-align: 
+left;" width="33">&nbsp;</th>
+<th style="padding: 0px 0px 0px 0px; background-color: #d4e7f7; text-align: 
+left;" width="142"><a href="http://itunes.apple.com/WebObjects/DZR.woa/wa/viewSeeAll?frId=12803299710348&id=341649956&id=341649956" target="_blank"><img src="/yale/portal_skins/custom/images/download_itunesu.jpg" border="0" /></a></th>
+
+</tr>
+</tbody></table>
+
+<p>To download individual media files from the course, please click the links in the Class Sessions section below. Apple QuickTime 7.2 or higher is required to view the videos, while the mp3 files will play in any mp3-compatible device/player.</p>
+
+<table id="downloadsTable" cellpadding="0" cellspacing="0" border="0" summary="class sessions table">
+<tbody>
+<tr>
+<th style="padding: 0px 0px 0px 0px; background-color: #d4e7f7; text-align: 
+left;" width="33">&nbsp;</th>
+<th style="padding: 0px 0px 0px 0px; background-color: #d4e7f7; text-align: 
+left;" width="297"><img src="/yale/portal_skins/custom/images/downloads_class_session_title.gif" /></th>
+<th style="padding: 0px 0px 0px 0px; background-color: #d4e7f7; text-align: 
+left;" width="288"><img src="/yale/portal_skins/custom/images/downloads_video_title.gif" /></th>
+<th style="padding: 0px 0px 0px 0px; background-color: #d4e7f7; text-align: 
+left;" width="138"><img src="/yale/portal_skins/custom/images/downloads_audio_title.gif" /></th>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+1. Electrostatics</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_01_011110.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_01_011110.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_01_011110.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_01_011110.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_01_011110.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_01_011110.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+2. Electric Fields</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_02_011310.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_02_011310.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_02_011310.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_02_011310.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_02_011310.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_02_011310.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+3. Gauss's Law I</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_03_011510.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_03_011510.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_03_011510.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_03_011510.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_03_011510.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_03_011510.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+4. Gauss's Law and Application to Conductors...</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_04_012010.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_04_012010.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_04_012010.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_04_012010.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_04_012010.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_04_012010.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+5. The Electric Potential and Conservation...</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_05_012510.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_05_012510.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_05_012510.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_05_012510.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_05_012510.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_05_012510.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+6. Capacitors</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_06_012710.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_06_012710.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_06_012710.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_06_012710.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_06_012710.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_06_012710.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+7. Resistance</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_07_020110.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_07_020110.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_07_020110.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_07_020110.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_07_020110.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_07_020110.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+8. Circuits and Magnetism I </td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_08_020310.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_08_020310.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_08_020310.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_08_020310.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_08_020310.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_08_020310.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+9. Magnetism II</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_09_020810.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_09_020810.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_09_020810.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_09_020810.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_09_020810.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_09_020810.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+10. Ampere's Law</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_10_021010.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_10_021010.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_10_021010.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_10_021010.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_10_021010.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_10_021010.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+11. Lenz's and Faraday's Laws</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_11_021510.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_11_021510.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_11_021510.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_11_021510.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_11_021510.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_11_021510.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+12. LCR Circuits - DC Voltage</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_12_021710.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_12_021710.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_12_021710.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_12_021710.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_12_021710.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_12_021710.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+13. LCR Circuits - AC Voltage</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_13_022210.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_13_022210.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_13_022210.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_13_022210.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_13_022210.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_13_022210.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+14. Maxwell's Equations and Electromagnetic... I </td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_14_022410.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_14_022410.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_14_022410.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_14_022410.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_14_022410.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_14_022410.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+15. Maxwell's Equations and Electromagnetic... II</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_15_030310.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_15_030310.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_15_030310.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_15_030310.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_15_030310.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_15_030310.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+16. Ray or geometrical optics I</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_16_032210.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_16_032210.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_16_032210.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_16_032210.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_16_032210.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_16_032210.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+17. Ray or geometrical optics II </td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_17_032410.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_17_032410.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_17_032410.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_17_032410.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_17_032410.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_17_032410.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+18. Wave Theory of Light</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_18_032910.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_18_032910.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_18_032910.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_18_032910.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_18_032910.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_18_032910.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+19. Quantum Mechanics I: Key Experiments...</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_19_033110.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_19_033110.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_19_033110.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_19_033110.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_19_033110.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_19_033110.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+20. Quantum Mechanics II</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_20_040510.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_20_040510.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_20_040510.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_20_040510.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_20_040510.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_20_040510.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+21. Quantum Mechanics III</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_21_040710.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_21_040710.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_21_040710.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_21_040710.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_21_040710.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_21_040710.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+22. Quantum Mechanics IV: Measurement...</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_22_041210.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_22_041210.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_22_041210.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_22_041210.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_22_041210.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_22_041210.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+23. Quantum Mechanics V: Particle in a Box</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_23_041410.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_23_041410.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_23_041410.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_23_041410.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_23_041410.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_23_041410.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+24. Quantum Mechanics VI: Time-dependent...</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_24_041910.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_24_041910.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_24_041910.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_24_041910.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+background-color: #d4e7f7; text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_24_041910.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_24_041910.mp3');">
+[ mp3 ]</a></td>
+</tr>
+
+<tr>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">&nbsp;</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+25. Quantum Mechanics VII: Summary of...</td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mov/phys201_25_042110.mov" onclick="trackIt('/downloads/courses/spring10/phys201/mov/phys201_25_042110.mov');">
+[ high bandwidth ]</a>&nbsp;&nbsp;&nbsp;<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/m4v/phys201_25_042110.m4v" onclick="trackIt('/downloads/courses/spring10/phys201/m4v/phys201_25_042110.m4v');">
+[ medium bandwidth ]</a></td>
+<td style="margin: 0px 0px 0px 0px; padding: 6px 0px 6px 0px; font-family: 
+Helvetica; font-size: 13px; color: #262b31; line-height: 13px; 
+text-align: left;">
+<a href="http://openmedia.yale.edu/cgi-bin/open_yale/media_downloader.cgi?file=/courses/spring10/phys201/mp3/phys201_25_042110.mp3" onclick="trackIt('/downloads/courses/spring10/phys201/mp3/phys201_25_042110.mp3');">
+[ mp3 ]</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+

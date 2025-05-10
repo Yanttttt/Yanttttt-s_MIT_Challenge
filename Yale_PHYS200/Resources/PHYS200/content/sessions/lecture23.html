@@ -1,0 +1,98 @@
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    
+    <script type="text/javascript">
+		function makeItSafe(path){var safePath=escape(path);safePath=safePath.replace(/\+/g,"%2B");safePath=safePath.replace(/\//g,"%2F");return safePath}
+		function openVideoWindowLARGE(path){var winTitle=document.video_info.title.value;var url='http://openmedia.yale.edu/projects/media_viewer/video_viewer2.php?window_size=large&type=mov&title='+makeItSafe(winTitle)+'&path='+makeItSafe(path);window.open(url,'large','HEIGHT=425,WIDTH=700,toolbar=no,location=no,directories=no,status=no,menubar=no,resizable=no,copyhistory=no,scrollbars=no')}
+		function openVideoWindowMEDIUM(path){var winTitle=document.video_info.title.value;path=path.replace(".flv","");var url='http://openmedia.yale.edu/projects/media_viewer/video_viewer2.php?window_size=medium&type=flv&title='+makeItSafe(winTitle)+'&path='+makeItSafe(path);window.open(url,'medium','HEIGHT=350,WIDTH=570,toolbar=no,location=no,directories=no,status=no,menubar=no,resizable=no,copyhistory=no,scrollbars=no')}
+		function openVideoWindowSMALL(path){var winTitle=document.video_info.title.value;var url='http://openmedia.yale.edu/projects/media_viewer/video_viewer2.php?window_size=small&type=mov&title='+makeItSafe(winTitle)+'&path='+makeItSafe(path);window.open(url,'small','HEIGHT=240,WIDTH=400,toolbar=no,location=no,directories=no,status=no,menubar=no,resizable=no,copyhistory=no,scrollbars=no')}
+		function openAudioWindow(path){var winTitle=document.video_info.title.value;var url='http://openmedia.yale.edu/projects/media_viewer/video_viewer2.php?window_size=audio&type=mp3&title='+makeItSafe(winTitle)+'&path='+makeItSafe(path);window.open(url,'audio','HEIGHT=200,WIDTH=550,toolbar=no,location=no,directories=no,status=no,menubar=no,resizable=no,copyhistory=no,scrollbars=no')}
+		function changeImage(theImage,changeTo){theImage.src=changeTo}
+    </script>
+
+	<style>
+		img {
+			border: none;
+		}
+		td {
+			vertical-align: top;
+		}
+	</style>
+  </head>
+<body>
+<h1>Open Yale Courses</h1>
+<h2>PHYS 200: <strong>Fundamentals of Physics </strong> </h2>
+<table id="lectureHeader" summary="lecture header" cellpadding="0" cellspacing="0">
+	<tr>
+		<td nowrap="nowrap">
+			<span id="lectureNum">Lecture 23 - </span>
+			<span id="lectureName">The Second Law of Thermodynamics and Carnot's Engine</span></td>
+		<td width="248" id="lectureNav" nowrap="nowrap">
+			<span id="backNav"><a href="lecture22.html">&lt;&lt; previous session</a></span>
+			<span id="navPipe">|</span>
+			<span id="forwardNav"><a href="lecture24.html">next session &gt;&gt;</a></span>		</td>
+	</tr>
+</table>
+<div id="overviewBlock">
+	<h3>Overview:</h3>
+	<p>Why does a dropped egg that spatters on the floor not rise back to your hands even though no laws prohibit it? The answer to such irreversibility resides the Second Law of Thermodynamics which explained in this and the next lecture. The Carnot heat engine is discussed in detail to show how there is an upper limit to the efficiency of heat engines and how the concept of entropy arises from macroscopic considerations.</p>
+</div>
+<div id="readingBlock">
+	<h3>Reading assignment:</h3>
+	<p><a href="../resources/relativity_notes_2006.pdf" target="_blank"></a>Wolfson and Pasachoff, <em>Physics with Modern Physics</em>, chapters 19-22. </p>
+</div>
+<div id="lectureBlock">
+	<h3>Class lecture:</h3>
+	<table id="lectureTable2" summary="media elements" border="0" cellpadding="0" cellspacing="0">
+    	<tbody>
+        	<tr>
+				<td class="left">
+					<img class="lectureTableImage" alt="Transcript" src="images/transcript.gif" />
+					<div class="lectureTableContents"><a href="../transcripts/transcript23.html"><img class="lectureTableContentImage" align="middle" alt="html" src="images/html_off.gif" onmouseover="changeImage(this, 'images/html_over.gif');" onmouseout="changeImage(this, 'images/html_off.gif');" /></a></div>
+				</td>
+				<td class="middle">
+					<img class="lectureTableImage" alt="Audio" src="images/audio.gif" />
+					<div class="lectureTableContents"><a href="javascript:openAudioWindow('/courses/fall06/phys200/mp3/phys200_23_120406.mp3');"><img class="lectureTableContentImage" align="middle" alt="mp3" src="images/mp3_off.gif" onmouseover="changeImage(this, 'images/mp3_over.gif');" onmouseout="changeImage(this, 'images/mp3_off.gif');" /></a></div>
+				</td>
+				<td class="right">
+					<img class="lectureTableImage" alt="Video" src="images/video.gif" />
+					
+					<div class="lectureTableContents">
+					   <a href="javascript:openVideoWindowMEDIUM('/courses/fall06/phys200/flash/phys200_23_120406.flv');"><img class="lectureTableContentImage" align="middle" alt="medium bandwidth" src="images/vid_med_off.gif" onmouseover="changeImage(this, 'images/vid_med_over.gif');" onmouseout="changeImage(this, 'images/vid_med_off.gif');" /></a>
+					</div>
+					<img id="quicktimeVideoHeader" src="images/quicktime_options_header.gif" />
+					<div class="lectureTableContents">
+					   <a href="javascript:openVideoWindowSMALL('/courses/fall06/phys200/du/phys200_23_120406.mov');"><img class="lectureTableContentImage" align="middle" alt="low bandwidth" src="images/vid_low_off.gif" onmouseover="changeImage(this, 'images/vid_low_over.gif');" onmouseout="changeImage(this, 'images/vid_low_off.gif');" /></a>
+					</div>
+					<div class="lectureTableContents">
+					    <a href="javascript:openVideoWindowLARGE('/courses/fall06/phys200/mov/phys200_23_120406.mov');"><img class="lectureTableContentImage" align="middle" alt="high bandwidth" src="images/vid_high_off.gif" onmouseover="changeImage(this, 'images/vid_high_over.gif');" onmouseout="changeImage(this, 'images/vid_high_off.gif');" /></a>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div id="resourcesBlock">
+	<h3>Resources:</h3>
+	<p><a href="../resources/problem_set_12.pdf" target="_blank">Problem Set 12 [PDF]</a><br />
+	<a href="../resources/problem_set_12_solutions.pdf" target="_blank">Problem Set 12 Solutions [PDF]</a></p>
+</div>
+
+
+</div>
+
+
+<form name="video_info"><input type="hidden" name="title" value="PHYS 200 - Lecture 23 - Prof. R. Shankar"></form>
+<p>Yale University 2008.  Some rights reserved. Unless otherwise indicated on this page or on the Open Yale Courses website, all content on this page is licensed under a Creative Commons License (Attribution-NonCommercial-ShareAlike 3.0)</p>
+</body>
+</html>
+

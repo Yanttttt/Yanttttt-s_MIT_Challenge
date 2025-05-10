@@ -1,0 +1,1086 @@
+
+<div id="fileContents">
+<h2><strong>Fundamentals of Physics:</strong> Lecture 6 Transcript</h2>
+
+<table cellspacing="0" cellpadding="0" id="transcriptHeader" summary="transcript header">
+<tbody>
+<tr>
+<td id="transcriptDate">September 25, 2006</td>
+<td id="transcriptNav"><span id="forwardNav"><a href="javascript:history.go(-1);">&lt;&lt; back</a></span></td>
+</tr>
+</tbody>
+</table>
+
+<p><b>Professor Ramamurti Shankar:</b> Let me remind you what I said
+last time in terms of mathematical preparation -- very simple -- I will
+repeat it one time. If you've got a function <i>f(x)</i>, you know the
+value at some point, and you want to go to a neighboring point, a
+distance <i>Δx</i> away. You ask, "How much does the function change?"
+And the answer is, the change in the function <i>Δf</i> is the
+derivative of the function at the starting point times the distance you
+move. This is not an equality, unless <i>f</i> happens to be a straight
+line; it's an approximation and there are corrections to this. That's
+what all the dots mean; corrections are proportional to
+<i>Δx<sup>2</sup></i> and <i>Δx<sup>3</sup></i> and so on. But if
+<i>Δx</i> is tiny this will do; that's it.</p>
+
+<p>But today, we are going to move the whole Work Energy Theorem and
+the Law of Conservation of Energy to two dimensions. So, when you go to
+two dimensions, you've got to ask yourself, "What am I looking for?"
+Well, in the end, I'm hoping I will get some relation like
+<i>K<sub>1</sub> + U<sub>1</sub> = K<sub>2</sub> + U<sub>2</sub></i>,
+assuming there is no friction. <i>U<sub>2</sub></i> is going to be my
+new potential energy. Then, if it's the potential energy and the
+particle is moving in two dimensions, it's got to be a function of two
+variables, <i>x</i> and <i>y</i>. So, I have to make sure that you guys
+know enough about functions of more than one variable. So, this is,
+again, a crash course on reminding you of the main points. There are
+not that many. By the time I get here I'll be done.</p>
+
+<p>So, how do you visualize the function of two variables? The function
+of one variable, you know, you plot <i>x</i> this way and the function
+along <i>y</i>. If it's two variables, you plot <i>x</i> here and
+<i>y</i> here and the function itself is shown by drawing some surface
+on top of the <i>xy</i> plane, so that if you take a point and you go
+right up till you hit the surface, that's the value of the function, at
+that point <i>xy</i>. It's like a canopy on top of the <i>xy</i> plane
+and how high you've got to go is the function. For example, starting
+with the floor, I can ask how high you have to go till I hit the
+ceiling. That function varies; there are dents and dimples and so on,
+so the function varies with <i>xy</i>. Another example of a function of
+<i>x</i> and <i>y</i>--<i>x</i> and <i>y</i> could be coordinates in
+the United States and the function could be the temperature at that
+point. So, you plot it on top of that, each point you plot the
+temperature at that point.</p>
+
+<p>So, once you've got the notion of a function of two variables, if
+you're going to do calculus the next thing is what about the
+derivatives of the function. How does it change? Well, in the old days,
+it was dependent on <i>x</i> and I changed the <i>x</i> and I found the
+change in the function divided by the change in <i>x</i> and took the
+limit and that became my derivative. And now, I'm sitting in the
+<i>xy</i> plane, so here is <i>x</i> and here is <i>y</i>; I'm here,
+the function is coming out of the blackboard. So, imagine something
+measured out but I'm sitting here. Now, I want to move and ask how the
+function changes. But now I have a lot of options; in fact, an infinite
+number of options. I can move along <i>x</i>, I can move along
+<i>y</i>, I can move at some intermediate angle, we have to ask what do
+you want me to do when it comes time to take derivatives. So, it turns
+out, and you will see it proven amply as we go along, that you just
+have to think about derivatives on two principle directions which I
+will choose to be <i>x</i> and <i>y</i>.</p>
+
+<p>So, we're going to define one derivative, which is defined as
+follows. You start at the point <i>xy</i>, you go to the point <i>x</i>
++ <i>Δx</i>, the same <i>y</i> and subtract the function at the
+starting point, divide by <i>Δx</i> and take all the limits, <i>Δx</i>
+goes to 0. That means you go from here to here, you move a distance
+<i>Δx</i>, you'd find the change in the function, you take the
+derivative. As you move horizontally, you notice you don't do anything
+to <i>y</i>; <i>y</i> will be left fixed at whatever <i>y</i> you had;
+<i>x</i> will be changed by <i>Δx</i>; you find the change; you take
+the derivative and take the limit that is denoted by the symbol
+<i>df/dx.</i></p>
+
+<p>[Reader note: Partial derivatives will be written as ordinary
+derivatives to avoid using fonts that may not be universally available.
+It should be clear from the context that a partial derivative is
+intended here, since <i>f</i> depends on <i>x</i> and <i>y</i>.]</p>
+
+<p>So, this curly <i>d</i> instead of the straight <i>d</i> tells you
+it's called a "partial derivative." Some people may want to make it
+very explicit by saying this is the derivative with subscript <i>y</i>.
+That means <i>y</i> is being held constant when <i>x</i> is varied, but
+we don't have to write that because we know we've got two coordinates.
+If I'm changing one, the other guy is <i>y</i> so we won't write that;
+that's the partial derivative. So, you can also move from here to here,
+up and down, and see how the function changes. I won't write the
+details, you can define obviously a <i>df/dy</i>. So, one tells you how
+the function changes, with <i>x</i> I should move along <i>x</i>, and
+the other tells you how it changes at <i>y</i> as you move along
+<i>y</i>.</p>
+
+<p>Let's get some practice. So, I'm going to write some function, <i>f
+= x<sup>3</sup>y<sup>2</sup></i>, that's a function of <i>x</i> and
+<i>y</i>. You can write any--let's make it a little more interesting,
+plus <i>y</i>, or <i>y<sup>2</sup></i>; that's some function of
+<i>x</i> and <i>y</i>. So, when I say <i>df/dx</i>, the rule is find
+out how it varies with <i>x</i> keeping <i>y</i> constant. That means,
+really treat it like a constant, because number five--What will you do
+if <i>y</i> was equal to 5? This'll be 25 and it's not part of taking
+derivatives because it's not changing, and here it'll be just standing
+in front doing nothing; it will just take the <i>x</i> derivative,
+treating <i>y</i> as a constant. You're supposed to do that here; this
+is a derivative 3<i>x<sup>2</sup>y</i>; so that's the <i>x</i>
+derivative. Now, you can take the <i>y</i> part, <i>y<sup>2</sup></i>,
+yes, thank you. Then, I can take <i>df/dy</i>, so then I look for
+<i>y</i> changes, this is 2<i>y</i> here, so it's
+2<i>x<sup>3</sup>y</i> + 2<i>y</i>; so that's the <i>x</i> derivative
+and the partial <i>y</i> derivative.</p>
+
+<p>Okay, so then you can now take higher derivatives. We know that from
+calculus and one variable, you can take the derivative of the
+derivative. So, one thing you can think about is
+<i>d<sup>2</sup>f/dx<sup>2</sup></i>, that really means take the
+<i>d</i> by <i>dx</i> of the <i>d</i> by <i>dx</i>. That's what it
+means. First, take a derivative and take the derivative of the
+derivative. So, let's see what I get here. I already took <i>df/dx</i>.
+I want to take its derivative, right, the derivative of
+<i>x<sup>2</sup></i> is 2<i>x</i>, so I get 6<i>xy<sup>2</sup></i>.
+Then, I can take the <i>y</i> derivative of the <i>y</i> derivative,
+<i>d<sup>2</sup>f/dy<sup>2</sup></i>, that's <i>d</i> by <i>dy</i> of
+<i>df/dy</i>, if you take the <i>y</i> derivative there. You guys
+should keep an eye out for me when I do this. I get this. But now, we
+have an interesting possibility you didn't have in one dimension, which
+is to take the <i>x</i> derivative of the <i>y</i> derivative, so I
+want to take <i>d</i> by <i>dx</i> of <i>df/dy</i>. That is written as
+<i>d<sup>2</sup>f/dxdy</i>. Let's see what I get. So, I want the
+<i>x</i> derivative of the <i>y</i> derivative. So, I go to this guy
+and take his <i>x</i> derivative, I get 3<i>x<sup>2</sup></i> from
+there, so I get 6<i>x<sup>2</sup>y</i> and that's it. So, make sure
+that I got the proper <i>x</i> derivative of this, I think that's fine.
+Then, I can also take <i>d<sup>2</sup>f/dydx</i>. That means, take the
+<i>y</i> derivative of the <i>x</i> derivative, but here's the <i>x</i>
+derivative, take the <i>y</i> derivative of that, put a 2<i>y</i>
+there, and I get 6<i>x<sup>2</sup>y</i>.</p>
+
+<p>So, you're supposed to notice something. If you already know this,
+you're not surprised. If you've never seen this before, you will notice
+that the cross derivative, <i>y</i> followed by <i>x</i> and <i>x</i>
+followed by <i>y</i>, will come up being equal. That's a general
+property of any reasonable function. By reasonable, I mean you cannot
+call the mathematicians to help because they will always find something
+where this won't work, okay? But if you write down any function that
+you are capable of writing down with powers of <i>x</i> and powers of
+<i>y</i> and sines and cosines, it'll always be true that you could
+take the cross derivatives in either order and get the same answer. I'd
+like to give a little bit of a feeling for why that is true; it's true
+but it's helpful to know why it's true. So, let's ask the following
+question.</p>
+
+<p>Let's take a function and let's ask how much the function changes
+when I go from some point <i>x</i>,<i>y</i> to another point <i>x</i> +
+<i>Δx</i>, <i>y</i> + <i>Δy</i>. I want to find the change in the
+function. So, I'm asking you what is <i>f(x + Δx, y + Δy) - f(x,y)</i>
+for small values of <i>Δx</i> and <i>Δy</i>. For neighboring points,
+what's the change? So, we're going to do it in two stages. We introduce
+an intermediate point here, whose coordinate is <i>x + Δ x</i> and
+<i>y</i>, and I'm going to add and subtract the value of the function
+here. Adding and subtracting is free; it doesn't cost anything, so
+let's do that. Then, what do I get? I get <i>f(x + Δx, y + Δy ) - f(x +
+Δx, y) + f(x + Δx, y) - f(x,y)</i>. I'm just saying, the change of that
+guy minus this guy is the same as that minus this, plus this minus
+that; that's a trivial substitution. But I write it this way because I
+look at the first entity here, it looks like I'm just changing
+<i>y</i>. I'm not changing <i>x</i>, you agree? So what will this be?
+This is going to be the rate of change of the function with respect to
+<i>x</i> times <i>Δx</i>, and this--I'm sorry, I got it wrong, with
+respect to <i>y</i> times <i>Δy</i>. This one is <i>df/dx</i> times
+<i>Δx</i>. Therefore, the change in the function, if I add it all up, I
+get <i>df/dx Δx + df/dy Δy</i>. But if you are pedantic, you will
+notice there is something I have to be a little careful about. What do
+you think I'm referring to, in my notation, yes?</p>
+
+<p><b>Student:</b> [inaudible]</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Meaning?</p>
+
+<p><b>Student:</b> [inaudible]</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Oh, but this is nothing to do
+with dimension, you see. It's one number minus another number. I put
+another number in between and in this function; it's a function only of
+here. Let me see, <i>x</i> is not changing at all and <i>y</i> is
+changing, so it is <i>df/dy Δy</i>. I meant something else. That is, in
+fact, a good approximation but there is one thing you should be careful
+about which has to do with where the derivatives are really taken. For
+the term here, <i>f(x + Δx, y) - f(xy)</i>, I took the derivative, at
+my starting point. If you want, I will say at the starting point
+<i>xy</i>. The second one, when I came here and I want to move up, I'm
+taking the derivative with respect to <i>y</i> at the new point. The
+new point is <i>(x + Δx, y)</i>, so derivatives are not quite taken at
+the same point. So, you've got to fix that. And how do you fix that
+part? You argue that the derivative with respect to <i>y</i> is just
+another function of <i>y</i>; <i>f</i> is a function of <i>x</i> and
+<i>y</i>, its derivatives are functions of <i>x</i> and <i>y</i>.
+Everything is a function of <i>x</i> and <i>y</i>, and we are saying
+this derivative has been computed at <i>x + Δx</i>, instead of
+<i>x</i>, so it is going to be <i>df/dy</i> at <i>xy</i> <i>+
+d<sup>2</sup>f/dxdy</i> times <i>Δx</i>.</p>
+
+<p>In other words, I am saying the derivative at this location is the
+derivative at that location, plus the rate of change of the derivative
+times the change in <i>x</i>. In other words, the derivative itself is
+changing. So, if you put that together you find it is <i>df/dx Δx +
+df/dy Δy</i>, where if I don't put any bars or anything it means at the
+starting point <i>xy + (d<sup>2</sup>f/dxdy) Δx Δy</i>. Now, you've got
+to realize that when you're doing these calculus problems, Δx is a tiny
+number, Δy is a tiny number, Δx Δy is tiny times tiny. So normally, we
+don't care about it, or if you want to be more accurate, of course, you
+should keep that term. In the first approximation, where you work to
+the first power of everything, this will be your <i>Δf</i>. But if
+you're a little more ambitious but you keep track of the fact the
+derivative itself is changing, you will keep that term.</p>
+
+<p>But another person comes along and says, "You know what, I want to
+go like this. I want to introduce as my new point, intermediate point,
+the one here. It had a different value of <i>y</i> in the same <i>x</i>
+and then I went horizontally when I keep track of the changes." What do
+you think that person will calculate for the change in the function?
+That person will get exactly this part, but the extra term that person
+will get will look like <i>d<sup>2</sup>f/dydx</i> times <i>Δy Δx</i>.
+If you just do the whole thing in your head, you can see that I'm just
+exchanging the <i>x</i> and <i>y</i> roles. So, everything that
+happened with <i>x</i> and <i>y</i> here will come backwards with
+<i>y</i> and <i>x</i>. But then, the change between these two points is
+the change between these two points and it doesn't matter whether I
+introduce an intermediate point here or an intermediate point there;
+therefore, these changes have to be equal. This part is of course
+equal; therefore, you want that part to be equal, <i>Δx Δy</i> is
+clearly <i>Δy Δx</i>, so the consequence of that is
+<i>d<sup>2</sup>f/dxdy</i> = <i>d<sup>2</sup>f/dydx</i> and that's the
+reason it turns out when you take cross derivatives you get the same
+answer. It comes from the fact -- if you say, where is that result
+coming from -- it comes from the fact, if you start at some point and
+you go to another point and you ask for the change in the function, the
+change is accumulating as you move. You can move horizontally and then
+vertically, or you can move vertically and then horizontally. The
+change in the function is a change in the function. You've got to get
+the same answer both ways. That's the reason; that's the requirement
+that leads to this requirement.</p>
+
+<p>Now, I will not be keeping track of functions to this accuracy in
+everything we do today. We'll be keeping the leading powers in
+<i>Δx</i> and <i>Δy</i>. So, you should bear in mind that if you make a
+movement in the <i>xy</i> plane, which is <i>Δx</i> horizontally and
+<i>Δy</i> vertically, then the change in the function is this [<i>df/dx
+Δx + df/dy Δy</i>]. Draw a box around that, because that's going to
+be--This is just the naïve generalization to two dimensions of what you
+know in one dimension. We were saying look, the function is changing
+because the independent variables <i>x</i> and <i>y</i> are changing,
+and the change in the function is one part, which I blame on the
+changing <i>x</i>, and a second part, which I blame on the changing
+<i>y</i> and I add them. So, you're worried about the fact that we're
+moving in the plane and there are vectors. That's all correct, but
+<i>f</i> is not a vector, <i>f</i> is just a number and this change has
+got two parts, okay. So, this is basically all the math we will need to
+do, what I want to do today.</p>
+
+<p>So, let's now go back to our original goal, which was to derive
+something like the Law of Conservation of Energy in two dimensions
+instead of one. You remember what I did last time so I will remind you
+one more time what the trick was. We found out that the change in the
+kinetic energy of some object is equal to the work done by a force,
+which was some <i>F</i> times <i>Δx</i> and then if you add all the
+changes over a not infinitesimal displacement, but a macroscopic
+displacement, that was given by integral of <i>F</i> times <i>dx</i>
+and the integral of <i>F</i> times <i>dx</i> from <i>x<sub>1</sub></i>
+to <i>x<sub>2</sub></i>. If <i>F</i> is a function only of <i>x</i>,
+from the rules of calculus, the integral can be written as a difference
+of a function at this limit minus that limit, and that was
+<i>U(x<sub>1</sub>) - U(x<sub>2</sub>)</i>, where <i>U</i> is that
+function whose derivative with a minus sign is <i>F</i>. That's what we
+did. Then, it's very simple now to take the <i>U<sub>1</sub></i> to the
+left-hand side. Let me see, <i>K<sub>1</sub></i> to the right-hand side
+and <i>U(x<sub>2</sub>)</i> to the left-hand side, to get
+<i>K<sub>2</sub> + U<sub>2</sub> = K<sub>1</sub> + U<sub>1</sub></i>
+and that's the conservation of energy.</p>
+
+<p>You want to try the same thing in two dimensions; that's your goal.
+So, the first question is, "What should I use for the work done?" What
+expression should I use for the work done in two dimensions, because
+the force now is a vector; force is not one number, it's got an
+<i>x</i> part and a <i>y</i> part. My displacement has also got an
+<i>x</i> part and a <i>y</i> part and I can worry about what I should
+use. So, I'm going to deduce the quantity I want to use for <i>ΔW</i>,
+namely, the tiny work done which is an extension of this. I'm going to
+demand that since I'm looking for a Work Energy Theorem, I'm going to
+demand that, remember in one dimension <i>ΔK = F Δx</i>. If we divide
+it by the time over which it happens, I find <i>dK/dt</i> is equal to
+force [F] times velocity [v].</p>
+
+<p>I'm going to demand that that's the power, force times velocity, is
+what I call the power. And I'm going to look for <i>dK/dt</i> in two
+dimensions, of a body that's moving. What's the rate at which kinetic
+energy is changing when a body is moving? For that, I need a formula
+for kinetic energy. A formula for kinetic energy is going to be again ½
+<i>mv<sup>2</sup></i>. I want that to be the same entity, so I will
+choose it to be that, but <i>v<sup>2</sup></i> has got now
+<i>v<sub>x</sub><sup>2</sup></i> <i>+ v<sub>y</sub><sup>2</sup></i>,
+because you know whenever you take a vector <i>V</i>, then its length
+is the square root of the <i>x</i> part squared plus the <i>y</i> part
+squared. Any questions? Okay, so let's take the rate of change of this,
+<i>dK/dt</i>. Again, you have to know your calculus. What's the time
+derivative of <i>v<sub>x</sub><sup>2</sup></i>? The rule from calculus
+says, first take the derivative of <i>v<sub>x</sub><sup>2</sup></i>
+with respect to <i>v<sub>x</sub></i>, which is 2<i>v<sub>x</sub></i>,
+then take the derivative of <i>v<sub>x</sub></i> with respect to time.
+So, you do the same thing for the second term, 2 <i>v<sub>y</sub>
+dv<sub>y</sub>/dt</i>, and that gives me--the 2s cancel, gives me
+<i>mdv<sub>x</sub> /dtv<sub>x</sub> + m dv<sub>y</sub>
+/dtv<sub>y</sub></i>. This is the rate at which the kinetic energy of a
+body is changing. So, what's my next step, yes?</p>
+
+<p><b>Student:</b> So what happened to the half?</p>
+
+<p><b>Professor Ramamurti Shankar:</b> The half got canceled by the two
+here. Yes?</p>
+
+<p><b>Student:</b> [inaudible]</p>
+
+<p><b>Professor Ramamurti Shankar:</b> That's correct. So, what we want
+to do is to recognize this as <i>ma</i> in the <i>x</i> direction,
+because <i>m</i> times <i>dv<sub>x</sub>/dt</i> is
+<i>a<sub>x</sub></i>, and this is <i>m</i> times <i>a<sub>y</sub></i>.
+Therefore, they are the forces in the <i>x</i> and <i>y</i> directions,
+so I write <i>F<sub>x</sub>v<sub>x</sub> +
+F<sub>y</sub>v<sub>y</sub></i>. So the power, when you go to two
+dimensions, is not very different from one dimension. In one dimension,
+you had only one force and you had only one velocity. In two
+dimensions, you got an <i>x</i> and <i>y</i> component for each one,
+and it becomes this. So, this is what I will define to be the power.
+When a body is moving and a force is acting on it, the force has two
+components, the velocity has two components; this combination shall be
+called "Power." But now, let's multiply both sides by <i>Δt</i> and
+write the change in kinetic energy is equal to <i>F<sub>x</sub></i> and
+you guys think about what happens when I multiply <i>v<sub>x</sub></i>
+by <i>Δt</i>; <i>v<sub>x</sub></i> = <i>dx/dt</i>. Multiplying by
+<i>Δt</i> just gives me the distance traveled in the <i>x</i> direction
+<i>+ F<sub>y</sub></i> times <i>dy</i>. So, this is the tiny amount of
+work done by a force and it generalizes what we had here, work done is
+force times <i>Δx</i>. In two dimensions, it's <i>F<sub>x</sub>dx +
+F<sub>y</sub>dy</i>. It's not hard to guess that but the beauty
+is--this combination--Now you can say, you know what, I didn't have to
+do all this, I could have always guessed that in two dimensions, when
+you had an <i>x</i> and a <i>y</i> you obviously have to add them.
+There's nothing very obvious about it because this combination is now
+guaranteed to have the property that if I call this the work done.
+Then, it has the advantage that the work done is in fact the change in
+kinetic energy.</p>
+
+<p>I want to define work so that its effect on kinetic energy is the
+same as in 1D, namely, work done should be equal to change in kinetic
+energy. And I engineered that by taking the change in kinetic energy,
+seeing whatever it came out to, and calling that the work done, I
+cannot go wrong. But now, if you notice something repeating itself all
+the time, which is that I had a vector <i>F</i>, which you can write as
+<i>I</i> times <i>F<sub>x</sub> + J</i> times <i>F<sub>y</sub></i>, I
+had a vector velocity, which is <i>I</i> times <i>v<sub>x</sub> + J</i>
+times <i>v<sub>y</sub></i>. Then, I had a tiny distance moved by the
+particle, which is <i>I</i> times <i>dx + J</i> times <i>dy</i>. So,
+the particle moves from one point to another point. The vector
+describing its location changes by this tiny vector. It's just the step
+in the <i>x</i> direction times <i>I</i>, plus step in the <i>y</i>
+direction times <i>J</i>. So, what you're finding is the following
+combination. The <i>x</i> component of <i>F</i> times the <i>x</i>
+component of <i>v</i>, plus the <i>y</i> component of <i>F</i>, times
+the <i>y</i> component of <i>v</i>. Or <i>F</i> component of <i>x</i>
+times the distance moved in <i>x</i> plus <i>y</i> component of
+<i>F</i> times the displacement in <i>y</i>.</p>
+
+<p>So, we are running into the following combination. We are saying,
+there seem to be in all these problems two vectors, <i>I</i> times
+<i>A<sub>x</sub> + J</i> times <i>A<sub>y</sub></i>. <i>A</i>, for
+example, could be the force that I'm talking about. There's another
+vector <i>B</i>, which is <i>I</i> times <i>B<sub>x</sub> + J</i> times
+<i>B<sub>y</sub></i>. Right? For example, this guy could be standing in
+for <i>F</i>, this could be standing in for <i>v</i>. The combination
+that seems to appear very naturally is the combination
+<i>A<sub>x</sub>B<sub>x</sub> + A<sub>y</sub>B<sub>y</sub></i>. It
+appears too many times so I take it seriously, give that a name. That
+name will be called a dot product of <i>A</i> with <i>B</i> and is
+written like this. Whenever something appears all the time you give it
+a name; this is <i>A.B.</i> So, for any two vectors <i>A</i> and
+<i>B</i>, that will be the definition of <i>A.B</i>. Then, the work
+done by a force <i>F</i>, that displaces a particle by a tiny vector
+<i>dr</i>, is <i>F.dr</i>. The particle's moving in the <i>xy</i>
+plane. From one instant to the next, it can move from here to there.
+That little guy is <i>dr</i>; it's got a little bit horizontal and it's
+got a little bit vertical, that's how you build <i>dr</i>. The force
+itself is some force which at that point need not point at the
+direction in which you're moving. It's some direction. At each point,
+the force could have whatever value it likes.</p>
+
+<p>So, the dot product, you know, sometimes you learn the dot product
+as <i>A<sub>x</sub>B<sub>x</sub> + A<sub>y</sub>B<sub>y</sub></i>, you
+can ask, "Who thought about it?" Why is it a natural quantity? And here
+is one way you can understand why somebody would think of this
+particular combination.</p>
+
+<p>So, once you've got the dot product, you've got to get a feeling for
+what it is. The first thing we realize is that if you take a dot
+product of <i>A</i> with itself, then it's
+<i>A<sub>x</sub>A<sub>x</sub> + A<sub>y</sub>A<sub>y</sub></i>, which
+is <i>A<sub>x</sub><sup>2</sup> + A<sub>y</sub><sup>2</sup></i>, which
+is the length of the vector <i>A</i>, which you can either denote this
+way or just write it without an arrow. So <i>A.A</i> is a positive
+number that measures the length squared of the vector <i>A</i>,
+likewise <i>B.B</i>. Now, we have to ask ourselves, "What is
+<i>A.B</i>?" So, somebody know what <i>A.B</i> is? Yep?</p>
+
+<p><b>Student:</b> [inaudible]</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Okay, so how do we know that?
+How do we know it's length of <i>A</i> times length of <i>B</i> times
+cosine of the angle? You should follow from--Is it an independent
+definition or is it a consequence of this? Yep?</p>
+
+<p><b>Student:</b> Well, you can derive using the Law of Cosines.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Yes. He said we can derive it
+using the Law of Cosines and that's what I will do now. In other words,
+that definition which you may have learnt about first is not
+independent of this definition; it's a consequence of this definition.
+So, let's see why that's true. Let's draw two vectors here. Here is
+<i>A</i> and here is <i>B</i>, it's got a length <i>A</i>, it's got a
+length <i>B</i>, this makes an angle, <i>θ<sub>A</sub></i> with the
+<i>x</i> axis, and that makes an angle <i>θ<sub>B</sub></i> for the
+<i>x</i> axis. Now, do you guys agree that the <i>x</i> component of
+<i>A</i> with the horizontal part of <i>A</i> is the <i>A</i> <i>cos
+θ<sub>A</sub></i>? You must've seen a lot of examples of that when you
+did all the force calculation. And <i>A<sub>y</sub></i> is equal to the
+length of <i>A</i> times <i>sin θ<sub>A</sub></i> and likewise for
+<i>B</i>; I don't feel like writing it. If you do that, then <i>A.B</i>
+will be length of <i>A</i>, length of <i>B</i> times <i>(cos
+θ<sub>A</sub> cos θ<sub>B</sub> + sin θ<sub>A</sub> sin
+θ<sub>B</sub>)</i>.</p>
+
+<p>You've got to go back to your good old trig and it'll tell you this
+<i>cos cos</i> plus <i>sin sin is cos (θ<sub>A</sub> –
+θ<sub>B</sub>)</i>.So, you find it is length of <i>A</i>, length of
+<i>B</i>, <i>cos (θ<sub>A</sub> – θ<sub>B</sub>)</i>. Often, people
+simply say that is <i>AB cos θ</i>, where it's understood that <i>θ</i>
+is the angle between the two vectors. So, the dot product that you
+learnt--I don't know which way it was introduced to you first, but
+these are two equivalent definitions of the dot product. In one of
+them, if you're thinking more in terms of the components of <i>A</i>, a
+pair of numbers for <i>A</i> and a pair of numbers for <i>B</i>, this
+definition of the dot product is very nice. If you're thinking of them
+as two little arrows pointing in different directions, then the other
+definition, in which the lengths and the angle between them appear,
+that's more natural. But numerically they're equal. An important
+property of the dot product, which you can check either way, is the dot
+product of <i>A</i> with <i>B + C</i>, is dot product of <i>A</i> with
+<i>B</i> plus dot product of <i>A</i> with <i>C</i>. That just means
+you can open all the brackets with dot products as you can with
+ordinary products. Now, that's a very important property of the dot
+product. So, maybe I can ask somebody, do you know one property,
+significant property of the dot product?</p>
+
+<p><b>Student:</b> When two vectors are perpendicular the dot product
+equals 0.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Oh that's interesting, I didn't
+think about it. Yes. One thing is if two vectors are perpendicular the
+dot product is 0 because the cosine of 90 is 0. But what I had in
+mind--Of course it's hard for me, it's not fair I ask you some question
+without saying what I'm looking for. What can you say if you use a
+different set of axis? Yep?</p>
+
+<p><b>Student:</b> In this case it doesn't matter.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> If you go to the rotated axis,
+the components of vector <i>A</i> will change. We have done that in the
+homework; we've done that in the class. The components of <i>B</i> will
+also change. Everything will get a prime. But the combination,
+<i>A<sub>x</sub>B<sub>x</sub> + A<sub>y</sub>B<sub>y</sub></i>, when
+you evaluate it before or after, will give the same answer because it's
+not so obvious when you write it this way. But it's very obvious when
+you write it this way because it's clear to us if you stand on your
+head or you rotate the whole axis. What you're looking for is the
+length of <i>A</i>, which certainly doesn't change on your orientation,
+or the length of <i>B</i>, or the angle between them. The angle
+<i>θ<sub>A</sub></i> will change but the angle with the new <i>x</i>
+axis won't be the same. The angle with the new <i>y</i> axis won't be
+the same. Likewise for <i>B</i>, but the angle between the vectors,
+it's an invariant property, something intrinsic to the two vectors,
+doesn't change, so the dot product is an invariant. This is a very
+important notion. When you learn relativity, you will find you have one
+observer saying something, another observer saying something. They will
+disagree on a lot of things, but there are few things they will all
+agree on. Those few things will be analog of <i>A.B</i>. So, it's very
+good to have this part of it very clear in your head. This part of
+elementary vector analysis should be clear in your head.</p>
+
+<p>Okay, so any questions about this? So, if you want, geometrically,
+the work done by a force when it moves a body a distance <i>dr</i>, a
+vector <i>dr</i>, is the length of the force, the distance traveled,
+times the cosine of the angle between the force and the displacement
+vector.</p>
+
+<p>Okay, I'm almost ready for business because, what is my goal? I find
+out that in a tiny displacement, <i>F.dr</i>, I start from somewhere, I
+go to a neighboring place, a distance <i>dr</i> away. The change in
+kinetic energy is <i>F.dr</i>. So, let me make a big trip, okay, let me
+make a trip in the <i>xy</i> plane made up of a whole bunch of little
+segments in each one of which I calculate this, and I add them all up.
+On the left-hand side, the <i>ΔK</i>s, this whole thing was defined so
+that it's equal to <i>ΔK</i>, right? <i>ΔK</i> was equal to this,
+that's equal to all that. So, if you add all the <i>ΔK</i>s, it's very
+clear what you will get. You will get the kinetic energy at the end
+minus kinetic energy at the beginning. On the right-hand side, you are
+told to add <i>F.dr</i> for every tiny segment. Well, that is written
+symbolically as this. This is the notation we use in calculus. That
+just means, if you want to go from <i>A</i> to <i>B</i> along some
+path, you chop up the path into tiny pieces. Each tiny segment, if it's
+small enough to be approximated by a tiny vector <i>dr</i>, then take
+the dot product of that little <i>dr</i>, with the force at that point,
+which means length of <i>F</i>, times the length of the segment, times
+cosine of the angle; add them all up. Then somebody will say, "Well,
+your segments are not short enough for me." We'll chop it up some more,
+then chop it up some more, chop it up till your worst critic has been
+silenced. That's the limit in which you can write the answer as this
+integral. Just like in calculus when you integrate a function you take
+tiny intervals <i>Δx</i>, multiply <i>F</i> by <i>Δx</i>, but then you
+make the intervals more and more numerous but less and less wide and
+the limit of that is the area under the graph and that's called
+"integral," you do the same thing now in two dimensions.</p>
+
+<p>So, now maybe it'll be true, just like in one dimension, the
+integral of this function will be something that depends on the end
+points. I'm just going to call it <i>U(1) - U(2)</i>, of some function
+<i>U</i>, just like it was in one dimension. If that is true, then my
+job is done because then I have <i>K<sub>1</sub> + U<sub>1</sub> =
+K<sub>2</sub> + U<sub>2</sub></i>. So, when I'm looking for the Law of
+Conservation of Energy, I've got to go to some calculus book and I got
+to ask the calculus book, "Look, in one dimension you told me integral
+of <i>F</i> from start to end is really the difference of another
+function <i>G</i> of the end minus the start, with <i>G</i> as that
+function whose derivative is <i>F</i>." Maybe there is going to be some
+other magic function you knew in two dimensions related to <i>F</i>, in
+some way, so that this integral is again given by a difference of
+something there minus something here. If that is the case, then you can
+rearrange it and get this. But you will find that it's not meant to be
+that simple. So, again, has anybody heard rumors about why it may not
+be that simple? What could go wrong? Okay so, yes?</p>
+
+<p><b>Student:</b> [inaudible]</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Okay, that's probably correct
+but say it in terms of what we know. What can go wrong? I'm saying in
+one end, I did an integral; the integral was the difference of two
+numbers and therefore I got <i>K + U = K + U</i>. So, something could
+go wrong somewhere here when I say this integral from start to finish
+is the difference only of the ending point minus the starting point. Is
+that reasonable or could you imagine it depending on something else?
+Yes?</p>
+
+<p><b>Student:</b> Well, say you have one of your forces is friction.
+If you take a certain path from point one to point two, you should have
+the same thing in potential energy. But if you take a longer path and
+there's friction involved, your kinetic energy would be reduced.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Absolutely correct. It is
+certainly true that if you've got friction, this is not going to work.
+It doesn't even work in 1D. In 1D, if I start here and end here, and I
+worry about friction, if it went straight from here to here there's
+amount of friction. If I just went back and forth 97 times and then I
+ended up there is 97 times more friction. So, we agreed that if there's
+friction, this is not going to work. But the trouble with friction was,
+the force was not a function only of <i>x</i> and <i>y</i>. It depended
+on the direction of motion. But now, I grant you that the force is not
+a function of velocity. It's only a function of where you are. Can
+something still be wrong?</p>
+
+<p>Well, let me ask you the following question. Another person does
+this. [Shows a different path from 1 to 2] Do you think that person
+should do the same amount of work because the force is now integrated
+on a longer path? So, you see, in one dimension there's only one way to
+go from here to there. Just go, right? That way, when you write an
+integral you write the lower limit and the upper limit and you don't
+say any more because it's only one way in 1D to go from
+<i>x<sub>1</sub></i> to <i>x<sub>2</sub></i>. In two dimensions, there
+are thousands of ways to go from one point to another point. You can
+wander all over the place and you end up here. Therefore, this
+integral, even if I say the starting point is <i>r<sub>1</sub></i> and
+the ending point is <i>r<sub>2</sub></i>, that this is
+<i>r<sub>1</sub></i> and that's <i>r<sub>2</sub></i>, it's not
+adequate. What do you think I should attach to this integration? What
+other information should I give? What more should I specify? Yep?</p>
+
+<p><b>Student:</b> Along a closed path.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> No, it's not a closed path. I'm
+going from 1 to 2. What more should I tell you before you can even find
+the work done? Yes?</p>
+
+<p><b>Student:</b> What path you're going on.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> You have to say which path
+you're going on because if you only have two points, 1 and 2, then
+there is a work done but it depends on the path. If the work depends on
+the path, then the answer cannot be a function of <i>U(1) - U(2)</i>,
+cannot just be <i>U(1) - U(2)</i>. <i>U(1) - U(2)</i> says, tell me
+what you entered, tell me where you start, and that difference of some
+function <i>U</i> between those two points is the work done. In other
+words, I'm asking you to think critically about whether this equality
+really could be true. This is some function <i>U</i> in the <i>xy</i>
+plane evaluated at one point minus the other point. This is on a path
+joining those two points but I have not told you which path and I can
+draw any path I like with those same end points. And you got to realize
+that it's very unreasonable to expect that. No matter which path you
+take you will get the same answer. Okay, so you might think that I'm
+creating a straw man because it's going to turn out by some magic, that
+no matter what force you take somehow, due to the magic of mathematics,
+the integral will depend only on the end points. But that's not the
+case. In general, that won't happen. So, I have to show you that. So,
+I'm going to start by asking you, give me a number from 1 to 3. 2?
+Okay, 2. Then, I want a few more numbers, another number from 1 to
+3.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> From 1 to 3, [audience laughs].
+All right then, two more. Mark, you pick a number.</p>
+
+<p><b>Student:</b> [inaudible]</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Good, thank you. Then I need one
+more, yes? 1 to 3, a number from 1 to 3.</p>
+
+<p><b>Student:</b> [inaudible]</p>
+
+<p><b>Professor Ramamurti Shankar:</b> 2, very good. Okay, so you pick
+these numbers randomly, and I'm going to take a force which looks like
+<i>I</i> times <i>x<sup>2</sup>y<sup>3</sup> + J</i> times
+<i>xy<sup>2</sup></i>, okay? I put the powers based on what you guys
+gave me. So, we picked the force in two dimensions out of the hat. Now,
+let's ask, "Is it true for this force that the work done in going from
+one point to another depends only on the path, or does it depend, I
+mean, it depends only on the end points or does it depend in detail on
+how you go from the end points?" You all have to understand, before you
+copy anything down, where we are going with this. What's the game plan?
+So, let me tell you one more time because you can copy this all you
+want, it will get you nowhere. You should feel that you know where I'm
+going but the details remain to be shown or you should have an idea
+what's happening. If you try to generalize the Work Energy Theorem to
+two dimensions, this is what happened so far. You found a definition of
+work which has the property that the work done is the change in kinetic
+energy. Then, you added up all the changes of kinetic energy and added
+up all the work done and you said <i>K<sub>2</sub> - K<sub>1</sub></i>
+is the integral of <i>F.dr</i>; that's guaranteed to be true; that's
+just based on Newton's laws.</p>
+
+<p>What is tricky is the second equality that that integral is the
+difference in a function calculated at one end point minus the other
+end point. If that was true, if the integral depended only on the end
+points, then it cannot depend on the path that you take. If it depends
+on the path, every path you take within the same two end points will
+give different numbers. So, the answer cannot simply be
+<i>U<sub>1</sub> - U<sub>2</sub></i>. First, I'm trying to convince
+you, through an example that I selected randomly, that if you took a
+random force and found the work done along one path, or another path,
+you will in fact get two different answers, okay? That's the first
+thing, to appreciate that there's a problem. So generally, if we took a
+random force, not a frictional force, a force that depends only on
+location and not velocity, it will not be possible to define a
+potential energy nor will it be possible to define a <i>K + U</i> so
+that it doesn't change. So, it's going to take a very special force for
+which the answer depends only on the starting and ending point and not
+on the path. To show you that that's a special situation, I'm taking a
+generic situation, namely, a force manufactured by this class, without
+any prior consultation with me, and I will show you that for that force
+the answer is going to depend on how you go.</p>
+
+<p>So, let's take that force and let's find the work done in going from
+the origin to the point 1,1. So, I'm going to take two paths. One path
+I'm going to go horizontally till I'm below the point. Then I'm going
+straight up, okay. So, let's find the work done when I go this way. So
+again, you should be thinking all the time. You should say if this guy
+got struck by lightning can I do anything, or am I just going to say
+"Well, I don't know what he was planning to do." You've got to have
+some idea what I'm going to do. I'm going to integrate <i>F.dr</i>,
+first on the horizontal segment, then on the vertical segment. <i>F</i>
+is some vector you give me at the point <i>x</i> and <i>y</i>; I'll
+plug in some numbers, I'll get something times <i>I</i> and something
+times <i>J</i>. It may be pointing like that at this point, and that's
+<i>F</i>, that's given. Now, when I'm moving horizontally my
+displacement <i>dr</i>, has only got a <i>dx</i> part. I hope you see
+that. Every step I move, there's no <i>dy</i> in it, it's all
+horizontal. So, <i>F.dr</i> just becomes <i>F<sub>x</sub>dx</i> because
+there is no <i>dy</i> when you move horizontally. So, when you do the
+integral, you have <i>F<sub>x</sub>dx</i>. <i>F<sub>x</sub></i> happens
+to be <i>x<sup>2</sup>y<sup>3</sup>dx</i>, <i>x</i> going from 0 to 1.
+Now, what do I do with <i>y<sup>3</sup></i>? You all know how to
+integrate a function of <i>x</i> times <i>dx</i>. What do I do with
+<i>y<sup>3</sup></i>? What do you think it means?</p>
+
+<p><b>Student:</b> [inaudible]</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Pardon me? What should I do with
+<i>y</i>? Evaluate <i>y</i> on that path at that point. Well, it turns
+out, throughout this horizontal segment <i>y</i> = 0, so this is gone.
+Basically, the point is very simple. When you move horizontally, you're
+working against horizontal forces doing work, but on the <i>x</i> axis
+when <i>y</i> is 0 there is no horizontal force; that's why there's
+nothing to do. Now, you come to this segment. I think you all agree,
+the distance traveled is <i>J</i> times <i>dy</i>. So, I have to have
+another segment, the second part of my trip, which is
+<i>F<sub>y</sub></i> times <i>dy</i>, and <i>y</i> goes from 0 to 1,
+and the <i>y</i> component is <i>xy<sup>2</sup>dy</i>, where <i>y</i>
+goes from 0 to 1. But now, on the entire line that I'm moving up and
+down, <i>x</i> = 1. Do you see that? <i>x</i> is a constant on the line
+so you can replace <i>x</i> by 1 and integral of <i>y<sup>2</sup>dy</i>
+is <i>y<sup>3</sup></i> over 3.The work done is, therefore, 1/3 joules.
+So, the work done in going first to the right and then to the top is
+1/3. You can also go straight up and then horizontally. By a similar
+trick, I won't do that now, because I want to show you something else
+that's useful for you, I'm going to pick another path which is not just
+made up of <i>x</i> and <i>y</i> segments. Then it's very easy to do
+this.</p>
+
+<p>So, I'm going to pick another way to go from 0,0 to 1,1, which is on
+this curve; this is the curve <i>y = x<sup>2</sup></i>. First of all,
+you've got to understand the curve <i>y = x<sup>2</sup></i> goes
+through the two points I'm interested in. If you took <i>y</i> =
+5<i>x<sup>2</sup></i>, it doesn't work. But this guy goes through 0,0
+and goes through 1,1. And I'm asking you, if I did the work done by the
+force along that segment, what is the integral of <i>F.dr</i>? So,
+let's take a tiny portion of that, looks like this, right, that's
+<i>dr</i>, it's got a <i>dx</i>, and it's got a <i>dy</i>. Now, you
+notice that as this segment becomes very small <i>dy/dx</i> is a slope;
+therefore, <i>dy</i> will be <i>dy/dx</i> times <i>dx</i>. In other
+words, <i>dx</i> and <i>dy</i> are not independent if they're moving in
+a particular direction. I hope you understand that. You want to follow
+a certain curve. If you step to the right by some amount, you've got to
+step vertically by a certain amount so you're moving on that curve.
+That's why, when you calculate the work done, <i>dx</i> and <i>dy</i>
+are not independent. So, what you really want is <i>F<sub>x</sub>dx +
+F<sub>y</sub>dy</i>, but for <i>dy</i> I'm going to use <i>dy/dx</i>
+times <i>dx</i>. In other words, every segment <i>Δy</i> that you have
+is related to the <i>Δx</i> you took horizontally so that you stay on
+that curve. So, everything depends only on <i>dx</i>. But what am I
+putting inside the integral? Let's take <i>F<sub>x</sub></i>, the
+<i>x</i> component is <i>x<sup>2</sup>y<sup>3</sup></i>. On this curve
+<i>y = x<sup>2</sup></i>, so you really write <i>x<sup>2</sup></i>, and
+<i>y = x<sup>2</sup></i>, that is <i>x<sup>6</sup></i>. This
+<i>x<sup>3</sup></i> [should have said x<sup>6</sup>] is really
+<i>y<sup>3</sup></i> written in terms of <i>x</i>. Then, I have to
+write <i>F<sub>y</sub></i>, which is <i>x</i> times
+<i>y<sup>2</sup></i>, which is <i>x<sup>4</sup></i> times <i>dy/dx</i>
+which is 2<i>x</i>. So, I get here, from all of this, <i>(x<sup>8</sup>
++ 2x<sup>5</sup>)dx</i>. Did I make a mistake somewhere? Pardon me?</p>
+
+<p><b>Student:</b> The second part of this.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Did I, here? Here?</p>
+
+<p><b>Student:</b> No.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Oh here?</p>
+
+<p><b>Student:</b> [inaudible]</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Oh, <i>x<sup>6</sup></i>, right,
+thank you. How is that? Thanks for watching that; you have to watch it.
+So, now what do I get? <i>x<sup>8</sup></i> integral is
+<i>x<sup>9</sup></i>/9. That gives me 1, 9 because x is going from 0 to
+1. The next thing is <i>x<sup>7</sup></i>/7, which is 2 times that.
+Well, I'm not paying too much attention to this because I know it's not
+1/3, okay? There's no way this guy's going to be 1/3, that's all I care
+about. So, I've shown you that if we took a random force, the work done
+is dependent on the path. For this force, you cannot define a potential
+energy whereas in one dimension any force that was not friction allowed
+you to define a potential energy. In higher dimensions, you just cannot
+do that; that's the main point. So, if you're looking for a
+conservative, this is called a "conservative force." It's a force for
+which you can define a potential energy. It has the property of the
+work done in going from <i>A</i> to <i>B</i>, or 1 to 2, is independent
+of how you got from 1 to 2. And the one force that the class generated
+pretty much randomly is not a conservative force because the work done
+was path dependent.</p>
+
+<p>So, what we have learned, in fact I'll keep this portion here, if
+you're looking for a conservative force, a force whose answer does not
+depend on how you went from start to finish, then you have to somehow
+dream up some force so that if you did this integral the answer does
+not depend on the path. You realize, that looks really miraculous
+because we just wrote down an arbitrary force that we all cooked up
+together with these exponents, and the answer depends on the path. And
+I guarantee you, if you just arbitrarily write down some force, it
+won't work. So, maybe there is no Law of Conservation of Energy in more
+than one dimension. So, how am I going to search for a force that will
+do the job? Are there at least some forces for which this will be true?
+Yes?</p>
+
+<p><b>Student:</b> The force is always parallel to the path along which
+you have [inaudible]</p>
+
+<p><b>Professor Ramamurti Shankar:</b> No, but see the point is you've
+got to first write down a force in the <i>xy</i> plane. Then, I should
+be free to pick any two points and connect them any way I like and the
+answer shouldn't depend on how we connected them. Only then, you can
+have conservation of energy. I hope you all understand that fact. So,
+I'm saying, a generic force on the <i>xy</i> plane doesn't do that.
+Then we ask, "Can there ever be an answer?" It is so demanding.
+Yes?</p>
+
+<p><b>Student:</b> Well, in the inverse square force they've got
+it.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Right, so he's saying, "I know a
+force." The force of gravity, in fact, happens to have the property
+that the work done by the force of gravity does not depend on the path.
+We will see why that is true. But you see, what I want is to ask, "Is
+there a machine that'll manufacture conservative forces?" and I'm going
+to tell you there is. I will show you a machine that'll produce a large
+number, an infinite number of conservative forces, and I'll show you
+how to produce that. Here is the trick. The trick is, instead of taking
+a force and finding if there's a potential that will come from it by
+doing integrals, let me assume there is a potential. Then, I will ask
+what force I can associate with the potential, and here is the answer.
+The answer is, step one, pick any <i>U</i> of <i>x</i> and <i>y</i>.
+You pick the function first. That function is going to be your
+potential energy; it's been anointed even before we do anything. But
+then, from the potential, I want you to manufacture the following
+force. I want the force that I'm going to find to have an <i>x</i>
+component, which is [minus] the derivative of <i>U</i> with respect to
+<i>x</i>, and is going to have a <i>y</i> component which is [minus]
+the derivative of <i>U</i> with respect to <i>y</i>. That is step two.
+In fact, the claim now is this force is going to be a conservative
+force. And in fact, this potential energy associated with it will be
+the function you started with. So, how do I know that?</p>
+
+<p>So, for example, I'm saying suppose <i>U = xy<sup>3</sup></i>, then
+<i>F<sub>x</sub> = -dU/dx</i>, which is equal to <i>-y<sup>3</sup></i>,
+and <i>F<sub>y</sub></i>, which is <i>-dU/dy</i> would be
+<i>-</i>3<i>xy<sup>2</sup></i>. The claim is, if you put <i>I</i> times
+<i>F<sub>x</sub></i> and <i>J</i> times <i>F<sub>y</sub></i>, the
+answer will not depend on how you go from start to finish. So, let me
+prove that to you. Here is the proof. The change in the function
+<i>U</i>, in the <i>xy</i> plane, you guys remember me telling you, is
+<i>dU/dx</i> times <i>dx + dU/dy</i> times <i>dy</i>. That's the whole
+thing of mathematical preliminaries which was done somewhere, I forgot,
+here. It says, here, <i>ΔF</i> is <i>dF/dx</i> times <i>Δx + dF/dy</i>
+times <i>Δy</i>. I'll apply that to the function <i>U</i>, but who is
+this? You notice what's going on here? <i>dU/dx</i> times <i>dx</i>,
+this is <i>F<sub>x</sub>,</i> with a minus sign, that's
+<i>F<sub>y</sub></i> with the minus sign. Therefore this is equal to
+<i>-F.dr</i>. Right? Because we agree, the force that I want to
+manufacture is related to <i>U</i> in this fashion. Now, if you add all
+the changes, the right-hand side becomes the integral of <i>F.dr</i>,
+and the left-hand side becomes the sum of all the <i>ΔU</i>s with a
+minus sign. Add all the <i>ΔU</i>s with a minus sign, that'll just
+become <i>U</i> at 1 <i>-U</i> at 2. It is cooked up so that
+<i>F.dr</i> is actually at the change in the function <i>U</i>. That's
+if you say, what was the trick that you did? I cooked up a force by
+design so that <i>F.dr</i> was a change in a certain function <i>U</i>.
+If I add all the <i>F.dr</i>s, I'm going to get a change in the
+function <i>U</i> from start to finish and it's got to be
+<i>U<sub>1</sub> - U<sub>2</sub></i>.</p>
+
+<p>So, I don't know how else I can say this. Maybe the way to think
+about it is, why do certain integrals not depend on how you took the
+path, right? Let me ask you a different question; forget about
+integrals. You are on top of some hilly mountain. We have a starting
+point, you have an ending point, okay. I started the starting point,
+and I walked to the ending point. At every portion of my walk, I keep
+track of how many feet I'm climbing; that's like my <i>ΔU</i>. I add
+them all up. At the end of the day, the height change will be the top
+of the mountain minus bottom of the mountain, the height of the
+mountain. You go on a different path, you don't go straight for the
+summit, you loop around and you coil and you wind down, you go up, you
+do this, and you also end up at the summit. If you kept track of how
+long you walked, it won't be the same as me. But if you also kept track
+of how many feet you climbed and you added them all up, what answer
+will you get? You'll get the same answer I got. Therefore, if what you
+were keeping track of was the height change in a function, then the sum
+of all the height changes will be simply the total height change, which
+is the height at the end minus height at the beginning. Therefore,
+starting with the height function, by taking its derivatives, if you
+manufacture a force, this will be none other than the fact of adding up
+the changes. And that's why this will be <i>K<sub>2</sub> -
+K<sub>1</sub></i>, and then you will get <i>K<sub>1</sub> +
+U<sub>1</sub> = K<sub>2</sub> + U<sub>2</sub></i>. I hope you
+understand how conservative forces are not impossible to get. In fact,
+for every function <i>U</i> of <i>x</i> and <i>y</i> you can think of,
+you can manufacture a conservative force.</p>
+
+<p>So, you may ask the following question. Maybe there are other ways
+to manufacture the conservative force and you just thought of one, and
+the answer is "no." Not only is this a machine that generates
+conservative forces, my two step algorithm, pick a <i>U</i> and take
+its derivatives, every conservative force you get is necessarily
+obtained by taking derivatives with respect to <i>x</i> and <i>y</i> of
+some function <i>U</i> and that <i>U</i> will be the potential energy
+associated with that force. So, when that force alone acts on a body
+the kinetic plus that potential will not change.</p>
+
+<p>Finally, you remember that when the class picked a certain force,
+which I wrote here, I went on a limb and I said I'm going to do the
+integral of this force along this path and that path and I'm going to
+get different answers and show you we have a problem. What if the force
+you had given me was actually a conservative force? Then, I would be
+embarrassed because then I'll find, after all the work, this'll turn
+out to be again 1/3. So, I have to make sure right away that the force
+is not conservative. How can you tell? One way to say it is, ask
+yourself, "Could that be some function <i>U</i> whose <i>x</i>
+derivative of this was this, and whose <i>y</i> derivative was that?"
+You can probably convince yourself no function is going to do it for
+you because if you took an <i>x</i> derivative you should've lost a
+power of <i>x</i> here. That means, if you just took the <i>y</i>
+derivative to go here, you should have more powers of <i>x</i> and less
+powers of <i>y</i> but this is just the opposite way. So, we know this
+couldn't have come from a <i>U</i>. But there's a better test. Instead
+of doing all that, instead of saying I'm satisfied that this doesn't
+come from taking derivatives of the <i>U</i> by looking at possible
+<i>U</i>s are not being satisfied because maybe I'm not clever enough.
+There is a mechanical way to tell. The mechanical way to tell is the
+following. Maybe I want you guys to think for a second about what the
+recipe may be. If a force came from a function <i>U</i> by taking
+derivatives, as written up there, what can you say about the components
+of that force, from the fact--yes?</p>
+
+<p><b>Student:</b> What is the cross derivative [inaudible]</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Right, we know that for every
+function <i>U</i> the cross derivatives are equal but the ordinary
+derivatives are just the <i>F<sub>x</sub></i> and <i>F<sub>y</sub></i>;
+therefore, <i>d<sup>2</sup>U</i> over <i>dydx</i> is really <i>d</i> by
+<i>dy</i> of <i>F<sub>x</sub></i>. And I want that to be equal to
+<i>d</i> by <i>dx</i> of <i>F<sub>y</sub></i> because that would then
+be <i>d<sup>2</sup>U</i> over <i>dxdy</i>. In other words, if the force
+satisfies this condition, the <i>y</i> derivative of
+<i>F<sub>x</sub></i> is the <i>x</i> derivative <i>F<sub>y</sub></i>.
+Then, it has the right pedigree to be a conservative force because if a
+force came from a function <i>U</i> by taking derivatives, the simple
+requirement of the cross derivatives are equal for any function
+<i>U</i> tells me. See, if I take the <i>y</i> derivative of
+<i>F<sub>x</sub></i>, I'm taking <i>d<sup>2</sup>U</i> over
+<i>dxdy</i>. And here, I'm taking <i>d<sup>2</sup>U</i> over
+<i>dydx</i> and they must be equal. So, that's the diagnostic. If I
+give you a force and I ask you, "Is it conservative?" you simply take
+the <i>y</i> derivative of <i>F<sub>x</sub></i> and the <i>x</i>
+derivative of <i>F<sub>y</sub></i> and if they match you know it's
+conservative.</p>
+
+<p>So, I can summarize by saying the following thing. In two
+dimensions, there are indeed many, many forces for which the potential
+energy can be defined. But every one of them has an ancestor which is
+simply a function, not a vector, but a scalar function, an ordinary
+function of <i>x</i> and <i>y</i>. Then, the force is obtained by
+taking <i>x</i> and <i>y</i> derivatives of that function; the <i>x</i>
+derivative with a minus sign is called <i>F<sub>x</sub></i>, and the
+<i>y</i> derivative is called <i>F<sub>y</sub></i>.</p>
+
+<p>Okay, so let's take the most popular example is the force of gravity
+near the surface of the Earth. The force of gravity we know is
+<i>-mg</i> times <i>J</i>. Is this guy conservative? Yes, because the
+<i>x</i> derivative of this vanishes and the <i>y</i> derivative of
+<i>F<sub>x</sub></i> you don't even have to worry because there is no
+<i>F<sub>x</sub></i>; it's clearly conservative. Then you can ask,
+"What is the potential <i>U</i> that led to this?" Well, <i>dU/dy</i>
+with a minus sign had to be <i>-mg</i> and <i>dU/dx</i> had to be 0.
+So, the function that will do the job is <i>mgy</i>. You can also have
+<i>mgy</i> + 96 but we will not add those constants because in the end,
+in the Law of Conservation of Energy, <i>K<sub>1</sub> +U<sub>1</sub> =
+K<sub>2</sub> + U<sub>2</sub></i>, adding a 96 to both sides doesn't do
+anything. So this means, when a body's moving in the gravitational
+field ½ <i>mv</i><sup>2</sup> + <i>mgy</i>, before, is the same as ½
+<i>mv<sup>2</sup> + mgy</i>, after. Now, you knew this already when
+you're moving up and down the <i>y</i> direction but what I'm telling
+you is this is true in two dimensions.</p>
+
+<p>So, I'll give you a final example so you guys can go home and think
+about it.</p>
+
+<p>That is a roller coaster. So, here's the roller coaster, it has a
+track that looks like this. This is <i>x</i>, this is the height of the
+roller coaster, but at every <i>x</i> there's a certain height so
+<i>y</i> is the function of <i>x</i> and it looks like this. It's just
+the profile of the roller coaster. But that is also the potential
+energy <i>U</i>, because if you multiply this by <i>mg</i>, well, you
+just scale the graph by <i>mg</i> it looks the same. So, take a
+photograph of a roller coaster, multiply the height in meters by
+<i>mg</i>, it's going to still look like the roller coaster. That is my
+potential energy for this problem and the claim is that kinetic plus
+potential will not change, so <i>K + U</i> is a constant; let's call
+the constant <i>E</i>.</p>
+
+<p>So, if a trolley begins here at the top, what is its total energy?
+It's got potential energy equal to the height, it's got no kinetic
+energy, so total energy in fact is just its height. And total energy
+cannot change as the trolley goes up and down. So, you draw a line at
+that height and call it the total energy. You started this guy off at
+that energy, that energy must always be the same. What that means is,
+if you are somewhere here, so that is your potential energy, that is
+your kinetic energy, it's very nicely read off from this graph, to
+reach the same total. So, as you oscillate up and down, you gain and
+lose kinetic and potential. When you come here your potential energy is
+almost your whole energy but you've got a little bit of kinetic energy.
+That means, your roller coaster is still moving when it comes here with
+the remaining kinetic energy. You can have a roller coaster whose
+energy is like this. This is released from rest here. It is released
+from rest here. That's the total energy and this total energy line
+looks like this. That means, if you released it here, it'll come down,
+pick up speed, slow down, pick up speed again, and come to this point,
+it must stop and turn around because at that point the potential energy
+is equal to total energy and there is no kinetic energy. That means
+you've stopped, that means you're turning around, it'll rattle back and
+forth. By the way, according to laws of quantum mechanics, it can do
+something else. Maybe you guys know. You know what else it can do if it
+starts here? Yes?</p>
+
+<p><b>Student:</b> It can tunnel.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> It can suddenly find itself here
+and that's not allowed by classical mechanics because to do that it has
+to go over the hump. Look what's happening at the hump. I've got more
+kinetic energy than I have total energy. I'm sorry, I've got more
+potential energy than I have total energy. That means kinetic energy is
+negative, that's not possible, because ½ <i>mv<sup>2</sup></i> can
+never be negative. So, quantum theory allows these forbidden processes
+and it's called tunneling. But for us, the roller coaster problem, you
+will just turn around. There's one thing I want you to think about
+before you go. You should not have simply accepted the Law of
+Conservation of Energy in this problem because gravity is not the only
+force acting on this. What else is acting on this roller coaster?</p>
+
+<p><b>Student:</b> No friction.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Pardon me? No friction, then
+what?</p>
+
+<p><b>Student:</b> The normal force.</p>
+
+<p><b>Professor Ramamurti Shankar:</b> The force of that track. Look,
+if I didn't want to have anything but gravity, here's a roller coaster
+ride you guys will love, just push you over the edge. That conserves
+energy and it's got no track and it's got the only gravitational force
+and you can happily use this formula. Why am I paying all this money?
+Because there's another force acting on it, but that force, if it's not
+frictional, is necessarily perpendicular to the motion of the trolley,
+and the displacement of the trolley is along the track, so <i>F.dr</i>
+vanishes. So, I will conclude by telling you the correct thing to do
+would be to say <i>K<sub>2</sub> - K<sub>1</sub></i> is the integral of
+all the forces, divided into force due to the track and the force due
+to gravity. The force due to the track is 0. I mean, it's not 0, but
+that dot product with <i>dr</i> would be 0, because <i>F</i> and
+<i>dr</i> are perpendicular. For that reason, you'd drop that and the
+force of gravity is cooked up so then it becomes <i>U<sub>1</sub> -
+U<sub>2</sub></i> and that's what we used.</p>
+
+<p>Okay, one challenge you guys can go home and do this, take any force
+in two dimensions, <i>F</i>; it is parallel to the direction where you
+are measured from the origin times any function of the distance from
+the origin. Show, convince yourself that this force is a conservative
+force by applying the test I gave you and the trick is to use <i>x</i>
+and <i>y</i> instead of <i>r</i>. Take this force, write it now in
+terms of <i>x</i> and <i>y</i>, take the cross derivatives and you can
+see it's conservative. So, any radial force, yep?</p>
+
+<p><b>Student:</b> [inaudible]</p>
+
+<p><b>Professor Ramamurti Shankar:</b> Oh, here. This is the force to
+which you should try your thing and gravity is a special example of
+this. Okay, judging from the class reaction, and the stunned and
+shocked look, a lot of you people, maybe this material is new, so you
+should think about it, talk about it, go to discussion section, but
+this is the level at which you should understand energy conservation in
+a course like this.</p>
+
+<p>[end of transcript]</p>
+
+<br />
+<br />
+</div>
+
+<p><a id="backToTop" href="#top">back to top</a></p>

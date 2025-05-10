@@ -1,0 +1,873 @@
+<head>
+<title>Fundamentals of Physics, II</title>
+</head>
+<div id="fileContents">
+<h2><strong>Fundamentals of Physics:</strong> Lecture 12 Transcript</h2>
+
+<table id="transcriptHeader" summary="transcript header" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td id="transcriptDate">February 17, 2010</td>
+<td id="transcriptNav"><span id="forwardNav"><a href="javascript:history.go(-1);">&lt;&lt; back</a></span></td>
+</tr>
+</tbody>
+
+</table>
+<p><b>Professor Ramamurti
+Shankar:</b> Okay, I left you guys thinking about inductors last time, so I should start
+there. An inductor is very different from the resistor when you start doing
+circuit theory, because when you have a resistor and you connect some voltage
+to it, the current is determined by this equation. This is what I call an
+algebraic equation. It's an equation in algebra, one unknown. You solve for
+it by dividing and you get <i>I </i>at time <i>t</i> is <i>V</i> at time <i>t</i>
+divided by <i>R</i>. And you can make the network more complicated, put a few
+more resistors, put a few more there, a few more here, resistors within
+resistors. It doesn't matter, because we can always in the end combine the
+ones in series then lump them with the stuff in parallel, till the whole thing
+to the right of this is one single effective resistor. Then you find the
+current coming out of the sources as <i>V</i> divided by that guy. Then every
+time it comes to a branch, we sort of know how to divide it. </p>
+<p>So resistor circuits
+are very easy. But now when you bring inductors, things are different, so I'm
+just going to tell you a little more about them. Here is an inductor. That's
+the symbol for an inductor. It's got some inductance <i>L</i> measured in
+henries. And the implication of that is the following: if you have a current
+going through this inductor, there is going to be necessarily a voltage with
+this polarity if the current is increasing. And the voltage you need is <i>LdI/dt</i>.
+This is the bottom line. Even if you skip all the other stuff about
+conservative forces, this, that, this is something you need to know how to do
+problems. The difference you notice is that the relation between voltage and
+current is not an algebraic equation, but a differential equation. This is
+called a differential equation. Now you don't have to worry, because I will
+tell you how to solve it, because I don't know if it's a prerequisite or not
+for this course. I once had a kid in summer school who when I started using
+partial derivatives, got very upset and said, &quot;It's not a prerequisite.
+Why are you using partial derivatives?&quot; So I told him, &quot;When you
+come to class, there's always a danger you'll learn something new. You just
+have to learn to live with that.&quot; So I'm not going to leave you in the
+cold. If I do something you've not done, I will tell you how to do it, but I
+cannot avoid using certain notions. </p>
+<p>So this one, even
+though it's called a differential equation and so on, if <i>V</i> is a
+constant, we can easily find the integral. It will be <i>V</i> over <i>L</i>
+times <i>t</i>. Okay, but now we're going to be interested in cases where <i>V</i>
+is not simply constant; it could be varying with time in an arbitrary way. So
+you take this guy, the first thing you notice is that the relation between
+current and voltage is given by derivatives. Second thing is, when a current
+flows through a resistor, whatever energy you provide is gone in the form of
+heat. It has dissipated. The light bulb glows and that's the end. With an inductor,
+when you drive a current, you are building a magnetic field inside the inductor
+and there's an energy associated with the magnetic field. And that stored
+energy will be given back to you later on. So it's like a capacitor. It takes
+a lot of work to charge a capacitor, because you've got to take charges from
+this plate and keep on piling them in that plate. It's a lot of work, but
+then if you connect that to a bulb and you squeeze the trigger in your camera,
+this charge is giving you the energy back. So the inductor and capacitor are
+different from the resistor in two ways: one is, the voltage across the
+capacitor is the charge on the capacitor divided by <i>C</i>, which if youlike
+is the integral of the current up to that time divided by <i>C</i>. Again, calculus
+comes in. So these are the two differences, the relation between current and
+voltage and voltage is differentiating or integrating, and these are energy
+storing circuit elements compared to this one, where energy is dissipated. </p>
+<p>So let's start with a
+simple problem where I have a voltage source. I'm going to take a fixed
+voltage, <i>V<sub>0</sub></i>. There is a switch, there is a resistor <i>R</i>,
+and there is this inductor <i>L</i>. I'm going to assume the current is
+flowing this way, in which case--I'm sorry. You know, this picture's wrong.
+What's wrong with this picture? What is wrong?</p>
+<p><b>Student:</b> The switch is
+open.</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+The switch is open, okay. That's what's wrong, so nothing is flowing yet. But
+when I close the switch, then it's fine. Now it's flowing. And the question
+is, what does it do? How does it flow? After all, the inductor is a
+resistance free wire, so you may think current = <i>V<sub>0</sub>/R</i> will
+start flowing immediately, but that's wrong, because if such a current were
+flowing, there'll be an energy &frac12;<i>LI<sup>2</sup></i> with that current in it.
+And that energy cannot come from 0 to all of that in no time. There's no way
+to do that. Or if you like, if the current really grows rapidly or
+instantaneously from 0 to some value, that's a current, <i>dI/dt</i> is infinite
+here. <i>dI/dt</i> is infinite,<i> LdI/dt</i> is infinite. There's an
+infinite voltage needed somewhere in the circuit and we don't have it, so that
+would not happen. So current will have to be continuous, start from 0 and it
+will have to start climbing. The minute the current starts climbing up it
+starts flowing through this guy. There is the resistance times current voltage
+drop across this. </p>
+<p>Therefore the amount
+of voltage available to drive current through this one or to increase the
+current through this one is reduced from <i>V<sub>0</sub> </i>to <i>V<sub>0</sub>
+- RI</i>. That = <i>LdI/dt</i>. So you can see, as the current increases, the
+motivation to increase the current decreases, because this resistor starts
+swallowing up more and more of this voltage. So the growth in current will be
+very, very slow, and we expect that after a very long time, it will settle down
+to some value. What is that value? We can find that value by saying,
+&quot;Wait until the current has stopped growing.&quot; That means <i>dI/dt </i>=0,
+that current will be <i>V<sub>0</sub></i>/<i>R</i> and I'm going to give it the
+name <i>I<sub>infinity</sub></i>, because it will turn out that you will reach
+the value only after infinite time. But you can get very, very close to that
+by waiting some reasonable amount of time, and part of what we want to do is,
+how long should I wait? Suppose I'm settling for 90 percent of maximum. When
+does that happen? Is it after 1 second or 10 seconds or 10 hours? What's
+going to decide that? </p>
+<p>Well, once you have
+the right equations, you can figure everything out. So we're going to do
+that. So basically we are going to solve the equation <i>LdI/dt</i>. So let me
+show you one more time how it is done, this equation. You should know how to
+write it. Start anywhere you like, go round this guy. You gain voltage <i>V<sub>0</sub></i>.
+Then go around this guy, you drop by an amount <i>RI</i>. You drop by an
+amount <i>RI</i>. And here you jump from this end to this end. Remember, you
+never go into the inductor. That's a bad zone. That's a zone where the
+potential is not even defined, but I've told you multiple times that even
+though there are non conservative things going on inside this, once you come
+outside, you just find a regular electrostatic potential difference = <i>LdI/dt</i>.
+So you drop again, and you come back to where you start, the whole thing should
+add up to 0, which means the equation is <i>LdI/dt + RI = V<sub>0</sub></i>.
+That's what we want to solve. </p>
+<p>So when you have this
+thing, as I told you, solving differential equations is a matter of guess
+work. There is no algorithm. You rely on what you've seen before and you
+guess the answer. You put some free parameters, you fiddle with them till
+everything works. And in this kind of problem, we can make everything work.
+Some problems we cannot solve. We can write the equations but we cannot solve
+them. This is something you're not used to when you take an elementary course
+like this one. But there are situations, for example, you know inside the
+proton there are these quarks, and the quarks interact with each other with
+entities called gluons. They're called gluons because they glue the quarks and
+form the protons and neutrons. We know the equations governing the behavior of
+the gluons. We cannot solve them. It's really strange. You have an equation
+but you cannot solve it. It's completely possible, because certain
+equations--every equation has a solution, but it does not mean you can write it
+down analytically. So quite often, one may be on top of the right answer, but
+one may not know how to solve it, so one doesn't even know if the theory is
+right. </p>
+<p>So suppose this was
+the equation you got, but you could not solve it. It happens to be the right
+equation. You don't know what the answer looks like, you can never be sure
+this is the right equation. Similarly when Mr. Schrödinger invented his
+quantum mechanics, he wrote an equation that will tell you the energy levels of
+hydrogen. But luckily, he was able to solve it. By solving it, he was able to
+show that his equation gives the energy levels iand the spectra you expect from
+the hydrogen atom. So you have to remember that not every interesting equation
+can be solved, and I gave you the equation for these gluons, which we can write
+down but cannot solve. There is no function whose derivative we cannot take.
+There are lots of functions whose integrals we cannot do. That's simply asymmetry
+between those two. Here's a very simple function: <i>e<sup>&#8722;x2</sup>dx</i>
+from 0 to 19, or some fixed number, 0 to some <i>x<sub>max</sub></i>. It has a
+definite value. It's area under the graph, but no one knows how to write a
+formula for this in terms of <i>x<sub>max</sub></i>, where it's in closed
+form. </p>
+<p>But anyway, this guy
+we can trample to death as follows. First we say at very, very long times, the
+current, I told you, is <i>V<sub>0</sub>/R</i>. That's when<i> dI/dt </i>is
+0. So we're going to write the actual current in our problem as the current at
+infinity + some difference I twiddle. Standard thing, you take out the part
+you know and solve for the rest of it. So let's take that assumed form and put
+it into the differential equation. So when I do <i>LdI/dt</i>, this is a
+number, <i>V </i>over <i>R</i>. It has no d by dt. So <i>dI/dt</i> becomes <i>dI&#732;/dt</i>
++ <i>R</i> times <i>I&#732;</i> + <i>R</i> times <i>I<sub>infinity</sub></i> = <i>V<sub>0</sub></i>.
+Now you can see why we did that. We did that because now these two guys cancel
+and you get <i>LdI/dt </i>+ <i>RI</i> = 0. That means <i>dI&#732;/dt</i> is &#8722;<i>R/L </i>times
+<i>I</i>. So we are saying, get me a function whose time derivative looks like
+the function itself up to a constant, and that's something we know from high
+school, is an exponential function. So <i>I&#732; </i>looks like some constant, <i>I<sub>0</sub>e<sup>-Rt/L</sup></i>.
+You can take the derivative of this guy and out will come <i>-R/L </i>times the
+function itself. And <i>I&#732;<sub>0</sub> </i>is completely arbitrary. It's not
+determined by this equation. There's another useful property to know. </p>
+<p>This is a linear
+equation. It means if you multiply both sides by 19, you get another solution
+which is 19 times the old solution. So the solution's overall scale is not
+determined by the equation. If I give you one solution, you can multiply it by
+any number you like, it's also a solution, because if you multiply by a number,
+say 9, the 9 goes into the derivative, 9 comes here. You can see 9 times <i>I&#732; </i>satisfies
+the same equation. So we don&#39;t know this number just from the equation, but we
+go back to what we know, which is <i>I </i>of <i>t</i>, is <i>I<sub>infinity</sub></i>,
+which is <i>V<sub>0</sub>/R </i>+ <i>I&#732;<sub>0</sub>e<sup>&#8722;Rt/L</sup></i>. But I
+know that at <i>t </i>= 0, this guy should vanish. <i>t </i>= 0, this guy
+should vanish, because there was no current when I just threw the switch. So
+that tells me that equals 0. That tells me<i> I&#732;<sub>0</sub> </i>= <i>-V<sub>0</sub>/R
+</i>and we get our final result, which is <i>I</i> of <i>t</i> = <i>V<sub>0</sub>/R
+</i>times 1 - <i>e<sup>-Rt/L</sup></i>. </p>
+<p>So at this level, you
+are really doing physics the way we like to do it. We like to study things,
+write down some equations and solve the equations. Then we get a very precise
+prediction on what will happen. Because now we don't have to guess when the
+current will come to 90 percent of its maximum value. We can pick any number
+you like, because we can now plot this graph. And let's plot this graph, <i>I(t)
+</i>versus <i>t</i>. At<i> t </i>= 0, <i>e<sup>-0</sup> </i>is 1. You get 1 -
+1, you get nothing. At <i>t</i> = infinity, <i>t</i> to the minus infinity is
+0. Yes?</p>
+<p><b>Student:</b> Over on the right
+where it says <i>I&#732; </i>sub twiddle = negative<i> V<sub>0</sub> </i>over <i>R</i>,
+should that be 0?</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+This one? Yeah, right. Thank you. Okay, so now this exponential has a full
+strength of 1 at time equals 0. Goes to 0 at time equals infinity. Therefore
+it takes away exponentially small stuff at very large times. And if you want
+to know roughly how long should I wait, the answer is, the time you should wait
+is roughly of order <i>L/R</i>. Because you can write this as <i>e<sup>-t</sup>/&#964;</i>,
+where &#964; is <i>L/R</i>. Whenever we have an exponential, it will always be e to
+the minus a physical quantity divided by some number that sets the scale for
+the physical quantity. Exponentials fall exponentially. We know that. But
+how long should I wait? Well, if you wait <i>t</i> = &#964; seconds, then it will
+be 1/<i>e</i>, which is roughly 1 over third of the starting value and 1 minus
+that will be roughly 2 thirds of its value. If you wait <i>t</i> = 3&#964;, <i>e</i><sup>-3</sup>
+is 1 over 20, then you'll be what, 95 percent. So you can calculate everything
+you need in this simple problem. </p>
+<p>So now let's come to
+the same problem. The switch has been closed for a long time and the current
+has stabilized. So here is the switch. It has been closed. That&#39;s my<i> V<sub>0</sub></i>,
+that's <i>R</i>. And the current, you remember, is <i>V<sub>0</sub>/R</i>.
+This is <i>L</i>. So now we want to do something else. Now I want to open
+that switch. So what do you think will happen if you open that switch? Yes?</p>
+<p><b>Student:</b> The inductor will
+resist the changing current.</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+But how can it resist?</p>
+<p><b>Student:</b> By inducing the
+magnetic field.</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+It can do what it wants, but how does it drive a current through the open
+circuit?</p>
+<p><b>Student:</b> From energy stored
+in the magnetic field. </p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+But in what manner will the current flow, given that I've broken the circuit?</p>
+<p><b>Student:</b> In the direction--</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+No, but how will it manage to go around? It's like removing the bridge,
+right? How will it go around? I agree with everything you said, but how will
+it make the circuit? Yes?</p>
+<p><b>Student:</b> There'll be a
+higher concentration of charges on one side than the other.</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+Yes, but how will you really get rid of the current in a circuit that seems
+open? Have you ever done this? Okay, that's just fine. But we know it has to
+get rid of that current, because otherwise, what happened to the energy? It
+has to go through. So you know what, you guys don't know what will happen if I
+pull that switch. Yes?</p>
+<p><b>Student:</b> Is the current an
+electric field? The change in the magnetic field will create an electric field
+which doesn't need the closed circuit.</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+Right, no I agree, it will have an electric field. But how will the electrons
+flow when the wire has been interrupted, is all I'm asking you? Yes?</p>
+<p><b>Student:</b> Will the current
+oscillate, go back and forth?</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+No. Yes?</p>
+<p><b>Student:</b> You will have a
+static discharge.</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+You will have a discharge. You will have an arc. You will have a flash, and
+that's when you'll hear a zip, and then it will jump this gap. So whenever you
+remove the switch, you have to be careful that there is not stored energy
+somewhere. You might think, &quot;Hey, I am pulling the plug on--&quot; well, I
+won't say who. You're pulling the plug, okay, and what can it do to me? Well,
+it can zap you, because this is a very dangerous place to pull the plug. So
+you know what people do? They have another resistor. Let's call this guy <i>R<sub>1</sub></i>.
+This is <i>R<sub>2</sub></i> and <i>R<sub>2</sub></i> is a huge number, 10,000
+ohms let's say. So most of the time, <i>R<sub>2</sub></i> doesn't do anything,
+because when the current comes here in any situation, it looks at the inductor
+and looks at 10,000 ohms and it says, &quot;I'm going this way.&quot; So
+primarily, it will all go there, okay? </p>
+<p>In the end, when the
+switch has been closed for a very long time in our old experiment, when the
+current is stabilized, you remember <i>LdI/dt </i>0 here. So there's 0 volts
+between these two. That's the same 0 volt across <i>R<sub>2</sub></i>. No
+current will flow in <i>R<sub>2</sub></i>. Everything will flow through <i>L</i>.
+That current in fact will be <i>V<sub>0</sub></i> over <i>R</i>, because this
+guy has been cut out of the loop. This is how it's going. But now if you
+throw the switch open, you have given it a path to discharge. So the inductor
+will discharge through the resistor. The current will continue to flow in this
+direction. Of course, it cannot flow forever, because the resistor will burn
+up the energy, but you're giving it a path. You're avoiding--in a way, if you
+like, this is also a path with very, very high resistance. The air is a path
+with very high resistance. That means by and large, there are no free carriers
+in the air. But if the two tips get really charged, just like you said,
+there'll be an emf that will pile up charges. They're jumping, they're waiting
+to jump the gap. Eventually they'll polarize air, which is electrically
+neutral, into + and - parts. Then the - will go one way, the + will go the
+other way. You'll recognize that as a discharge. But you don't have to worry
+about that now, because <i>R<sub>2</sub> </i>will take up your current. </p>
+<p>So now the equation
+we write is <i>LdI/dt </i>+ <i>RI</i> = 0 because if you start anywhere and you
+go around a loop, you have no change in anything. There's no voltage. And the
+answer to this one, <i>R<sub>2</sub></i>, there <i>I </i>= <i>I<sub>0</sub>e</i>
+to the &#8722;<i>R<sub>2</sub>/L </i>times <i>t</i>. So now the current will decay
+exponentially. Again, with the time constant, <i>R<sub>2</sub></i> over <i>L</i>,
+which is the 1 over the time constant, or the time constant is <i>L</i> over <i>R<sub>2</sub></i>.
+So you put <i>L</i> in henries, <i>R</i> in ohms, you'll get some time. That
+will give you an idea of how many times that time you have to wait before the
+inductor is completely discharged. Well, it's never going to be fully
+discharged. It's going to take forever, but if you say, &quot;Look, 1
+thousandth of the original current is safe enough. How long do I have to
+wait?&quot; you put .001 here and see what time you get. So you want <i>e<sup>&#8722;t/&#964;</sup>
+</i>to be .001. So every big inductor you have in a circuit you will find has
+got a resistor in parallel with it to take up the energy it has. </p>
+<p>So let's do a little
+energy calculation. The energy calculation will be, I had energy in the
+inductor in the beginning, which is &frac12;<i>LI<sub>0</sub><sup>2</sup></i>. What
+happened to it? Well, we know what happened. There's a current in the
+circuit, and when the current is flowing in the circuit, it is dissipating heat
+in the resistor. Therefore the power in the resistor will be <i>I<sup>2</sup>R<sub>2</sub></i>.
+<i>I<sup>2</sup></i> is<i> I<sub>0</sub><sup>2</sup> </i>due to the minus
+twice <i>R<sub>2</sub>t/L </i>times another <i>R<sub>2</sub></i>. Now we
+integrate this power from 0 to infinity, you will get <i>I<sub>0</sub></i><sup>2</sup><i>R<sub>2</sub></i>.
+The integral of <i>e</i> to the minus something is <i>e</i> to the minus that
+divided by that infinity to 0. I can promise you that what you will get will
+be <i>L/2R<sub>2</sub></i>. It will give you then 1 over 2<i>LI<sub>0</sub><sup>2</sup></i>.
+So this is not a surprise, that the stored energy in the inductor is driving
+your current. So if you want, one way to store energy, it's a capacitor, you
+charge it and it discharge when you want the current to flow. Or you can have
+an inductor, in which a current has been set up. Then when the power shuts off
+in your house and somebody throws the switch, that inductor can keep the light
+bulb burning, in fact forever. It will be infinite time before the bulb shuts
+down, but you won't be able to see anything after a while, because this graph
+is exponentially falling. This is a very simple problem where we can do the
+math and we can understand what it's doing. Yes?</p>
+<p><b>Student:</b> The graph, what is
+that triangle thing?</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+This one here? This is called &#964;. You mean that symbol? Tau is a unit of time
+whose numerical value is <i>R<sub>2</sub>/L </i>and we can write I as <i>I<sub>0</sub>e<sup>&#8722;t/&#964;</sup></i>.
+We always like to write it in this form, so that if &#964; = 100 seconds, you will
+have to make many multiples of 100 seconds before the current is negligible.</p>
+<p><b>Student:</b> What are the units
+on the axis?</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+Oh, in this graph here? This is time and this is the current in the loop. It
+starts out at some initial value. </p>
+<p>Okay, now I'm going
+to do the next slightly more complicated circuit, and that is an LC circuit.
+If you have a circuit like that, it won't do anything. You can take these
+guys, hook them up and wait all day. Nothing will happen because it's got no
+energy. Why should it do anything? It's just going to sit there. But if
+you've charged up your capacitor like this, and there's an open switch that you
+then closed, then those + charges are going to leave and find their way around
+the other side and neutralize them and the capacitor will discharge. But you
+know that once it discharges, it's not the end of the story. So why is that?
+Why doesn't it stop when the capacitor is discharged? Yes?</p>
+<p><b>Student:</b> It's kind of like
+the inductor has momentum and it keeps pulling.</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+The inductor would have had a current by then, so the inductor is not going to
+suddenly stop having its current. So it's going to keep driving more current
+for a while, until the capacitor's charged up the opposite way to an extent
+that this fights that one, that voltage, and then it will go the other way. So
+it will go back and forth. So let's write down the equation that tells you how
+it goes back and forth. So in other words, you should draw pictures.
+Textbooks have nice pictures and I won't even try it. In the beginning, it may
+look like--I'm sorry, in my example, in the beginning, there's an electric
+field here, nothing in the capacitor. After a quarter cycle,
+there's nothing here, there's a magnetic field in the inductor. Another
+quarter cycle, it's back here, but with the opposite polarity, and it goes back
+and forth. So we can get all that, by writing the equation <i>LdI/dt</i> + <i>Q/C</i>
+= 0. So let's write everything in terms of <i>Q</i>. Then <i>dQ/dt</i> is <i>I</i>,
+because as the current flows this way, it builds up charge. That's my
+convention. So I can write it as <i>Ld<sup>2</sup>Q/dt<sup>2</sup> + (1/C)Q</i>
+= 0. </p>
+<p>Now we have seen
+exactly this equation before, right? We saw the equation for a mass coupled to
+a spring the equation <i>md<sup>2</sup>x/dt<sup>2</sup> +kx</i> = 0. Now we
+know what it does. We know it oscillates back and forth. And <i>L</i>--this
+is an SAT question--<i>L</i> is to <i>m</i> what <i>1/C</i> is to <i>k</i>.
+It's very useful to bear in mind this analogy, because mathematically, this
+equation and this equation have exactly the same solution. It's no more
+difficult to solve this one than that one. This may involve electric charges;
+that may involve masses. You don't care. So mathematically, here's an
+equation: cow times <i>d<sup>2</sup></i> dog over <i>dt<sup>2</sup></i> + let's
+say elephant times dog = 0, where dog is a function of time, has exactly the
+same solution. What does it matter what you call the unknown variables,
+right? But you've got to tell me that cow and elephant are time independent
+and dog is the only thing that depends on time, because otherwise the equation
+is not the same. So here m and k don't change, L and C don't change. So
+what's the answer to this one? </p>
+<p>Once again, it's the
+differential equation. You write <i>dQ/dt</i> squared is &#8722; (<i>1/LC) Q</i> and
+you're asking yourself, give me a function which, when I differentiate twice,
+looks like itself. There's always the exponential. There's also sines and the
+cosines and you can take any combination you like. And the one acceptable
+solution is some constant <i>A</i> times cosine square root of 1 over <i>LC t.</i>
+Is that right? Yes. If you take two derivatives of <i>Q</i>, you'll pull one
+over root <i>LC</i> each time, then you'll get a - sine when cosine becomes -
+sine and one more derivative will bring it back to - cosine. So this is called
+the frequency, which is 1/&#8730;<i>LC</i>. That's the analog of square root of <i>k</i>
+over <i>m</i>. Anyway, this will oscillate. It's a mechanical analog--it's
+the electrical analog of the mechanical problem. So I don't want to do too
+much of this, because I think you should be quite familiar with this, at least,
+the oscillatory behavior of this. And the analogy is perfect. For example, to
+say that I pulled the mass by 1 meter is to say that <i>x</i> was given a non-zero
+value and <i>dx/dt</i> was 0. Analogous thing here will be <i>Q</i> was given a
+non-zero value and <i>dQ/dt</i> which is <i>I,</i> is 0. That means the
+capacitor was charged, the inductor was not carrying any current. Then I let
+it go. What happens? The problems are identical. Yes?</p>
+<p><b>Student:</b> When you solve the
+differential equation, why did you omit the sine?</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+Yes, I should explain to you. That's an important point. <i>Q(t) </i>can be
+one number, cosine <i>&#969;<sub>0</sub>t</i>. <i>&#969;<sub>0</sub></i> is this guy +
+another number sine <i>&#969;<sub>0</sub>t</i>. And both are acceptable. And the
+property of this differential equation is, if I have one answer, cos <i>&#969;t,</i>
+and another possible answer, sine <i>&#969;t,</i> then any constant times cos + any
+constant times sine is also a solution. You can verify that. If you have one
+solution, <i>Q<sub>1</sub></i>, a second solution, <i>Q<sub>2</sub></i>, you
+can add the two equations and you can show <i>Q<sub>1</sub> + Q<sub>2</sub> </i>obeys
+the same equation. Not only that, suppose there's one problem you solve, <i>dQ<sub>1</sub>/dt
+</i>squared is <i>-&#969; </i>on <i>R</i> squared <i>Q<sub>1</sub></i>. There is
+some function of time and here's another function of time, obeying the same
+equation. Now you can multiply this by a number <i>A</i> and you can multiply
+this by a number <i>B,</i> take the <i>A</i> inside the derivative, <i>B</i>
+inside the derivative and add the two sides. On the left hand side you will
+find the second derivative of <i>AQ<sub>1</sub> + BQ<sub>2</sub></i>. Right
+hand side, you will find <i>&#969;<sub>0</sub><sup>2</sup></i> times <i>AQ<sub>1</sub>
++ BQ<sub>2</sub></i>. That means <i>AQ<sub>1</sub> + BQ<sub>2</sub></i> obeys
+this same differential equation. </p>
+<p>This is called
+superposing two solutions. You've got one solution, another one, you can
+multiply one by a constant. It's very important it's a constant, because
+that's what will let you take it inside the derivative. Therefore the correct
+answer here is really <i>A</i>cos<i>&#969;d</i> + Bsin<i>&#969;t </i>and you can ask, why
+did you write <i>A</i>cos<i>&#969;<sub>0</sub>t</i>? First of all, that's not a
+good solution. I can put a &#934;
+there which is arbitrary. And it's not hard to show--let me call that <i>C</i>
+if you like, <i>C</i>. This can be written as <i>C</i>cos<i>&#969;<sub>0</sub>t</i>
+- &#934;. In other words,
+it's possible to take either a solution with a cosine and a sine, with no extra
+phases inside, to another one with one amplitude and one phase. The phase is the
+delay in the cosine. Anybody here has trouble, who does not know the details,
+I'll be happy to explain why that's correct. </p>
+<p>If you don't know,
+you should tell me now. You can check that if you take this thing, make a
+right angled triangle with <i>A</i>, <i>B</i> and <i>C</i> and an angle &#934; here, then <i>A</i>
+can be written as <i>C</i>cos<i>&#934;</i> and <i>B</i> can be written as <i>C</i>sin<i>&#934;</i>, and that just
+happens to be cos<i>&#969;t</i> - <i>&#934;</i>, this one, some trigonometry. So the
+differential equation, with the second order in time, will always have two
+unknown parameters in it. You can choose them to be these numbers <i>A</i> and
+<i>B</i>, or this number <i>C</i> and <i>&#934;</i>. And the equation won't tell you what they
+are, because once you tell me there's a mass coupled to a spring and I say,
+&quot;Okay, this is the spring constant this is the mass?&quot; and I ask you,
+&quot;Where is the mass right now?&quot; I don't know. It depends on when you
+started it and how you released it. So I need to know what's called initial
+conditions, which is the value of <i>Q</i> or the value of <i>x </i>at the
+initial time and the value of the velocity or the current at an initial time.
+With those two pieces of information, I can solve for <i>A</i> and <i>B</i>. </p>
+<p>This I think you
+should know, this kind of stuff you should know, so I won't say too much about
+that. All right, so now we do another problem. We put an alternating voltage
+on these guys. So this is <i>V<sub>0</sub></i>cos<i>&#969;t </i>and this is <i>C</i>
+and this is <i>L</i>. Now we ask, what's the current? This omega is not the
+natural frequency of oscillation. It is some externally given omega, like 60
+hertz from your power supply, from your socket. So that's driving the circuit
+and you can ask, what happens now? The answer will be, you write the same
+equation. You can write <i>Ld<sup>2</sup>Q/dt<sup>2</sup> </i>+ <i>(1/C)Q </i>=<i>
+V<sub>0</sub></i>cos<i>&#969;t</i>. Now what are you going to do? You have to
+again guess the solution. So I want a function, <i>Q</i> of <i>t</i>, so that
+when I take two derivatives and add it to some multiple of itself, I get
+something, something times the cosine. So what should that function look
+like? Yes? </p>
+<p><b>Student:</b>
+[inaudible]</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+No, no, what function <i>Q</i> of<i> t</i> do you think will satisfy this
+equation? I'm asking for a function of time which, when I put into this, has
+some chance of obeying the equation. What's the functional form? Yes?</p>
+<p><b>Student:</b> Cosine times some
+constant.</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+Right. In other words, I can take it to be some constant, <i>C</i> times cos<i>&#969;t</i>,
+period. Not even times &#934;. Take this one, see
+what happens. Now when you take one derivative, you get -<i>&#969;LC</i>cos<i>&#969;t</i>.
+When you take another derivative, you get &#8722;<i>&#969;<sup>2</sup>L<sup>2</sup></i>--I'm
+sorry, this becomes sine times cos<i>&#969;t</i>, and this one is just oh my
+god--this is my nightmare. You can see the nightmare now? How many people see
+the nightmare? Yes?</p>
+<p><b>Student:</b> Constant <i>C</i>.</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+Yes, so I picked that <i>C</i> to be the same as this <i>C</i>. So we'll put a
+hat on this guy so we can tell them about. So <i>C&#732;/C</i> times <i>C&#732;</i> is <i>V<sub>0</sub></i>cos<i>&#969;t</i>.
+And what this tells you is, if you take two derivatives--I'm sorry, this is so
+sloppy. If you take two derivatives here, you will get + <i>&#969;<sup>2</sup></i>.
+cos<i>&#969;</i> be also be with the - sign. <i>Q/C</i>. Okay. You guys buy
+that? There is no <i>L<sup>2</sup></i>, just an <i>L</i>. That = <i>V<sub>0</sub></i>cos<i>&#969;t</i>.
+Right? Every derivative brings an &#969; and there's a net - sign. So you find out
+that your guess, <i>C&#732;</i>cos<i>&#969;t</i> is going to work, provided this equation
+is satisfied. And the cos<i>&#969;t</i> can be canceled. That's the whole point of doing this thing.
+So then you get <i>C&#732;</i> = <i>V<sub>0</sub> - V<sub>0</sub></i> divided by <i>&#969;<sup>2</sup>L
+&#8722; 1/C</i>. Or if you like, -<i>V<sub>0</sub>/L</i> divided by <i>&#969;<sup>2</sup>
+- &#969;<sub>0</sub><sup>2</sup></i>. Don't worry about the numerator; look at the
+denominator. The denominator says that if your driving frequency is equal to
+the resonant frequency, <i>C&#732;</i> blows up. That means when a system has got a
+resonance--yes?</p>
+<p><b>Student:</b> Where did the <i>&#969;<sup>2</sup></i>
+come from?</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+I took two derivatives--oh, here. Oh, I'm sorry. Yes, thank you. You know,
+it's good to do these things slowly and not rely on what you heard somewhere.
+So let me do it for you again. Sorry about that. So this time I take two
+derivatives. Each one brings an <i>&#969;</i>. There is an L, and the - sine comes
+because the cosine becomes - sine. Differentiate one more, you get - the
+cosine. This guy is nothing. It just says &quot;divide my by <i>C</i>&quot;
+and that's equal to that. And then I wrote 1/<i>LC</i> is <i>&#969;<sub>0</sub><sup>2</sup></i>.
+Thank you very much. Okay? I was really hung up on the final result, which
+tells you, you'd better not drive this at the resonant frequency, because then
+current amplitude will build up indefinitely. That's also true in a swing. If
+you've got a swing and the kid's coming back and forth, and you're reading a
+newspaper just pushing the kid, you've got to push at the right time to get the
+best result. And that kid's not going to fly off, because there's one more
+term in the equation for the kid, which is friction. But if you have a
+frictionless swing and you're doing this, you've got to watch out, because soon
+there'll be nobody around, because the amplitude will keep growing. </p>
+<p>Well, these are
+unrealistic problems, but I want you to notice one thing. Here's what I want
+you to notice. The voltage you were given looked like <i>V<sub>0</sub></i>cos<i>&#969;t</i>
+and the current that you got, I can obtain by taking the derivative of this
+charge, which is like <i>dQ/dt</i>. That's going to be <i>C&#732;&#969;</i>sin<i>&#969;t</i>,
+and <i>C&#732;,</i> we can write as <i>V<sub>0</sub>/L</i> divided by <i>&#969;<sup>2</sup>
+- &#969;<sub>0</sub><sup>2</sup>sin&#969;t</i>. This is <i>I</i>. Here's what I want
+you to notice. It looks a lot like Ohm's law, because the current looks like
+voltage divided by some number, but that's a very big difference. The voltage
+is a cosine and the current is a sine. That's something I want you to think
+about. The current is not in step with the voltage, whereas in a resistor
+circuit, the current follows the voltage. It's the same profile as the
+voltage, except you divide by <i>R</i>. Here one is a cosine, one is a sine.
+That means when one guy is at maximum, other is at minimum. It's called out of
+phase, in fact out of phase by 90 degrees. Yes?</p>
+<p><b>Student:</b> ________ by the <i>C</i>
+that you got, where did the omega go?</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+Here?</p>
+<p><b>Student:</b> On the other
+side. When you multiply that through by the <i>C</i>--</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+Oh, <i>&#969;</i> did not go, it's back. Right here. You're right. There's the <i>&#969;</i>.
+That came from... Okay, these problems, the only thing I'm focusing on right
+now, I would say of all the things I wrote there, to be the most important
+thing is number one, this is what I want you to bear in mind. That's why
+sometimes I'm not paying attention to some constants. What is important to
+notice is that this is an equation you can solve by inspection. Why was it
+easier to solve it by inspection? Because you are trying to get in the end a
+cosine to balance the right hand side, and you're trying to find a function who
+is itself a cosine, or whose second derivative is a cosine, and we know the
+answer to that is a cosine, so we can guess the answer. Once you guess the
+answer, you put it in and you analyze the solution, you notice also that the
+current and the voltage are not in step. One is a cosine. You know what a
+cosine does, it does that. Other is a sine, so they are out of step. When one
+is at maximum, the other is at minimum and so on. </p>
+<p>That means a current
+as a function of time is not equal to the voltage as a function of time divided
+by anything. There is nothing you can divide a cosine by to turn it into a
+sine. Whereas with resistors, you just divide by R, you get the current. Now
+for the more realistic problem, the realistic problem has got a capacitor, an
+inductor and a resistor and no other power supply. The equation obeyed by this
+one will be <i>Ld<sup>2</sup>Q/dt<sup>2</sup> </i>(that stands for <i>LdI/dt</i>)
++ <i>RdQ/dt </i>+ <i>Q/C </i>= 0. This is analogous to <i>md<sup>2</sup>x/dt<sup>2</sup>
+</i>+ (I don't know how you guys wrote this thing last semester. It doesn't
+matter) &#947;<i>dx/dt </i>+ <i>kx</i> = 0. Notice that it's the same form. And
+I'm going to give this to you as a homework problem to analyze the answer to
+this one. So this describes a problem where you have a mass and a spring and
+some friction on the table. This means if you pull it and let it go, the
+oscillations will eventually get damped and it will die down. And the general
+solution for the case when it's oscillating will look like some number A <i>e</i>
+to the minus some number &#945;t times cosine times some frequency <i>&#969;&#39;t</i>. Let
+me see. You can always add a phase <i>&#934;</i>, but I'm not going to do that. If you want,
+you can put an extra &#934;, but I'll choose my
+origin of time so that I don&#39;t have that. This is what the answer's going to
+look like, where <i>&#969;</i>&#39; and <i>&#945; </i>are going to be controlled by<i> L, R </i>and
+<i>C</i>. That's the thing I don't want to do in class. Have you seen this
+before? Professor Harris tells me you've seen this last time. And the hints
+in the homework will guide you on how to do this. You just assume the solution
+<i>x </i>at<i> t </i>looks like some <i>A e </i>to the - (I don't want to call
+it <i>&#945;</i> now) <i>&#946;</i> times <i>t</i>. You put it in the equation and solve
+for <i>&#946;</i> and you'll find <i>&#946; </i>will have a real part and an imaginary
+part. And you have to combine the two to get this answer. </p>
+<p>Now that brings me to
+another thing, so I don't know how prepared you guys are for what's about to
+happen next, which is the use of complex numbers. So everybody familiar with
+complex numbers? Who doesn't know complex numbers? How do you do your taxes?
+You don't know imaginary numbers? So I will tell you. I'll give you a lightning
+review. I'm assuming everybody has seen them in high school. I will only tell
+you the part you need, but I'm going to assume that I can use them fluently. I
+don't want to stop every time and worry about you guys. So I really need a
+show of hands. Anybody never seen <i>x + iy</i> and <i>x - iy</i>? And how
+about <i>e<sup>i&#952;</sup></i>? You know that guy? Okay, that's all you need.
+So I'm going to tell you what the deal is. So everyone knows what a complex
+number is. We know <i>i</i> is square root of -1. Then we know that we can write
+a complex number as <i>x + iy</i> and visualize it in a complex plane where you
+measure <i>x</i> this way and <i>iy</i> is measured that way. That's usually
+called a generic complex number <i>z</i>. But now let us find the length of
+that--the complex number is a single point in the complex plane. The length of
+that is square root of <i>x<sup>2</sup> + y<sup>2</sup></i>. So I can also
+write <i>z</i> as <i>x</i> divided by square root of <i>x<sup>2</sup> + y<sup>2</sup></i>
++ <i>i</i> times<i> y</i> divided by square root of <i>x<sup>2</sup> + y<sup>2</sup></i>
+times the square root of <i>x<sup>2</sup> + y<sup>2</sup></i>. Just done
+nothing, just rearranged stuff. </p>
+<p>This is going to be
+called the modulus of <i>z</i>, and what is this? This angle is <i>&#952;</i>
+here. This is really cos<i>&#952;</i> + <i>i</i>sin<i>&#952;</i> times modulus of <i>z</i>.
+And that, thanks to this great identity by Euler, is <i>e<sup>i&#952;</sup>.</i>
+Now I don&#39;t know how much you know about this great formula that relates <i>e<sup>i&#952;</sup>
+</i>to cosine + sine. How many people know where it comes from? What does it
+mean to raise <i>e</i> to a complex power? You know where it really comes
+from? Yes?</p>
+<p><b>Student:</b>
+[inaudible]</p>
+<p><b>Professor Ramamurti
+Shankar:</b>
+It comes from power series. It turns out you can write a power series for
+cosine. You can write a power series for sine, then, for example, cosine of <i>&#952;</i>
+= 1 &#8722; <i>&#952;<sup>2</sup> </i>over 2 factorial, <i>&#952;</i> to the 4 factorial, or 6
+factorial, etc. And you can write a power series for <i>e<sup>&#952;</sup> </i>if
+you like, which is 1 + &#952; + <i>&#952;<sup>2</sup>/</i>2. This defines cos<i>&#952;</i> in
+the sense that if you put <i>&#952;</i> = <i>&Pi;</i>/2 in this infinite series, you
+will get 0. And if you put <i>&#952; = &Pi;, </i>you will get <i>&Pi; </i>-1. In other
+words, in spite of this funny looking form, it really is the same guy. It will
+oscillate, it will have zeros, it will be periodic. None of it is obvious, but
+this power series is numerically equal to this one if you keep the infinite
+number of turns. Likewise, <i>e<sup>&#952;</sup></i> is defined by this series.
+And similarly, there's a formula for sin<i>&#952;</i>. Now once a power series is
+defined, you can put e raised to anything you want there. </p>
+<p>So you know what I'm
+going to put there. <i>e </i>raised to dog is 1 + dog + dog squared. This is
+not a joke. This is really true. This is the definition. If someone says,
+&quot;How do I raise <em>e</em> to the power dog?&quot; you do this. This will have all
+the properties of the exponential. It doesn't matter what's in the exponent.
+That's the key. People originally put real numbers, then they put complex
+numbers. Now they put matrices, operators, anything you want. <i>e</i> raised
+to anything, you formally define to be this infinite series, provided the
+infinite series converges and gives you a meaningful answer. In that sense, if
+you put <i>e<sup>i&#952;</sup> </i>here, and compare the result to cos<i>&#952;</i> + <i>i</i>sin&#952;,
+it matches, that's all. I'm just going to keep using that result. Then you
+should also know that for every complex number, there's a complex conjugate,
+which is <i>x - iy</i>. That means<i> i </i>goes to -<i>i</i>. That means <i>z</i>,
+the angle <i>&#952; </i>will change to -<i>&#952;</i>. And given any complex number, the
+real part of <i>z</i>, which is <i>x</i>, is <i>z + z&#42; </i>over 2 and the
+imaginary part of <i>z</i>, which is <i>y</i>, is <i>z &#8722; z&#42; </i>over 2<i>i</i>.</p>
+<p>This is what you need
+to know. Every complex number has a real part and an imaginary part. In fact, <i>z&#42;</i>
+looks like this. And if you add<i> z + z&#42;, </i>the vertical parts cancel and
+you get double the horizontal part. That's why you divide by 2. You subtract
+and divide by 2<i>i, </i>you get <i>y</i>. Basically, that's all I want you to
+know, but I want you to be able to manipulate them rapidly enough. Here's something
+very useful about complex numbers. Let's take a complex number <i>z<sub>1</sub></i>
+which is mod <i>z<sub>1</sub>e<sup>i&#952;1</sup></i>, and another complex number, <i>z<sub>2</sub></i>,
+which is mod <i>z<sub>2</sub>e<sup>i&#952;2</sup></i>. So what do they look like?
+Well, <i>z<sub>1</sub></i> looks like this, with some angle <i>&#952;<sub>1</sub></i>,
+and <i>z<sub>2</sub></i><sub> </sub>may look like that. It's got some angle <i>&#952;<sub>2</sub></i>.
+So every complex number has a length and an angle. You can think of it two
+ways. It's got an <i>x</i> part and a <i>y</i> part, and a real and an
+imaginary, or it's got a modulus and a phase. That's the Cartesian version of
+the number and the polar number of the number. And the connection between them
+comes from Euler's formula. </p>
+<p>But now look what
+happens when I take the product <i>z<sub>1</sub>z<sub>2</sub></i>. I get mod <i>z<sub>1</sub></i>
+mod <i>z<sub>2</sub> e<sup>i&#952;</sup><sub>1</sub><sup> + &#952;</sup><sub>2</sub></i>,
+because exponentials add when you multiply them. Well, this allows you to
+immediately guess what the product is going to look like. The product is going
+to have a length equal to the length of <i>z<sub>1</sub></i> times length of <i>z<sub>2</sub></i>.
+It's going to have an angle, I've not done a good picture here, which is the
+sum of the two angles, because it's <i>&#952;<sub>1</sub> + &#952;<sub>2</sub></i>. So
+listen to this statement very carefully. When you take a complex number, say
+number 1, and you multiply it by a second complex number, you do two things to
+the first guy. You rescale it and you rotate it. So two operations are done
+in one shot when you use complex numbers. The mod <i>z<sub>2</sub> </i>rescale
+is the mod <i>z<sub>1</sub></i> and <i>&#952;<sub>2</sub></i> adds to <i>&#952;<sub>1</sub></i>.
+Likewise, if you divide, if you take <i>z<sub>1</sub></i> over <i>z<sub>2</sub>,</i>
+it is mod <i>z<sub>1</sub></i> over mod <i>z<sub>2</sub> </i>times <i>e<sup>i&#952;</sup><sub>1
+</sub><sup>- &#952;</sup><sub>2</sub></i>, because the exponential <i>&#952;<sub>2</sub></i>
+is downstairs. </p>
+<p>So multiplication by
+real numbers is very easy. You take a real number 4, you multiply by 8, you'll
+get something in the real axis 8 times longer. You multiply by -8, you'll get
+something back here. With complex numbers, you take a number, you multiply
+another number, you rescale and you rotate. That's what I want you to know.
+That's going to be very important for what I'm saying. </p>
+<p>Now I come to the
+problem I really want to solve, which is an LCR circuit driven by an
+alternating source, <i>V<sub>0</sub></i>cos<i>&#969;t</i>. This is <i>R</i>, this is
+<i>C</i> and this is <i>L</i>. And the equation we have to solve is <i>L dI/dt</i>
++ <i>RI</i> + 1<i>/C</i> integral <i>I</i> <i>dt</i> = <i>V<sub>0</sub></i> cos<i>&#969;t</i>.
+Because <i>Q</i> is the integral up to time t of the current, that's just <i>Q/C.</i>
+It's the same equation, but now, unlike in this problem, where I had no driving
+voltage, I have a driving voltage, and I've also written it in terms of current
+rather than in terms of charge. Because in electrical engineering, you don't
+really watch the charge in the capacitor. You look at the current flowing through
+the circuit. </p>
+<p>So you have to solve
+this equation. The question is, can you guess the answer? That's the only way
+we know. You've got to guess. You're trying to find a function, <i>I </i>of <i>t</i>,
+so that when you differentiate it, you get a cosine <i>&#969;t</i>, when you
+integrate it, you get a cosine <i>&#969;t</i>. So far we can do it. Sine<i> &#969;t </i>will
+do it. But when you leave it alone, then also you get a cosine <i>&#969;t.</i> You
+cannot do that, because sine will become a cosine and sine will become a sine.
+In the LC circuit, when you didn't have this guy, we were okay, because if you
+pick a sine, this became a cosine and that also became a cosine and you can
+combine them to get a cosine. But you cannot have <i>dI/dt</i>, I and integral
+of I all in one equation and all satisfied by trigonometric function. </p>
+<p>The only time we can
+guess the answer is if it looks like <i>V<sub>0</sub>e<sup>&#945;t</sup></i>.
+Suppose that was the voltage. Then can you guess the answer, what form the
+answer will have? It will also be <i>e<sup>&#945;t</sup> </i>times some number,
+because then this will look <i>e<sup>&#945;t</sup>,</i> that will look like<i> e<sup>&#945;t</sup></i>,
+that will look like <i>e<sup>&#945;t</sup></i>. <i>e<sup>&#945;t</sup> </i>has a great
+property that whether you multiply it, whether you integrate it, differentiate
+it or leave it alone, it looks the same. Unfortunately, no one's interested in
+this voltage, because it's growing exponentially fast, or if you put a - sign,
+it's dying exponentially. What we really want is this. So the question is,
+how do we solve this problem with cos<i>&#969;t</i>? So we're going to use a
+certain trick. The trick I'm going to use is the following: let me take a
+general case where this is some function <i>V </i>of <i>t</i>, where I'm not
+even assuming <i>V</i> is real. I'm not assuming <i>I</i> is real, but <i>L</i>
+and <i>R</i> and <i>C</i> are real. Everything else can be complex numbers. </p>
+<p>Now once you have an
+equation and you've found a solution, if you take the complex conjugate of both
+sides, they will still match. Do you understand that? If two things are
+equal, their complex conjugates are equal, because this thing is the real +
+imaginary that balances the real + imaginary on the other side. Complex
+conjugate just reverses the imaginary terms, so they will still match when you
+flip both sides. So it means if you take <i>L dI&#42; </i>of <i>dt + R </i>times <i>I&#42;
++ 1/C </i>integral <i>I&#42; of t&#39; dt&#39; </i>t <i>= V&#42; </i>of<i> t</i>. So star is
+the rule by which if <i>V </i>had a real and imaginary part, you flip the
+imaginary part. So that solution for <i>V</i> of <i>t</i> implies a second
+equation. In other words, if the voltage <i>V</i> drives a current <i>I</i>,
+the conjugate of the voltage drives the conjugate of the current. That simply
+follows from the equation. It comes from the fact that when I conjugated it, <i>L,
+R </i>and <i>C</i> are real. </p>
+<p>Do you understand
+that? Suppose <i>L</i> were imaginary or had imaginary part, then I must also
+put a conjugate on <i>L</i>. Then<i> I&#42;</i> obeys a different equation,
+because this had <i>L</i> in it, this had <i>L&#42;</i> in it. But if everything
+is real, <i>I&#42;</i> obeys the same equation when you have a <i>V&#42;</i> driving
+it. I'm almost done now. I want you to add the left hand side to the left
+hand side and the right hand side to the right hand side, and what do I get?
+Well, if I write it here, you may not be able to see it. Let me put it here
+then. If you add these two, you'd get <i>L d/dt</i> of <i>I</i> + <i>I&#42;</i> + <i>R</i>
+times <i>I</i> + <i>I&#42; + 1/C</i> integral of <i>I + I&#42; dt</i> = <i>V + V&#42;.</i>
+This again comes because the equation is a linear equation. You can always add
+the left hand side and the right hand side to get another problem where the
+driving voltage is <i>V + V&#42; </i>and the driving current is <i>I + I&#42;, </i>etc.
+But <i>I + I&#42; </i>is 2 times the real part of <i>I</i> and <i>V + V&#42;</i> is 2
+times the real part of <i>V</i>. Therefore this implies that <i>L d/dt </i>of
+the real part of <i>I</i> + <i>R </i>plus the real part of <i>I + </i>1/<i>C</i>
+times the integral of the real part of<i> I </i>= real part of <i>V</i>. </p>
+<p>So let me say in
+words what the equation means. If you by luck solve an equation with a complex
+potential V, and you get a current, then the answer to the problem where the
+potential is only the real part of the actual potential you applied, the
+current will be the real part of the answer you got. That's all I want you to
+know. If you solve a complex problem with a driving voltage which is
+complex--which is just a mathematical fiction, in real life you don't have
+that--then the current that you get will also be complex. But its real part
+will be due to the real part of your voltage. And you can also show the
+imaginary part of the current will be due to the imaginary part of the
+voltage. This is just the principle of superposition. </p>
+<p>So here is the trick
+we are going to use. We are going to go back to original equation, <i>LdI/dt +
+RI + 1/C</i> integral <i>I dt</i> = V<sub>0</sub>cos<i>&#969;t</i>, and we're going
+to solve a new problem. We're going to solve a problem where this is <i>V<sub>0</sub>e<sup>i&#969;t</sup></i>.
+And the current for that, I'm going to call some <i>I&#732;</i>. It's a complex
+current, because the driving voltage is a complex voltage. So think of <i>Ve<sup>i&#969;t</sup></i>
+as the <i>V</i> in the previous problem. </p>
+<p>The actual problem I
+was given had V<sub>0</sub>cos<i>&#969;t</i>, but you know that <i>V<sub>0</sub>e<sup>i&#969;t</sup></i>
+is <i>V<sub>0</sub></i>cos<i>&#969;t</i> + <i>I</i> times <i>V<sub>0</sub></i>sin<i>&#969;t</i>.
+Consequently, this potential has a real part which is a cosine, an imaginary
+part which is a sine, and the current will have a real and imaginary part. The
+answer to the original question is the real part of the answer to this
+question. This is what you should think about. This is what you should
+understand. So I've manufactured a problem with an unphysical complex voltage,
+and all I know is that at the end of the day, if I take the real part of the
+current, I'll get the answer to the real part of the potential, which happens
+to be the actual potential, <i>V<sub>0</sub></i>cos<i>&#969;t</i>. So why would I
+do all this? Why would I take a problem that's bad enough with the cosine and
+turn it into a complex exponential? I think you can sort of guess what the
+reason is. The reason is that it may be complex, but it's still an
+exponential. </p>
+<p>That means its
+derivative is going to look just the same. That means I can make a guess that
+the current <i>I&#732; </i>is proportional to <i>e<sup>i&#969;t</sup>.</i> So you can
+make the assumption that <i>I&#732;</i> of <i>t</i> is some constant <i>I&#732; </i>times <i>e<sup>i&#969;t</sup>.</i>
+Make that assumption and put it into this equation and see what you get. You
+will find you will get <i>I&#969;L </i>times<i> I&#732;</i> + <i>R</i> times <i>I&#732; </i>+ 1<i>/I&#969;C
+</i>times I&#732; times e<sup>I&#969;t</sup> is V<sub>0</sub>e<sup>i&#969;t</sup>. This is
+because if you assume the current is an exponential, every derivative = an<i>
+i&#969; </i>and every integral = 1/<i>i&#969;,</i> and multiplying is just multiplying.
+So <i>d/dt </i>has got to be replaced by <i>&#969;</i>, and you get this equation
+for<i> I&#732;.</i> That means you will satisfy the equation, provided <i>I&#732;</i>
+times all of this = <i>V</i> . And I'm going to write this as <i>Z</i> times <i>I&#732;
+= V </i>where <i>Z</i> is the name for all the guys multiplying <i>I&#732;</i>. So
+I'll start with that here. </p>
+<p>Okay. So I wrote<i>
+i&#969;L</i> + <i>R + 1 </i>over <i>i&#969;C I&#732; e<sup>i&#969;t</sup> </i>is <i>V<sub>0</sub>e<sup>i&#969;t</sup></i>.
+Everybody get that? That's because differentiating on an exponential is just
+multiplying by the exponent. So this is a complex number. <i>R + i&#969;L &#8722; i/&#969;C</i>.
+I want you to know that <i>i </i>in the bottom is like -<i>i </i>in the top.
+And this is called the impedance <i>Z</i>, it's a complex number. You can
+visualize the complex number as follows: it's got a real part, which is <i>R</i>.
+It's got an imaginary part, which is <i>&#969;L &#8722; 1/&#969;C</i>, and the impedance <i>Z</i>
+is a complex number with some modulus and some phase. If you know the real and
+imaginary parts, you can construct the modulus in the phase like that. If you
+want, it's the modulus of <i>Z</i>. Therefore canceling this, I find <i>I&#732; = V<sub>0</sub>/Z</i>.
+That becomes V<sub>0</sub> over the modulus of Z times e<sup>i</sup><sup>&#934;</sup>, where &#934; is this angle
+defined by tan&#934; = &#969;L &#8722; 1/&#969;C divided
+by R. So don't worry too much about writing all of this down, because this
+you're going to find in every book. There's nothing novel or different. </p>
+<p>So this is the
+formula for <em>I </em>twiddle. Now <em>I</em> itself, you remember, = <i>I&#732;</i> of 0. I'm sorry,
+this is <i>I&#732;</i> of 0. Did I define it that way? Yeah, I should write it--I'm
+sorry. I should write it as <i>I&#732;</i> of 0. There's a subscript 0 there,
+because the full I twiddle has got an <i>e<sup>i&#969;t</sup></i> in it. That looks
+like <i>V<sub>0</sub></i> over mod <i>Z</i> times <i>e<sup>i&#969;t - </sup></i><i><sup>&#934;</sup></i>. But this is not
+the physical current, because it's the result of a complex voltage. The
+physical current is a real part of this, without the twiddle, that we write as
+real part of <i>I&#732;.</i> Where do I get the real part? <i>V<sub>0</sub></i> and
+absolute value of <i>Z</i> are both real. Real part of <i>e</i> to the<i> i</i>
+something is cosine of something and that's our answer. That's our answer, the
+final answer you get. </p>
+<p>This tells you that
+the current has a magnitude which is <i>V<sub>0</sub></i> over the absolute
+value of <i>Z</i>, and it's got a phase <i>&#934;</i> by which it is behind the driving voltage.
+The magnitude of <i>Z</i> for as in any complex number, if someone says,
+&quot;What's the magnitude of <i>Z</i>?&quot; it is simply square root of real
+part squared + imaginary part squared. </p>
+<p>So I want you to
+think about the magic of complex numbers. Your final answer has a current which
+is a cos<i>&#969;t</i> - <i>&#934;</i>. Your driving
+voltage is a cos<i>&#969;t</i>. There is no way you can divide the voltage by
+anything to get that current. But in the complex language, the complex current
+is the complex voltage divided by the complex impedance. How does the happen?
+That happens because impendence <i>Z</i> has got a magnitude and a phase,
+therefore if you had a voltage <i>V<sub>0</sub>e<sup>i&#969;t</sup></i> and you
+divide by mod <i>Z e<sup>i</sup></i><i><sup>&#934;</sup></i><i>,</i> that becomes <i>e<sup>-i</sup></i><i><sup>&#934;</sup></i> upstairs. You're
+able to change the magnitude and you're able to change the phase by dividing. </p>
+<p>So if you want to
+take the voltage and you want to rescale it and shift its phase, all in one
+shot, you can do it if you divide by a complex number, because a complex number
+will rescale it and also shift its phase. And then you take the real part. In
+other words, cos<i>&#969;t</i> divided by nothing will give you cos<i>&#969;t - </i><i>&#934;</i>, but <i>e<sup>i&#969;t</sup></i>,
+when divided by <i>e<sup>i</sup></i><i><sup>&#934;</sup></i>, will in fact give you <i>e<sup>i&#969;t - i</sup></i><i><sup>&#934;</sup></i>. So that phase
+shift we can produce only by dividing with a complex number. So I'll come back
+and explain to you a little bit more on how you do circuit problems using the
+complex impedance, but I think it will be helpful for those of you who don't
+know complex numbers to get use to this part of it.</p>
+<p>[end of transcript]</p>
+</div>

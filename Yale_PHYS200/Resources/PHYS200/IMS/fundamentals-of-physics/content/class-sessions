@@ -1,0 +1,123 @@
+
+
+
+
+<div id="fileContents">
+<h2>PHYS 200: <strong>Fundamentals of Physics </strong></h2>
+<h3 style="margin-bottom: -15px;">Class Sessions</h3>
+<p><em>Click session titles below to access audio, video, and course materials. </em></p>
+<table id="sessionsTable" cellpadding="0" border="0" summary="class sessions table">
+<tbody>
+
+
+<tr>
+<td><a href="sessions/lecture01.html">1. Course Introduction and Newtonian Mechanics</a></td>
+</tr>
+
+<tr>
+<td class="sessionsDarkRow"><a href="sessions/lecture02.html">2. Vectors in Multiple Dimensions</a></td>
+</tr>
+
+<tr>
+<td><a href="sessions/lecture03.html">3. Newton's Laws of Motion</a></td>
+</tr>
+
+<tr>
+<td class="sessionsDarkRow"><a href="sessions/lecture04.html">4. Newton's Laws (cont.) and Inclined Planes</a></td>
+</tr>
+
+<tr>
+<td><a href="sessions/lecture05.html">5. Work-Energy Theorem and Law of Conservation of Energy</a></td>
+</tr>
+
+<tr>
+<td class="sessionsDarkRow"><a href="sessions/lecture06.html">6. Law of Conservation of Energy in Higher Dimensions</a></td>
+</tr>
+
+<tr>
+<td><a href="sessions/lecture07.html">7. Kepler's Laws</a></td>
+</tr>
+
+<tr>
+<td class="sessionsDarkRow"><a href="sessions/lecture08.html">8. Dynamics of a Multiple-Body System and Law of Conservation of Momentum</a></td>
+</tr>
+
+<tr>
+<td><a href="sessions/lecture09.html">9. Rotations, Part I: Dynamics of Rigid Bodies</a></td>
+</tr>
+
+<tr>
+<td class="sessionsDarkRow"><a href="sessions/lecture10.html">10. Rotations, Part II: Parallel Axis Theorem</a></td>
+</tr>
+
+<tr>
+<td><a href="sessions/lecture11.html">11. Torque</a></td>
+</tr>
+
+<tr>
+<td class="sessionsDarkRow"><a href="sessions/midterm_exam.html">Midterm Exam</a></td>
+</tr>
+
+<tr>
+<td><a href="sessions/lecture12.html">12. Introduction to Relativity</a></td>
+</tr>
+
+<tr>
+<td class="sessionsDarkRow"><a href="sessions/lecture13.html">13. Lorentz Transformation</a></td>
+</tr>
+
+
+<tr>
+<td><a href="sessions/lecture14.html">14. Introduction to the Four-Vector</a></td>
+</tr>
+
+<tr>
+<td class="sessionsDarkRow"><a href="sessions/lecture15.html">15. Four-Vector in Relativity</a></td>
+</tr>
+
+<tr>
+<td><a href="sessions/lecture16.html">16. The Taylor Series and Other Mathematical Concepts</a></td>
+</tr>
+
+<tr>
+<td class="sessionsDarkRow"><a href="sessions/lecture17.html">17. Simple Harmonic Motion</a></td>
+</tr>
+
+<tr>
+<td><a href="sessions/lecture18.html">18. Simple Harmonic Motion (cont.) and Introduction to Waves</a></td>
+</tr>
+
+<tr>
+<td class="sessionsDarkRow"><a href="sessions/lecture19.html">19. Waves</a></td>
+</tr>
+
+<tr>
+<td><a href="sessions/lecture20.html">20. Fluid Dynamics and Statics and Bernoulli's Equation</a></td>
+</tr>
+
+<tr>
+<td class="sessionsDarkRow"><a href="sessions/lecture21.html">21. Thermodynamics</a></td>
+</tr>
+
+<tr>
+<td><a href="sessions/lecture22.html">22. The Boltzmann Constant and First Law of Thermodynamics</a></td>
+</tr>
+
+<tr>
+<td class="sessionsDarkRow"><a href="sessions/lecture23.html">23. The Second Law of Thermodynamics and Carnot's Engine</a></td>
+</tr>
+
+<tr>
+<td><a href="sessions/lecture24.html">24. The Second Law of Thermodynamics (cont.) and Entropy</a></td>
+</tr>
+
+<tr>
+<td class="sessionsDarkRow"><a href="sessions/final_exam.html">Final Exam</a></td>
+</tr>
+
+</tbody>
+</table>
+</div>
+
+
+
